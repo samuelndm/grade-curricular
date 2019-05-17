@@ -1,0 +1,409 @@
+{
+    "curso": "Engenharia Elétrica",
+    "grade": [
+        {
+            "periodo": "1",
+            "materias": [
+                {
+                    "codigo": "1",
+                    "nome": "Introdução à Programação",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "2",
+                    "nome": "Álgebra Vetorial e Geometria Analítica",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "3",
+                    "nome": "Introdução à Engenharia",
+                    "horas": "30",
+                    "creditos": "2"
+                },
+                {
+                    "codigo": "4",
+                    "nome": "Física I",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "5",
+                    "nome": "Cálculo Diferencial e Integral I",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "6",
+                    "nome": "Língua Portuguesa",
+                    "horas": "45",
+                    "creditos": "3"
+                },
+                {
+                    "codigo": "7",
+                    "nome": "Ciências do Ambiente",
+                    "horas": "45",
+                    "creditos": "3"
+                }
+            ]
+        },
+        {
+            "periodo": "2",
+            "materias": [
+                {
+                    "codigo": "8",
+                    "nome": "Técnicas de Programação",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "9",
+                    "nome": "Álgebra Linear",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "10",
+                    "nome": "Química",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "11",
+                    "nome": "Física II",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "12",
+                    "nome": "Cálculo Diferencial e Integral II",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "13",
+                    "nome": "Física Experimental",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "14",
+                    "nome": "Expressão Gráfica",
+                    "horas": "60",
+                    "creditos": "4"
+                }
+            ]
+        },
+        {
+            "periodo": "3",
+            "materias": [
+                {
+                    "codigo": "15",
+                    "nome": "Mecânica Geral",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "16",
+                    "nome": "Equações Diferenciais",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "17",
+                    "nome": "Circuitos Lógicos",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "18",
+                    "nome": "Probabilidade e Estatística",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "19",
+                    "nome": "Cálculo Diferencial e Integral III",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "20",
+                    "nome": "Eletricidade e Magnetismo",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "21",
+                    "nome": "Labo. Eletr. e Magnetismo",
+                    "horas": "60",
+                    "creditos": "4"
+                }
+            ]
+        },
+        {
+            "periodo": "4",
+            "materias": [
+                {
+                    "codigo": "22",
+                    "nome": "Introd à C. dos Materiais",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "23",
+                    "nome": "Cálculo Numérico",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "24",
+                    "nome": "Arquitetura de Sist. Digitais",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "25",
+                    "nome": "Circuitos Elétricos",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "26",
+                    "nome": "Eletromag.",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "27",
+                    "nome": "Variáveis Complexas",
+                    "horas": "60",
+                    "creditos": "4"
+                }
+            ]
+        },
+        {
+            "periodo": "5",
+            "materias": [
+                {
+                    "codigo": "28",
+                    "nome": "Dispositivos Eletrônicos",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "29",
+                    "nome": "Análise de Sin. e Sistemas",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "30",
+                    "nome": "Circuitos Elétricos II",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "31",
+                    "nome": "Ondas e Linhas",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "32",
+                    "nome": "Processos Estocásticos",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "33",
+                    "nome": "Resistência dos Materiais",
+                    "horas": "60",
+                    "creditos": "4"
+                }
+            ]
+        },
+        {
+            "periodo": "6",
+            "materias": [
+                {
+                    "codigo": "34",
+                    "nome": "Eletrônica",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "35",
+                    "nome": "Conversão Eletromecânica",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "36",
+                    "nome": "Princípios de Comunic.",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "37",
+                    "nome": "Controle Analógico",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "38",
+                    "nome": "Fenômenos de Transportes",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "39",
+                    "nome": "Economia",
+                    "horas": "45",
+                    "creditos": "3"
+                }
+            ]
+        },
+        {
+            "periodo": "7",
+            "materias": [
+                {
+                    "codigo": "40",
+                    "nome": "Máquinas Elétricas",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "41",
+                    "nome": "Sistemas Elétricos",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "42",
+                    "nome": "Materiais Elétricos",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "43",
+                    "nome": "Controle Digital",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "44",
+                    "nome": "Conteúdos Específicos",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "45",
+                    "nome": "Conteúdos Específicos",
+                    "horas": "60",
+                    "creditos": "4"
+                }
+            ]
+        },
+        {
+            "periodo": "8",
+            "materias": [
+                {
+                    "codigo": "46",
+                    "nome": "Eletrônica de Potência",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "47",
+                    "nome": "Instalações Elétricas",
+                    "horas": "75",
+                    "creditos": "5"
+                },
+                {
+                    "codigo": "48",
+                    "nome": "Conteúdos Específicos",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "49",
+                    "nome": "Conteúdos Específicos",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "50",
+                    "nome": "Metodologia de Pesquisa",
+                    "horas": "45",
+                    "creditos": "3"
+                }
+            ]
+        },
+        {
+            "periodo": "9",
+            "materias": [
+                {
+                    "codigo": "51",
+                    "nome": "Projeto em Eng. Elétrica",
+                    "horas": "120",
+                    "creditos": "8"
+                },
+                {
+                    "codigo": "52",
+                    "nome": "Instituições do Direito",
+                    "horas": "45",
+                    "creditos": "3"
+                },
+                {
+                    "codigo": "53",
+                    "nome": "Sociologia Industrial",
+                    "horas": "45",
+                    "creditos": "3"
+                },
+                {
+                    "codigo": "54",
+                    "nome": "Administração",
+                    "horas": "45",
+                    "creditos": "3"
+                },
+                {
+                    "codigo": "55",
+                    "nome": "Conteúdos Específicos",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "56",
+                    "nome": "Conteúdos Específicos",
+                    "horas": "60",
+                    "creditos": "4"
+                }
+            ]
+        },
+        {
+            "periodo": "10",
+            "materias": [
+                {
+                    "codigo": "57",
+                    "nome": "Estágio Supervisionado",
+                    "horas": "120",
+                    "creditos": "8"
+                },
+                {
+                    "codigo": "58",
+                    "nome": "Optativa",
+                    "horas": "60",
+                    "creditos": "4"
+                },
+                {
+                    "codigo": "59",
+                    "nome": "Optativa",
+                    "horas": "60",
+                    "creditos": "4"
+                }
+            ]
+        }
+    ]
+}
