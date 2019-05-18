@@ -1,20 +1,25 @@
 .container {
-    overflow: auto;
+    position: absolute;
+    left: 0;
+    height: 550px;
+    margin: 0 auto;
+    overflow-y: auto;
+    background-color: silver;
 }
 
 .row {
-    background-color: silver;
+    margin: 1px;
 }
 
 #periodo-box {
     display: block;
     background-color: white;
-    width: 130px;
+    width: 120px;
     height: 25px;
     padding-bottom: 1px;
     margin: 8px;
     text-align: center;
-    height: bold;
+    font-weight: bold;
     cursor: default;
     user-select: none;
     -webkit-user-select: none;
@@ -25,28 +30,22 @@
 
 #nome-box {
     display: block;
-    background-color: white;
-    width: 130px;
-    height: 80px;
-    padding: 5px;
+    width: 120px;
+    height: 70px;
     margin: 8px;
-    text-align: center;
-    font-weight: lighter;
+    padding: 3px;
     user-select: none;
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    -moz-box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+    font-size: 11pt;
+    text-align: center;
 }
 
 #nome-box:hover {
-    background-color: green;
+    background-color: rgb(55, 202, 26);
     -webkit-transition: background-color 300ms linear;
     -ms-transition: background-color 300ms linear;
     transition: background-color 300ms linear;
     text-decoration: none;
-}
-
-a {
-    color: black;
-}
-
-a:hover {
-    color: white;
 }

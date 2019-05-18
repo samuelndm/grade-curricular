@@ -8,6 +8,7 @@ import { DataService } from '../data.service';
 })
 export class NavComponent implements OnInit {
 
+  curso: any;
   nomeCurso: string;
 
 
@@ -15,9 +16,11 @@ export class NavComponent implements OnInit {
 
   ngOnInit() {
     this.dataService.getCurso().subscribe(data => {
-      this.nomeCurso = data.curso
+      this.curso = data;
+      this.nomeCurso = this.curso.curso;
     })
-    
+
   }
 
 }
+
