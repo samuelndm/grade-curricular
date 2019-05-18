@@ -8,7 +8,8 @@
                 <div>
                     <a id="nome-box" class="border border-black rounded" (mouseover)="updateGradeColorOnOver(materia.codigo)" (mouseout)="resetGradeColor()" [ngStyle]="{ 'background-color': materia.cor.background, 'color': materia.cor.texto}
 " href="#">
-                        {{materia.nome}}
+                        {{materia.nome}}<br>
+                        {{materia.codigo}}
                     </a>
                 </div>
 
