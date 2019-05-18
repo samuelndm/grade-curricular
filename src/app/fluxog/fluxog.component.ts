@@ -13,24 +13,28 @@ export class FluxogComponent implements OnInit {
   curso: any;
   nomeCurso: string;
   gradeCurso: any[];
-  widthMateria: number = 137;
+  widthMateria: number = 152;
   widthFluxograma: number;
   
   corPadrao: Object = {
     "background": "white",
     "texto": "black",
+    "shadowColor": "inset 0px 0px 0px 2px rgb(255, 255, 255)"
   };
   corSelecionado: Object = {
     "background": "rgb(55, 202, 26)",
     "texto": "white",
+    "shadowColor": "inset 0px 0px 0px 2px rgb(255, 255, 255)"
   };
   corPreRequisito: Object = {
-    "background": "rgb(235, 42, 42)",
-    "texto": "white",
+    "background": "rgb(200, 200, 200)",
+    "texto": "black",
+    "shadowColor": "inset 0px 0px 0px 1px rgb(250, 133, 133)"
   };
   corLibera: Object = {
-    "background": "rgb(25, 129, 248)",
-    "texto": "white",
+    "background": "rgb(200, 200, 200)",
+    "texto": "black",
+    "shadowColor": "inset 0px 0px 0px 1px rgb(92, 201, 252)"
   };
 
   addGradeColor() {

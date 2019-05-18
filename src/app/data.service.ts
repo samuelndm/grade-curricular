@@ -9,6 +9,6 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   getCurso(){
-    return this.http.get('http://www.mocky.io/v2/5ce030e9330000b937608bca');
+    return this.http.get('http://www.mocky.io/v2/5ce0769b3300008d2a608c30');
   };
 }

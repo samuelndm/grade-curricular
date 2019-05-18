@@ -3,13 +3,13 @@
 
         <div *ngFor="let periodo of gradeCurso">
 
-            <p id="periodo-box" class="border border-dark">{{periodo.periodo}}° Semestre</p>
+            <p id="periodo-box" class="border border-black rounded">{{periodo.periodo}}° Período</p>
             <div *ngFor="let materia of periodo.materias">
                 <div>
-                    <a id="nome-box" class="border border-black rounded" (mouseover)="updateGradeColorOnOver(materia.codigo)" (mouseout)="resetGradeColor()" [ngStyle]="{ 'background-color': materia.cor.background, 'color': materia.cor.texto}
+                    <a id="nome-box" class="border border-black rounded" (mouseover)="updateGradeColorOnOver(materia.codigo)" (mouseout)="resetGradeColor()" [ngStyle]="{ 'background-color': materia.cor.background, 
+'color': materia.cor.texto, 'box-shadow': materia.cor.shadowColor, '-webkit-box-shadow': materia.cor.shadowColor, '-moz-box-shadow': materia.cor.shadowColor, 'font-weight': bolder}
 " href="#">
-                        {{materia.nome}}<br>
-                        {{materia.codigo}}
+                        {{materia.nome}}
                     </a>
                 </div>
 
