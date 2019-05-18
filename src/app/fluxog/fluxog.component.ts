@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../data.service';
+import { cursorTo } from 'readline';
 
 @Component({
   selector: 'app-fluxog',
@@ -7,9 +9,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FluxogComponent implements OnInit {
 
-  constructor() { }
+  curso: Object;
+  nomeCurso: string;
+  gradeCurso: Object[];
+
+
+  constructor(private dataService: DataService) { }
 
   ngOnInit() {
+    this.dataService.getCurso().subscribe(data => {
+      this.curso = data
+      this.nomeCurso = data.curso;
+      this.gradeCurso = data.grade;
+    })
   }
+
+
 
 }

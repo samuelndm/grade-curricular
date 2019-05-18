@@ -1,3 +1,15 @@
-<p>
-  fluxog works!
-</p>
+<div class="container">
+
+    <div *ngIf="curso" class="row">
+        <div *ngFor="let periodo of gradeCurso" class="col-sm-0">
+
+            <p id="periodo-box">{{periodo.periodo}}° Período</p>
+            <div *ngFor="let materia of periodo.materias" class="border border-secondary rounded">
+
+                <a id="nome-box" href="#">{{materia.nome}}</a>
+
+            </div>
+        </div>
+    </div>
+
+</div>

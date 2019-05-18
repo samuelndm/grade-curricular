@@ -1,0 +1,54 @@
+.container {
+    margin-top: 10px;
+}
+
+#periodo-box {
+    display: block;
+    background-color: white;
+    width: 140px;
+    height: 25px;
+    padding: 2px;
+    text-align: center;
+    cursor: default;
+    user-select: none;
+    /* supported by Chrome and Opera */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+}
+
+#nome-box {
+    display: block;
+    background-color: white;
+    width: 140px;
+    height: 85px;
+    padding: 5px;
+    text-align: center;
+    border: 10 auto;
+    user-select: none;
+}
+
+#nome-box:hover {
+    background-color: green;
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+p {
+    cursor: default;
+}

@@ -1,67 +1,82 @@
 {
     "curso": "Engenharia Elétrica",
-    "grade": [
-        {
+    "grade": [{
             "periodo": "1",
-            "materias": [
-                {
+            "materias": [{
                     "codigo": "1",
                     "nome": "Introdução à Programação",
                     "horas": "60",
-                    "creditos": "4"
+                    "creditos": "4",
+                    "preRequisito": [],
+                    "libera": [8]
                 },
                 {
                     "codigo": "2",
                     "nome": "Álgebra Vetorial e Geometria Analítica",
                     "horas": "60",
-                    "creditos": "4"
+                    "creditos": "4",
+                    "preRequisito": [],
+                    "libera": [9, 19]
                 },
                 {
                     "codigo": "3",
                     "nome": "Introdução à Engenharia",
                     "horas": "30",
-                    "creditos": "2"
+                    "creditos": "2",
+                    "preRequisito": [],
+                    "libera": []
                 },
                 {
                     "codigo": "4",
                     "nome": "Física I",
                     "horas": "60",
-                    "creditos": "4"
+                    "creditos": "4",
+                    "preRequisito": [],
+                    "libera": [11, 13, 15]
                 },
                 {
                     "codigo": "5",
                     "nome": "Cálculo Diferencial e Integral I",
                     "horas": "60",
-                    "creditos": "4"
+                    "creditos": "4",
+                    "preRequisito": [],
+                    "libera": [12]
                 },
                 {
                     "codigo": "6",
                     "nome": "Língua Portuguesa",
                     "horas": "45",
-                    "creditos": "3"
+                    "creditos": "3",
+                    "preRequisito": [],
+                    "libera": []
                 },
                 {
                     "codigo": "7",
                     "nome": "Ciências do Ambiente",
                     "horas": "45",
-                    "creditos": "3"
+                    "creditos": "3",
+                    "preRequisito": [],
+                    "libera": []
                 }
             ]
         },
         {
             "periodo": "2",
-            "materias": [
-                {
+            "materias": [{
                     "codigo": "8",
                     "nome": "Técnicas de Programação",
                     "horas": "60",
-                    "creditos": "4"
+                    "creditos": "4",
+                    "preRequisito": [1],
+                    "libera": [23]
                 },
                 {
                     "codigo": "9",
                     "nome": "Álgebra Linear",
                     "horas": "60",
-                    "creditos": "4"
+                    "creditos": "4",
+                    "preRequisito": [2],
+                    "libera": []
                 },
                 {
                     "codigo": "10",
@@ -97,8 +112,7 @@
         },
         {
             "periodo": "3",
-            "materias": [
-                {
+            "materias": [{
                     "codigo": "15",
                     "nome": "Mecânica Geral",
                     "horas": "75",
@@ -144,8 +158,7 @@
         },
         {
             "periodo": "4",
-            "materias": [
-                {
+            "materias": [{
                     "codigo": "22",
                     "nome": "Introd à C. dos Materiais",
                     "horas": "60",
@@ -185,8 +198,7 @@
         },
         {
             "periodo": "5",
-            "materias": [
-                {
+            "materias": [{
                     "codigo": "28",
                     "nome": "Dispositivos Eletrônicos",
                     "horas": "75",
@@ -226,8 +238,7 @@
         },
         {
             "periodo": "6",
-            "materias": [
-                {
+            "materias": [{
                     "codigo": "34",
                     "nome": "Eletrônica",
                     "horas": "75",
@@ -267,8 +278,7 @@
         },
         {
             "periodo": "7",
-            "materias": [
-                {
+            "materias": [{
                     "codigo": "40",
                     "nome": "Máquinas Elétricas",
                     "horas": "75",
@@ -308,8 +318,7 @@
         },
         {
             "periodo": "8",
-            "materias": [
-                {
+            "materias": [{
                     "codigo": "46",
                     "nome": "Eletrônica de Potência",
                     "horas": "75",
@@ -343,8 +352,7 @@
         },
         {
             "periodo": "9",
-            "materias": [
-                {
+            "materias": [{
                     "codigo": "51",
                     "nome": "Projeto em Eng. Elétrica",
                     "horas": "120",
@@ -384,8 +392,7 @@
         },
         {
             "periodo": "10",
-            "materias": [
-                {
+            "materias": [{
                     "codigo": "57",
                     "nome": "Estágio Supervisionado",
                     "horas": "120",
