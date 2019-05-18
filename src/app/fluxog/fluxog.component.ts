@@ -12,6 +12,9 @@ export class FluxogComponent implements OnInit {
   curso: Object;
   nomeCurso: string;
   gradeCurso: Object[];
+  widthMateria: number = 147;
+  widthFluxograma: number;
+  
 
 
   constructor(private dataService: DataService) { }
@@ -19,8 +22,9 @@ export class FluxogComponent implements OnInit {
   ngOnInit() {
     this.dataService.getCurso().subscribe(data => {
       this.curso = data
-      this.nomeCurso = data.curso;
-      this.gradeCurso = data.grade;
+      this.nomeCurso = data.curso
+      this.gradeCurso = data.grade
+      this.widthFluxograma = data.grade.length * this.widthMateria
     })
   }
 

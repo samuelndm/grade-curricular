@@ -6,12 +6,14 @@ import { HttpClientModule }   from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { FluxogComponent } from './fluxog/fluxog.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    FluxogComponent
+    FluxogComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

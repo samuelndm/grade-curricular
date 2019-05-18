@@ -1,15 +1,16 @@
-<div class="container">
+<div class="container" [style.width.px]="widthFluxograma">
+    <div *ngIf="curso" class="row" [style.width.px]="widthFluxograma">
 
-    <div *ngIf="curso" class="row">
-        <div *ngFor="let periodo of gradeCurso" class="col-sm-0">
+        <div *ngFor="let periodo of gradeCurso">
 
-            <p id="periodo-box">{{periodo.periodo}}° Período</p>
-            <div *ngFor="let materia of periodo.materias" class="border border-secondary rounded">
-
-                <a id="nome-box" href="#">{{materia.nome}}</a>
+            <p id="periodo-box" class="border border-dark">{{periodo.periodo}}° Semestre</p>
+            <div *ngFor="let materia of periodo.materias">
+                <div>
+                    <a id="nome-box" class="border border-black rounded" href="#">{{materia.nome}}</a>
+                </div>
 
             </div>
+
         </div>
     </div>
-
 </div>

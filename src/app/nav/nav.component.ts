@@ -8,9 +8,16 @@ import { DataService } from '../data.service';
 })
 export class NavComponent implements OnInit {
 
+  nomeCurso: string;
+
+
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
+    this.dataService.getCurso().subscribe(data => {
+      this.nomeCurso = data.curso
+    })
+    
   }
 
 }
