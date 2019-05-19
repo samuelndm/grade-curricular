@@ -9,6 +9,9 @@ import { DataService } from '../data.service';
 })
 export class FluxogComponent implements OnInit {
 
+ /**verde: 58, 173, 67 
+  * azul: 70, 70, 255
+ */
 
   curso: any;
   nomeCurso: string;
@@ -22,7 +25,7 @@ export class FluxogComponent implements OnInit {
     "shadowColor": "inset 0px 0px 0px 2px rgb(255, 255, 255)"
   };
   corSelecionado: Object = {
-    "background": "rgb(55, 202, 26)",
+    "background": "rgb(70, 70, 255)",
     "texto": "white",
     "shadowColor": "inset 0px 0px 0px 2px rgb(255, 255, 255)"
   };

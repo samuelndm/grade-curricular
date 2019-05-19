@@ -6,10 +6,17 @@
             <p id="periodo-box" class="border border-black rounded">{{periodo.periodo}}° Período</p>
             <div *ngFor="let materia of periodo.materias">
                 <div>
-                    <a id="nome-box" class="border border-black rounded" (mouseover)="updateGradeColorOnOver(materia.codigo)" (mouseout)="resetGradeColor()" [ngStyle]="{ 'background-color': materia.cor.background, 
-'color': materia.cor.texto, 'box-shadow': materia.cor.shadowColor, '-webkit-box-shadow': materia.cor.shadowColor, '-moz-box-shadow': materia.cor.shadowColor, 'font-weight': bolder}
-" href="#">
-                        {{materia.nome}}
+                    <a id="nome-box" class="border border-black rounded" (mouseover)="updateGradeColorOnOver(materia.codigo)" (mouseout)="resetGradeColor()" 
+                    [ngStyle]="{ 
+                        'background-color': materia.cor.background, 
+                        'color': materia.cor.texto, 
+                        'box-shadow': materia.cor.shadowColor, 
+                        '-webkit-box-shadow': materia.cor.shadowColor, 
+                        '-moz-box-shadow': materia.cor.shadowColor,
+                        'text-align': center}" href="#">
+                        <div id="text-center">
+                            {{materia.nome}}
+                        </div>
                     </a>
                 </div>
 
@@ -19,4 +26,4 @@
     </div>
 </div>
 
-<!--[style.width.px]="widthFluxograma"-->
+<!--"-->
