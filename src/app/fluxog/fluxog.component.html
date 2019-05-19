@@ -1,9 +1,9 @@
 <div class="container" [style.max-width.px]="widthFluxograma">
-    <div *ngIf="curso" class="row" [style.min-width.px]="widthFluxograma">
+    <div *ngIf="curso" class="row" [style.width.px]="widthFluxograma">
 
         <div *ngFor="let periodo of gradeCurso">
 
-            <p id="periodo-box" class="border border-black rounded">{{periodo.periodo}}° Período</p>
+            <p id="periodo-box" class="border border-black rounded">{{periodo.periodo}}° Semestre</p>
             <div *ngFor="let materia of periodo.materias">
                 <div>
                     <a id="nome-box" class="border border-black rounded" (mouseover)="updateGradeColorOnOver(materia.codigo)" (mouseout)="resetGradeColor()" 
