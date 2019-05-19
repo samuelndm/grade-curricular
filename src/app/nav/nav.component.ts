@@ -10,17 +10,17 @@ export class NavComponent implements OnInit {
 
   curso: any;
   nomeCurso: string;
+  ifbaLogo: string = "../ifba-logo.png";
 
+constructor(private dataService: DataService) { }
 
-  constructor(private dataService: DataService) { }
+ngOnInit() {
+  this.dataService.getCurso().subscribe(data => {
+    this.curso = data;
+    this.nomeCurso = this.curso.curso;
+  })
 
-  ngOnInit() {
-    this.dataService.getCurso().subscribe(data => {
-      this.curso = data;
-      this.nomeCurso = this.curso.curso;
-    })
-
-  }
+}
 
 }
 

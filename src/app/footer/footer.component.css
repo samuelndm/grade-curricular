@@ -2,3 +2,9 @@
     position: absolute;
     bottom: 0;
 }
+
+#ifba-logo {
+    width: 45px;
+    height: 45px;
+    margin: 1px;
+}
