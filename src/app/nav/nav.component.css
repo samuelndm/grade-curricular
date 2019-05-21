@@ -1,100 +1,150 @@
-    .pos-f-t {
-        height: 55px;
-        padding-top: 0px
-    }
+.pos-f-t {
+    height: 55px;
+    padding-top: 0px
+}
 
-    .navbar-dark {
-        height: 55px;
-        background-color:  #1E962A;
-        padding: 0px;
-        padding-right: 0px;
-        user-select: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-    }
+.navbar-dark {
+    height: 55px;
+    background-color: #1E962A;
+    padding: 0px;
+    padding-right: 0px;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
 
-    .navbar-toggler {
-        margin-left: 14px;
-        
-        
-        border-color: rgba(31, 167, 72, 0);
-        border-right: 1px solid white;
-    }
+.nav-tabs {
+    height: 55px;
+    margin-top: 26px;
+    margin-left: 25px;
+}
 
-    .navbar-toggler-icon {
+.nav-tabs>li {}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    height: 76%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    background-color: #1E962A;
+    color: #ffffff;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.nav-tabs>li>a {
+    color: #e0dfdf;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.nav-tabs>li>a:hover {
+    border-top: 0.5px solid white;
+    border-left: 0.5px solid white;
+    border-right: 0.5px solid white;
+    background-color: rgb(113, 114, 113);
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.navbar-toggler {
+    margin-left: 14px;
+    border-color: rgba(31, 167, 72, 0);
+    border-right: 1px solid white;
+}
+
+.navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    }
-
-    #logo {
-        width: 42px;
-        height: 42px;
-        margin-left: 10px;
-
-    }
-
-    #logo-background {
-        width: 70px;
-        height: 55px;
-        padding-top: 7px; 
-        margin-left: 6px;
-        border-right: 2px solid white;
-    }
-
-    #campus-background {
-        width: 230px;
-        margin-left: 13px; 
-        margin-top: 5px; 
-        border-right: 2px solid white;
-    }
-
-    #campus-background h5 {
-        color: white; 
-        font-size: 11pt;
-    }
-
-    #nome-curso {
-        display: block;
-        color: white;
-        margin-left: 0px;
-        text-align: center;
-        font-family: 'Century Gothic', sans-serif;
-        font-size: 18pt;
-        
-    }
-
-    #nome-curso:hover {
-        text-decoration: none;
-    }
-
-    #nome-curso-backgroud {
-        height: 55px;
-        width: 350px;
-        margin: 0px;
-        margin-right: 10px;
-        color: #fff;
-        background-color: #28A745;
-        border-right: 2px solid white;
-        /*58, 58, 151*/
-        /*azul 44, 44, 153*/
-        /*roxo #8a458f */
-        
-    }
-
-    .btn.btn-outline-success {
-       height: 50px;
-       color: white;
-    }
+}
 
 
+/*----------- LOGO - INICIO ---------------------*/
 
-    #text-center {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-        
-    }
+#logo {
+    width: 42px;
+    height: 42px;
+    margin-left: 15px;
+}
+
+#logo-background {
+    width: 70px;
+    height: 55px;
+    padding-top: 7px;
+    margin-right: 6px;
+    border-left: 2px solid white;
+}
+
+
+/*----------- LOGO - FINAL ---------------------*/
+
+
+/*----------- NOME DO CAMPUS - INICIO ---------------------*/
+
+#campus-background {
+    width: 210px;
+    margin-left: 13px;
+    margin-top: 5px;
+    padding: 0px;
+}
+
+#campus-background h4 {
+    color: white;
+    font-size: 8.3pt;
+    margin: 0px;
+}
+
+#campus-background h5 {
+    /*color: #71C837;*/
+    color: #71C837;
+    font-size: 8pt;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+
+/*----------- NOME DO CAMPUS - FINAL ---------------------*/
+
+
+/*----------- NOME DO CURSO - INICIO ---------------------*/
+
+#nome-curso {
+    display: block;
+    color: white;
+    margin-left: 0px;
+    text-align: center;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 18pt;
+}
+
+#nome-curso:hover {
+    text-decoration: none;
+}
+
+#nome-curso-backgroud {
+    height: 55px;
+    width: 350px;
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 0px;
+    background-color: #71C837;
+    /*background-color: #28A745;*/
+    /*58, 58, 151*/
+    /*azul rgb(68, 68, 156)*/
+    /*roxo #8a458f */
+    border-left: 2px solid white;
+}
+
+
+/*----------- NOME DO CURSO - FINAL ---------------------*/
+
+#text-center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

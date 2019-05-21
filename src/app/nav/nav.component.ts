@@ -10,7 +10,7 @@ export class NavComponent implements OnInit {
 
   curso: any;
   nomeCurso: string;
-  ifbaLogo: string = "../ifba-logo.png";
+  isCollapsed = false;
 
 constructor(private dataService: DataService) { }
 

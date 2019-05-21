@@ -25,7 +25,7 @@ export class FluxogComponent implements OnInit {
     "shadowColor": "inset 0px 0px 0px 2px rgb(255, 255, 255, 0)"
   };
   corSelecionado: Object = {
-    "background": "rgb(58, 173, 67)",
+    "background": "#71C837",
     "texto": "white",
     "shadowColor": "inset 0px 0px 0px 2px rgb(255, 255, 255)"
   };
