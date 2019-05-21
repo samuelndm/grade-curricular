@@ -1,31 +1,30 @@
-<div class="pos-f-t">
-    <nav class="navbar navbar-dark ">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
+    <a href="#">
+        <div id="logo-background" class="rounded">
+            <img id="logo" src="assets/img/ifba-logo.png">
+        </div>
 
-        <div class="nav-item">
-            <a id="nome-curso" href="#">
-                <div id="nome-curso-backgroud" class="rounded">
-                    <div id="text-center">
-                        {{nomeCurso}}
-                    </div>
+    </a>
+ 
+
+    <div class="nav-item">
+        <a id="nome-curso" href="#">
+            <div id="nome-curso-backgroud" class="rounded">
+                <div id="text-center">
+                    {{nomeCurso}}
                 </div>
-            </a>
-        </div>
+            </div>
+        </a>
+    </div>
+
+    
+
+    
 
 
 
-
-
-
-
-      
-        <div class="nav-item">
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                </span>
-            </button>
-        </div>
-
-    </nav>
-</div>
+    <button class="btn btn-outline-success ml-auto mr-1">Fluxograma</button>
+    <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+        <button class="btn btn-outline-success ml-auto mr-1 disabled">Minha Grade</button>
+    </div>
+</nav>

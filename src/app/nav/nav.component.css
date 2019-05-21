@@ -5,7 +5,7 @@
 
     .navbar-dark {
         height: 55px;
-        background-color:  rgb(70, 70, 255);
+        background-color:  #1E962A;
         padding: 0px;
         padding-right: 0px;
         user-select: none;
@@ -16,16 +16,43 @@
     }
 
     .navbar-toggler {
-        margin-right: 25px;
- 
-        border-color: rgba(255, 255, 255, 0);
+        margin-left: 14px;
+        
+        
+        border-color: rgba(31, 167, 72, 0);
+        border-right: 1px solid white;
     }
 
     .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     }
 
+    #logo {
+        width: 42px;
+        height: 42px;
+        margin-left: 10px;
 
+    }
+
+    #logo-background {
+        width: 70px;
+        height: 55px;
+        padding-top: 7px; 
+        margin-left: 6px;
+        border-right: 2px solid white;
+    }
+
+    #campus-background {
+        width: 230px;
+        margin-left: 13px; 
+        margin-top: 5px; 
+        border-right: 2px solid white;
+    }
+
+    #campus-background h5 {
+        color: white; 
+        font-size: 11pt;
+    }
 
     #nome-curso {
         display: block;
@@ -33,7 +60,7 @@
         margin-left: 0px;
         text-align: center;
         font-family: 'Century Gothic', sans-serif;
-        font-size: 16pt;
+        font-size: 18pt;
         
     }
 
@@ -45,40 +72,21 @@
         height: 55px;
         width: 350px;
         margin: 0px;
-        background-color: rgb(46, 46, 124);
+        margin-right: 10px;
+        color: #fff;
+        background-color: #28A745;
+        border-right: 2px solid white;
         /*58, 58, 151*/
         /*azul 44, 44, 153*/
+        /*roxo #8a458f */
         
     }
 
-    #outros-cursos {
-        display: block;
-        color: white;
-        margin-right: 0px;
-        text-align: center;
-        font-family: 'Century Gothic', sans-serif;
-        font-size: 20pt;
-        
-        
+    .btn.btn-outline-success {
+       height: 50px;
+       color: white;
     }
 
-    #outros-cursos:hover {
-        text-decoration: none;
-    }
-
-    #outros-cursos-backgroud {
-        height: 55px;
-        width: 150px;
-        margin-right: 100px;
-        margin-bottom: 1px;
-        padding-bottom: 2px;
-        background-color: rgba(0, 0, 0, 0);
-        border-left: 1px solid white;
-        border-right: 1px solid white;
-
-        /*azul 44, 44, 153*/
-        
-    }
 
 
     #text-center {

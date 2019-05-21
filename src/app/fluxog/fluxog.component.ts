@@ -22,22 +22,22 @@ export class FluxogComponent implements OnInit {
   corPadrao: Object = {
     "background": "white",
     "texto": "black",
-    "shadowColor": "inset 0px 0px 0px 2px rgb(255, 255, 255)"
+    "shadowColor": "inset 0px 0px 0px 2px rgb(255, 255, 255, 0)"
   };
   corSelecionado: Object = {
-    "background": "rgb(70, 70, 255)",
+    "background": "rgb(58, 173, 67)",
     "texto": "white",
     "shadowColor": "inset 0px 0px 0px 2px rgb(255, 255, 255)"
   };
   corPreRequisito: Object = {
     "background": "rgb(200, 200, 200)",
     "texto": "black",
-    "shadowColor": "inset 0px 0px 0px 1px rgb(250, 133, 133)"
+    "shadowColor": "inset 0px 0px 0px 1px rgb(255, 255, 255)"
   };
   corLibera: Object = {
     "background": "rgb(200, 200, 200)",
     "texto": "black",
-    "shadowColor": "inset 0px 0px 0px 1px rgb(92, 201, 252)"
+    "shadowColor": "inset 0px 0px 0px 1px rgb(255, 255, 255)"
   };
 
   addGradeColor() {
