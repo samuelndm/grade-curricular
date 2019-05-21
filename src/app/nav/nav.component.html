@@ -1,19 +1,45 @@
 <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
 
 
-    <div class="navbar-collapse collapse w-100  order-1 order-md-0 dual-collapse2">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+
+
         <ul class="nav nav-tabs">
             <li class="nav-item active">
                 <a class="nav-link" href="#">Fluxograma</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" aria-disabled="true">Minha Grade</a>
+                <a class="nav-link" href="#">Minha Grade</a>
             </li>
         </ul>
 
+
+
+
+
+
     </div>
 
+    <div class="navbar-collapse collapse w-100 order-2 order-md-1 dual-collapse2" style="margin-right: 7%;">
+
+
+
+        <div class="nav-item">
+            <a id="nome-curso" href="#">
+                <div id="nome-curso-backgroud">
+                    <div id="text-center">
+                        {{nomeCurso}}
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+    </div>
+
+
     <div class="navbar-collapse collapse order-3 dual-collapse2">
+
 
         <a class="nav-item" href="#">
             <div id="logo-background" class="rounded">
@@ -21,24 +47,18 @@
             </div>
 
         </a>
+        <a id="nome-campus" class="nav-item" href="#">
+            <div id="campus-background" class="rounded">
+                <h4>
+                    INSTITUTO FEDERAL DE<br> EDUCAÇÃO, CIÊNCIA E TECNOLOGIA
+                </h4>
+                <h5>
+                    Bahia<br> Campus Vitória da Conquista
+                </h5>
+            </div>
+        </a>
 
-        <div id="campus-background">
-            <h4>
-                INSTITUTO FEDERAL DE<br> EDUCAÇÃO, CIÊNCIA E TECNOLOGIA
-            </h4>
-            <h5>
-                Bahia<br> Campus Vitória da Conquista
-            </h5>
-        </div>
 
-        <div class="nav-item">
-            <a id="nome-curso" href="#">
-                <div id="nome-curso-backgroud" class="rounded-left">
-                    <div id="text-center">
-                        {{nomeCurso}}
-                    </div>
-                </div>
-            </a>
-        </div>
+
     </div>
 </nav>

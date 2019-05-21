@@ -18,10 +18,9 @@
 .nav-tabs {
     height: 55px;
     margin-top: 26px;
+    margin-right: 0px;
     margin-left: 25px;
 }
-
-.nav-tabs>li {}
 
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:focus,
@@ -64,7 +63,7 @@
 /*----------- LOGO - INICIO ---------------------*/
 
 #logo {
-    width: 42px;
+    width: 34px;
     height: 42px;
     margin-left: 15px;
 }
@@ -74,7 +73,7 @@
     height: 55px;
     padding-top: 7px;
     margin-right: 6px;
-    border-left: 2px solid white;
+    border-left: 2px solid rgb(255, 255, 255);
 }
 
 
@@ -83,25 +82,34 @@
 
 /*----------- NOME DO CAMPUS - INICIO ---------------------*/
 
+#nome-campus {
+    display: block;
+}
+
+#nome-campus:hover {
+    text-decoration: none;
+}
+
 #campus-background {
-    width: 210px;
-    margin-left: 13px;
-    margin-top: 5px;
-    padding: 0px;
+    width: 200px;
+    height: 55px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 6px;
+    border-right: 2px solid rgba(255, 255, 255, 0);
 }
 
 #campus-background h4 {
     color: white;
-    font-size: 8.3pt;
+    font-size: 7.5pt;
     margin: 0px;
 }
 
 #campus-background h5 {
     /*color: #71C837;*/
     color: #71C837;
-    font-size: 8pt;
-    margin: 0px;
-    margin-bottom: 5px;
+    font-size: 6.5pt;
+    margin-bottom: 0px;
 }
 
 
@@ -127,7 +135,7 @@
     height: 55px;
     width: 350px;
     margin: 0px;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-right: 0px;
     background-color: #71C837;
     /*background-color: #28A745;*/
@@ -135,6 +143,7 @@
     /*azul rgb(68, 68, 156)*/
     /*roxo #8a458f */
     border-left: 2px solid white;
+    border-right: 2px solid white;
 }
 
 
