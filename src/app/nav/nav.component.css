@@ -1,119 +1,140 @@
-.navContainer {
-    display: flex;
-    height:10%;
-}
+    .navContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(158, 158, 158);
+    }
 
 
-.navbar-dark {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 70%;
-    background-color: rgb(158, 158, 158);
-    /*background-color: #1E962A;*/
-    padding: 0px;
-    user-select: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-}
+    .navbar-dark {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        background-color: rgb(158, 158, 158);
+        padding: 0px;
+        user-select: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
 
-.nav-tabs {
-    height: 100%;
-    width: 100%;
-    border-left: 2px solid #343A40;
-}
+    .nav-tabs {
+        width: 100%;
+        border-left: 2px solid #343A40;
+        border-right: 1px solid white;
+    }
 
-.nav-tabs>li.active>a,
-.nav-tabs>li.active>a:focus,
-.nav-tabs>li.active>a:hover {
-    height: 100%;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    background-color: rgb(158, 158, 158);
-    /*background-color: #1E962A;*/
-    color: #ffffff;
-    font-family: 'Century Gothic', sans-serif;
-}
+    .nav-tabs>li.active>a,
+    .nav-tabs>li.active>a:focus,
+    .nav-tabs>li.active>a:hover {
+        height: 100%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: rgb(158, 158, 158);
+        /*background-color: #1E962A;*/
+        color: #ffffff;
+        font-family: 'Century Gothic', sans-serif;
+    }
 
-.nav-tabs>li>a {
-    color: #e0dfdf;
-    font-family: 'Century Gothic', sans-serif;
-}
+    .nav-tabs>li>a {
+        color: #e0dfdf;
+        font-family: 'Century Gothic', sans-serif;
+    }
 
-.nav-tabs>li>a:hover {
-    border-top: 0.5px solid white;
-    border-left: 0.5px solid white;
-    border-right: 0.5px solid white;
-    background-color: rgb(113, 114, 113);
-    color: white;
-    font-family: 'Century Gothic', sans-serif;
-}
+    .nav-tabs>li>a:hover {
+        border-top: 0.5px solid white;
+        border-left: 0.5px solid white;
+        border-right: 0.5px solid white;
+        background-color: rgb(113, 114, 113);
+        color: white;
+        font-family: 'Century Gothic', sans-serif;
+    }
 
-.navbar-toggler {
-    margin-left: 14px;
-    border-color: rgba(31, 167, 72, 0);
-    border-right: 1px solid white;
-}
+    .navbar-toggler {
+        margin-left: 14px;
+        border-color: rgba(31, 167, 72, 0);
+        border-right: 1px solid white;
+    }
 
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
 
-/*----------- NOME DO CURSO ---------------------*/
+    /*----------- NOME DO CURSO ---------------------*/
 
-#nome-curso {
-    color: white;
-    margin-left: 0px;
-    text-align: center;
-    font-family: 'Century Gothic', sans-serif;
-    font-size: 20pt;
-    width: 100%;
-}
+    #nome-curso {
+        color: white;
+        text-align: center;
+        font-family: 'Century Gothic', sans-serif;
+        font-size: 20pt;
+        width: 100%;
+        
+        
+    }
 
-#nome-curso:hover {
-    text-decoration: none;
-}
+    #nome-curso:hover {
+        text-decoration: none;
+    }
 
-#nome-curso-backgroud {
-    height: 100%;
-    
-    margin: 0px;
-    background-color: rgb(158, 158, 158);
-    /*background-color: #71C837;*/
-    /*background-color: #28A745;*/
-    /*58, 58, 151*/
-    /*azul rgb(68, 68, 156)*/
-    /*roxo #8a458f */
-    /*border-left: 2px solid white;*/
-    /*border-right: 2px solid rgb(0, 0, 0);*/
-}
+    #nome-curso-backgroud {
+        height: 100%;
+        background-color: rgb(158, 158, 158);
+    }
 
-#text-center {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    text-shadow: 1px 1px black;
-    
-}
+    #text-center {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-shadow: 1px 1px black;
+        
+    }
 
 
-/*----------- NOME DO CURSO ---------------------*/
+    .logoFaculdade-nav {
+    width: 4%;
+    height: 120%;
+    padding: 9px;
+    padding-right: 0px;
+    }
 
+    .faculdade-nav {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        cursor: default;
+        user-select: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        
+    }
 
+    .nomeFaculdade-nav {
+        font-weight: bold; 
+        font-family: 'Century Gothic', sans-serif;
+        font-size: 18px;
+        color: white;
+        padding: 2px;
+        align-items: center;
+        margin: 0px;
+        margin-top: 4%;
+        text-shadow: 1px 1px black;
+        
+    }
 
-
-.faculdade-nav {
-    width: 30%;
-    height: 100%;
-    color: rgb(158, 158, 158);
-}
-
-#logoCurso-nav {
-    width: 10%;
-    height: 100%;
-    background-size: 100%;
-    
-}
+    .campusFaculdade-nav {
+        font-weight: bold; 
+        font-family: 'Century Gothic', sans-serif;
+        font-size: 13px;
+        color: white;
+        padding: 2px;
+        align-items: center;
+        text-shadow: 0.6px 0.6px black; 
+        
+    }

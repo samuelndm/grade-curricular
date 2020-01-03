@@ -1,5 +1,8 @@
 {
     "curso": "Engenharia Elétrica",
+    "turno": "Diurno",
+    "faculdade": "Instituto Federal da Bahia",
+    "campus": "Vitória da Conquista",
     "grade": [{
             "periodo": "1",
             "materias": [{

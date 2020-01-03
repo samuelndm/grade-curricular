@@ -1,19 +1,37 @@
 .footerContainer {
-    height: 5%;
-    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height:7vh;
+    background-color: #343A40;
+    
 }
 
-.footer-default {
-    padding-bottom: 7px;
-    margin: 0px;
+.footerContainer a {
+    text-decoration: none;
 }
 
-a {
-    padding: 0px;
+.cursos-footer {
+    color: white;
+    font-weight: bold;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 20px;
 }
 
-#ifba-logo {
-    width: 50px;
-    height: 50px;
-    margin: 0px;
+.equipe-footer {
+    color: white;
+    font-weight: bold;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 20px;
+}
+
+.ajuda-footer {
+    color: white;
+    font-weight: bold;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 20px;
+}
+
+.equipe-footer > a:hover {
+
 }

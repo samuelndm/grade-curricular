@@ -1,8 +1,7 @@
 .container {
     background-color: rgb(228, 228, 228);
     overflow-y: auto;
-    /*236, 233, 233*/
-    height: 80%;
+    height:80vh; 
 
 }
 
