@@ -1,11 +1,13 @@
-.pos-f-t {
-    height: 55px;
-    padding-top: 0px
+.navContainer {
+    height:5%;
 }
 
 .navbar-dark {
+    display: flex;
+    justify-content: space-between;
     height: 55px;
-    background-color: #1E962A;
+    background-color: rgb(158, 158, 158);
+    /*background-color: #1E962A;*/
     padding: 0px;
     padding-right: 0px;
     user-select: none;
@@ -30,7 +32,8 @@
     border-left: none;
     border-right: none;
     border-bottom: 1px solid white;
-    background-color: #1E962A;
+    background-color: rgb(158, 158, 158);
+    /*background-color: #1E962A;*/
     color: #ffffff;
     font-family: 'Century Gothic', sans-serif;
 }
@@ -92,11 +95,8 @@
 
 #campus-background {
     width: 200px;
-    height: 55px;
-    margin-left: 0px;
-    margin-top: 0px;
     padding-top: 6px;
-    border-right: 2px solid rgba(255, 255, 255, 0);
+    border-left: 2px round rgba(255, 255, 255, 0);
 }
 
 #campus-background h4 {
@@ -106,7 +106,6 @@
 }
 
 #campus-background h5 {
-    /*color: #71C837;*/
     color: #71C837;
     font-size: 6.5pt;
     margin-bottom: 0px;
@@ -124,7 +123,7 @@
     margin-left: 0px;
     text-align: center;
     font-family: 'Century Gothic', sans-serif;
-    font-size: 18pt;
+    font-size: 20pt;
 }
 
 #nome-curso:hover {
@@ -133,17 +132,20 @@
 
 #nome-curso-backgroud {
     height: 55px;
-    width: 350px;
+    width: 980px;
     margin: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    background-color: #71C837;
+    background-color: rgb(78, 185, 114);
+    /*background-color: #71C837;*/
     /*background-color: #28A745;*/
     /*58, 58, 151*/
     /*azul rgb(68, 68, 156)*/
     /*roxo #8a458f */
     border-left: 2px solid white;
-    border-right: 2px solid white;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    /*border-right: 2px solid rgb(0, 0, 0);*/
 }
 
 

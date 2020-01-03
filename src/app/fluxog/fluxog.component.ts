@@ -11,6 +11,7 @@ export class FluxogComponent implements OnInit {
 
  /**verde: 58, 173, 67 
   * azul: 70, 70, 255
+  * "background": "#71C837"
  */
 
 
@@ -27,7 +28,8 @@ export class FluxogComponent implements OnInit {
     "border": "1px solid rgb(206, 206, 206)"
   };
   corSelecionado: Object = {
-    "background": "#71C837",
+    
+    "background": "rgb(78, 185, 114)",
     "texto": "white",
     "shadowColor": "inset 0px 0px 0px 2px rgb(255, 255, 255)",
     "border": "1px solid rgb(0, 0, 0, 0)"

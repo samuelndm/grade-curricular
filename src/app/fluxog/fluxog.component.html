@@ -5,7 +5,7 @@
 
             <p id="periodo-box" class="border border-black rounded">{{periodo.periodo}}° Semestre</p>
             <div *ngFor="let materia of periodo.materias">
-                <div>
+                <div >
                     <a id="nome-box" (mouseenter)="updateGradeColorOnOver(materia.codigo)" (mouseleave)="resetGradeColor()" [ngStyle]="{ 
                         'background-color': materia.cor.background, 
                         'color': materia.cor.texto,
@@ -17,6 +17,7 @@
                         </div>
                     </a>
                 </div>
+                
 
             </div>
 
