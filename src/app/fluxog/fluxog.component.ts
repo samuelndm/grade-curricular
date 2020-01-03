@@ -13,6 +13,7 @@ export class FluxogComponent implements OnInit {
   * azul: 70, 70, 255
  */
 
+
   curso: any;
   nomeCurso: string;
   gradeCurso: any[];
@@ -22,22 +23,26 @@ export class FluxogComponent implements OnInit {
   corPadrao: Object = {
     "background": "white",
     "texto": "black",
-    "shadowColor": "inset 0px 0px 0px 2px rgb(255, 255, 255, 0)"
+    "shadowColor": "inset 0px 0px 0px 2px rgb(255, 255, 255, 0)",
+    "border": "1px solid rgb(206, 206, 206)"
   };
   corSelecionado: Object = {
     "background": "#71C837",
     "texto": "white",
-    "shadowColor": "inset 0px 0px 0px 2px rgb(255, 255, 255)"
+    "shadowColor": "inset 0px 0px 0px 2px rgb(255, 255, 255)",
+    "border": "1px solid rgb(0, 0, 0, 0)"
   };
   corPreRequisito: Object = {
     "background": "rgb(200, 200, 200)",
     "texto": "black",
-    "shadowColor": "inset 0px 0px 0px 1px rgb(255, 255, 255)"
+    "shadowColor": "inset 0px 0px 0px 1px rgb(255, 255, 255)",
+    "border": "1px solid rgb(255, 119, 119)"
   };
   corLibera: Object = {
     "background": "rgb(200, 200, 200)",
     "texto": "black",
-    "shadowColor": "inset 0px 0px 0px 1px rgb(255, 255, 255)"
+    "shadowColor": "inset 0px 0px 0px 1px rgb(255, 255, 255)", 
+    "border": "1px solid rgb(119, 173, 255)"
   };
 
   addGradeColor() {
