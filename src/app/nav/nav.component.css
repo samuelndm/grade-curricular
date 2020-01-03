@@ -1,15 +1,15 @@
 .navContainer {
-    height:5%;
+    height:10%;
+    width: 100%;
 }
 
 .navbar-dark {
-    display: flex;
-    justify-content: space-between;
-    height: 55px;
+    display: block;
+    height: 100%px;
     background-color: rgb(158, 158, 158);
     /*background-color: #1E962A;*/
+    border-bottom: 1px solid white;
     padding: 0px;
-    padding-right: 0px;
     user-select: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -18,20 +18,18 @@
 }
 
 .nav-tabs {
-    height: 55px;
-    margin-top: 26px;
-    margin-right: 0px;
-    margin-left: 25px;
+    height: 100%;
+    width: 100%;
+    margin-left: 1.8%;
 }
 
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:focus,
 .nav-tabs>li.active>a:hover {
-    height: 76%;
+    height: 100%;
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid white;
     background-color: rgb(158, 158, 158);
     /*background-color: #1E962A;*/
     color: #ffffff;
@@ -62,60 +60,7 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-
-/*----------- LOGO - INICIO ---------------------*/
-
-#logo {
-    width: 34px;
-    height: 42px;
-    margin-left: 15px;
-}
-
-#logo-background {
-    width: 70px;
-    height: 55px;
-    padding-top: 7px;
-    margin-right: 6px;
-    border-left: 2px solid rgb(255, 255, 255);
-}
-
-
-/*----------- LOGO - FINAL ---------------------*/
-
-
-/*----------- NOME DO CAMPUS - INICIO ---------------------*/
-
-#nome-campus {
-    display: block;
-}
-
-#nome-campus:hover {
-    text-decoration: none;
-}
-
-#campus-background {
-    width: 200px;
-    padding-top: 6px;
-    border-left: 2px round rgba(255, 255, 255, 0);
-}
-
-#campus-background h4 {
-    color: white;
-    font-size: 7.5pt;
-    margin: 0px;
-}
-
-#campus-background h5 {
-    color: #71C837;
-    font-size: 6.5pt;
-    margin-bottom: 0px;
-}
-
-
-/*----------- NOME DO CAMPUS - FINAL ---------------------*/
-
-
-/*----------- NOME DO CURSO - INICIO ---------------------*/
+/*----------- NOME DO CURSO ---------------------*/
 
 #nome-curso {
     display: block;
@@ -123,7 +68,7 @@
     margin-left: 0px;
     text-align: center;
     font-family: 'Century Gothic', sans-serif;
-    font-size: 20pt;
+    font-size: 19.5pt;
 }
 
 #nome-curso:hover {
@@ -131,31 +76,27 @@
 }
 
 #nome-curso-backgroud {
-    height: 55px;
-    width: 980px;
+    height: 100%;
+    width: 100%;
     margin: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
     background-color: rgb(78, 185, 114);
     /*background-color: #71C837;*/
     /*background-color: #28A745;*/
     /*58, 58, 151*/
     /*azul rgb(68, 68, 156)*/
     /*roxo #8a458f */
-    border-left: 2px solid white;
+    /*border-left: 2px solid white;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     /*border-right: 2px solid rgb(0, 0, 0);*/
 }
 
 
-/*----------- NOME DO CURSO - FINAL ---------------------*/
+/*----------- NOME DO CURSO ---------------------*/
 
 #text-center {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    text-shadow: 1px 1px #000000;
 }
