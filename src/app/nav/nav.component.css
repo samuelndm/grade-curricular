@@ -1,14 +1,16 @@
 .navContainer {
-    height:30%;
-    width: 100%;
+    display: flex;
+    height:10%;
 }
 
+
 .navbar-dark {
-    display: block;
+    display: flex;
+    flex-direction: column;
     height: 100%;
+    width: 70%;
     background-color: rgb(158, 158, 158);
     /*background-color: #1E962A;*/
-    border-bottom: 1px solid white;
     padding: 0px;
     user-select: none;
     -webkit-user-select: none;
@@ -18,7 +20,9 @@
 }
 
 .nav-tabs {
+    height: 100%;
     width: 100%;
+    border-left: 2px solid #343A40;
 }
 
 .nav-tabs>li.active>a,
@@ -28,7 +32,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    background-color: rgb(78, 185, 114);
+    background-color: rgb(158, 158, 158);
     /*background-color: #1E962A;*/
     color: #ffffff;
     font-family: 'Century Gothic', sans-serif;
@@ -43,14 +47,13 @@
     border-top: 0.5px solid white;
     border-left: 0.5px solid white;
     border-right: 0.5px solid white;
-    border-bottom: none;
     background-color: rgb(113, 114, 113);
     color: white;
     font-family: 'Century Gothic', sans-serif;
 }
 
 .navbar-toggler {
-
+    margin-left: 14px;
     border-color: rgba(31, 167, 72, 0);
     border-right: 1px solid white;
 }
@@ -62,12 +65,12 @@
 /*----------- NOME DO CURSO ---------------------*/
 
 #nome-curso {
-    display: block;
     color: white;
     margin-left: 0px;
     text-align: center;
     font-family: 'Century Gothic', sans-serif;
-    font-size: 19.5pt;
+    font-size: 20pt;
+    width: 100%;
 }
 
 #nome-curso:hover {
@@ -76,26 +79,41 @@
 
 #nome-curso-backgroud {
     height: 100%;
-    width: 100%;
+    
     margin: 0px;
-    background-color: rgb(78, 185, 114);
+    background-color: rgb(158, 158, 158);
     /*background-color: #71C837;*/
     /*background-color: #28A745;*/
     /*58, 58, 151*/
     /*azul rgb(68, 68, 156)*/
     /*roxo #8a458f */
-    /*border-left: 2px solid white;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+    /*border-left: 2px solid white;*/
     /*border-right: 2px solid rgb(0, 0, 0);*/
 }
-
-
-/*----------- NOME DO CURSO ---------------------*/
 
 #text-center {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    text-shadow: 1px 1px #000000;
+    text-shadow: 1px 1px black;
+    
+}
+
+
+/*----------- NOME DO CURSO ---------------------*/
+
+
+
+
+.faculdade-nav {
+    width: 30%;
+    height: 100%;
+    color: rgb(158, 158, 158);
+}
+
+#logoCurso-nav {
+    width: 10%;
+    height: 100%;
+    background-size: 100%;
+    
 }
