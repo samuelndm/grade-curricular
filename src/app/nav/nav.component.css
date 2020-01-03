@@ -1,11 +1,11 @@
 .navContainer {
-    height:10%;
+    height:30%;
     width: 100%;
 }
 
 .navbar-dark {
     display: block;
-    height: 100%px;
+    height: 100%;
     background-color: rgb(158, 158, 158);
     /*background-color: #1E962A;*/
     border-bottom: 1px solid white;
@@ -18,9 +18,7 @@
 }
 
 .nav-tabs {
-    height: 100%;
     width: 100%;
-    margin-left: 1.8%;
 }
 
 .nav-tabs>li.active>a,
@@ -30,7 +28,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    background-color: rgb(158, 158, 158);
+    background-color: rgb(78, 185, 114);
     /*background-color: #1E962A;*/
     color: #ffffff;
     font-family: 'Century Gothic', sans-serif;
@@ -45,13 +43,14 @@
     border-top: 0.5px solid white;
     border-left: 0.5px solid white;
     border-right: 0.5px solid white;
+    border-bottom: none;
     background-color: rgb(113, 114, 113);
     color: white;
     font-family: 'Century Gothic', sans-serif;
 }
 
 .navbar-toggler {
-    margin-left: 14px;
+
     border-color: rgba(31, 167, 72, 0);
     border-right: 1px solid white;
 }
