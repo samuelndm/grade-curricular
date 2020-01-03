@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "scripts": {
         "ng": "ng",
-        "start": "node server.js",
+        "start": "node server.js",g
         "build": "ng build",
         "test": "ng test",
         "lint": "ng lint",
@@ -57,7 +57,7 @@
         "typescript": "~3.2.2"
     },
     "engines": {
-        "node": "6.11.0",
-        "npm": "3.10.10"
+        "node": "12.13.1",
+        "npm": "6.12.1"
     }
 }
