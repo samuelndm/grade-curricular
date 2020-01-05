@@ -11,6 +11,8 @@ import { GradeCurricularComponent } from './grade-curricular/grade-curricular.co
 import { CursosComponent } from './cursos/cursos.component';
 import { FaculdadePesquisadaComponent } from './cursos/faculdade-pesquisada/faculdade-pesquisada.component';
 import { CursoPesquisadoComponent } from './cursos/curso-pesquisado/curso-pesquisado.component';
+import { EquipeComponent } from './equipe/equipe.component';
+import { AjudaComponent } from './ajuda/ajuda.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { CursoPesquisadoComponent } from './cursos/curso-pesquisado/curso-pesqui
     GradeCurricularComponent,
     CursosComponent,
     FaculdadePesquisadaComponent,
-    CursoPesquisadoComponent
+    CursoPesquisadoComponent,
+    EquipeComponent,
+    AjudaComponent
   ],
   imports: [
     BrowserModule,
