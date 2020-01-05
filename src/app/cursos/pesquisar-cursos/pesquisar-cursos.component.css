@@ -1,0 +1,54 @@
+.tituloCursos {
+    font-weight: bold;
+    font-family: 'Century Gothic', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.input-group-prepend {
+    margin: 1%;
+    margin-bottom: 1.2%;
+    width: 100%;
+}
+
+.cursosContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    width: 35vw;
+    border: 0.1px solid rgb(128, 128, 128);
+    border-top: none;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    max-height: 65vh;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.infoCurso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D6D8DB;
+    border: 0.1px solid rgb(158, 158, 158);
+}
+
+.infoCurso:hover {
+    text-decoration: none;
+    background-color: rgb(127, 127, 127, 0.2);
+}
+
+.nomeCurso {
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.nomeCurso #nomeCurso {
+    font-weight: bold;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}

@@ -13,6 +13,10 @@ import { FaculdadePesquisadaComponent } from './cursos/faculdade-pesquisada/facu
 import { CursoPesquisadoComponent } from './cursos/curso-pesquisado/curso-pesquisado.component';
 import { EquipeComponent } from './equipe/equipe.component';
 import { AjudaComponent } from './ajuda/ajuda.component';
+import { PesquisarCursosComponent } from './cursos/pesquisar-cursos/pesquisar-cursos.component';
+import { PesquisarFaculdadesComponent } from './cursos/pesquisar-faculdades/pesquisar-faculdades.component';
+import { CursoListaComponent } from './cursos/curso-lista/curso-lista.component';
+import { NavCursosComponent } from './cursos/nav-cursos/nav-cursos.component';
 
 
 @NgModule({
@@ -26,7 +30,11 @@ import { AjudaComponent } from './ajuda/ajuda.component';
     FaculdadePesquisadaComponent,
     CursoPesquisadoComponent,
     EquipeComponent,
-    AjudaComponent
+    AjudaComponent,
+    PesquisarCursosComponent,
+    PesquisarFaculdadesComponent,
+    CursoListaComponent,
+    NavCursosComponent
   ],
   imports: [
     BrowserModule,

@@ -1,37 +1,25 @@
 .footerContainer {
-    display:flex;
+    position: absolute;
+    bottom: 0px;
+    height: 10vh;
+    width: 100vw;
+    background-color: #343A40;
+    padding: 0px;
+}
+
+.footerButtons {
+    display: flex;
     align-items: center;
     justify-content: space-around;
-    height:7vh;
-    background-color: #343A40;
-    
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
-.footerContainer a {
+.footerButtons a {
     text-decoration: none;
-}
-
-.cursos-footer {
     color: white;
-    font-weight: bold;
     font-family: 'Century Gothic', sans-serif;
-    font-size: 20px;
-}
-
-.equipe-footer {
-    color: white;
-    font-weight: bold;
-    font-family: 'Century Gothic', sans-serif;
-    font-size: 20px;
-}
-
-.ajuda-footer {
-    color: white;
-    font-weight: bold;
-    font-family: 'Century Gothic', sans-serif;
-    font-size: 20px;
-}
-
-.equipe-footer > a:hover {
-
+    font-size: 170%;
+    text-align: center;
 }

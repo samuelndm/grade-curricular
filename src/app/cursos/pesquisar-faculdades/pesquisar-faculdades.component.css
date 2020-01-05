@@ -1,0 +1,65 @@
+.tituloFaculdades {
+    font-weight: bold;
+    font-family: 'Century Gothic', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.input-group-prepend {
+    margin: 1%;
+}
+
+.faculdadesContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    margin-top: 0%;
+    border: 0.1px solid rgb(128, 128, 128);
+    border-top: none;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    max-height: 65vh;
+    overflow-x: auto;
+}
+
+.infoFaculdade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D6D8DB;
+    border: 0.1px solid rgb(158, 158, 158);
+}
+
+.infoFaculdade:hover {
+    text-decoration: none;
+    background-color: rgb(127, 127, 127, 0.2);
+}
+
+.logoFaculdade {
+    width: 10%;
+    height: auto;
+}
+
+.nomeCampusFaculdade {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 4%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.nomeCampusFaculdade #nomeFaculdade {
+    font-weight: bold;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+}
+
+.nomeCampusFaculdade #campusFaculdade {
+    font-weight: bold;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 90%;
+    color: rgb(0, 0, 0);
+}

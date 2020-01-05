@@ -1,0 +1,7 @@
+.containerCursos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: silver;
+    padding: 3%;
+}
