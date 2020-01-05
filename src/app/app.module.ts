@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule }   from '@angular/common/http';
@@ -39,7 +40,8 @@ import { NavCursosComponent } from './cursos/nav-cursos/nav-cursos.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule
 
   ],
   providers: [],

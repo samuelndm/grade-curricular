@@ -10,12 +10,14 @@ import { CursoListaComponent } from './cursos/curso-lista/curso-lista.component'
 
 const routes: Routes = [
   { path: '', component: CursosComponent },
+  
   { path: 'cursos', component: CursosComponent },
   { path: 'fluxograma', component: GradeCurricularComponent },
   { path: 'equipe', component: EquipeComponent },
   { path: 'ajuda', component: AjudaComponent },
   { path: 'faculdade', component: FaculdadePesquisadaComponent },
-  { path: "cursos/cursoLista", component: CursoListaComponent }
+  { path: "cursos/cursoLista", component: CursoListaComponent },
+  { path: '**', component: CursosComponent }
 
 ];
 

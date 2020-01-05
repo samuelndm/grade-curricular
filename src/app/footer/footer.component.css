@@ -1,7 +1,7 @@
 .footerContainer {
-    position: absolute;
+    position: fixed;
     bottom: 0px;
-    height: 10vh;
+    height: 9vh;
     width: 100vw;
     background-color: #343A40;
     padding: 0px;
