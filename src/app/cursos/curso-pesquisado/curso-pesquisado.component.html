@@ -1,3 +1,30 @@
-<p>
-  curso-pesquisado works!
-</p>
+<div class="cursoPesquisadoContainer">
+
+  <h1 class="tituloCurso">{{nomeCurso}}</h1>
+  <div class="searchCursos">
+    <div class="input-group-prepend">
+      <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar faculdade" aria-label="Search">
+    </div>
+    <div class="input-group-prepend">
+      <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar campus" aria-label="Search">
+    </div>
+    <div class="input-group-prepend">
+      <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar turno" aria-label="Search">
+    </div>
+  </div>
+
+
+  <div class="cursosContainer">
+    <div *ngFor="let curso of this.getCursosByName(nomeCurso)">
+      <a class="infoCurso">
+        <p id="nomeFaculdade">{{curso.faculdade}}</p>
+        <p id="campusFaculdade">{{curso.campus}}</p>
+        <p id="campusCurso">{{curso.turno}}</p>
+      </a>
+      
+
+    </div>
+
+  </div>
+
+</div>

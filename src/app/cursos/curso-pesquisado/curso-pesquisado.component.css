@@ -1,0 +1,92 @@
+
+.cursoPesquisadoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 91vh;
+    background-color: #E4E4E4;
+    overflow-x: auto;
+    padding-top: 2.5%;
+}
+
+.tituloCurso {
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+    text-shadow: 1px 1px 1px rgb(190, 190, 190);
+    
+}
+
+.searchCursos {
+    display: flex;
+}
+
+
+.cursosContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    width: 80vw;
+    
+}
+
+.infoCurso {
+    display: flex;
+    justify-content: space-around;
+    background-color: #D6D8DB;
+    border: 0.1px solid rgb(158, 158, 158);
+    margin-top: 1%;
+    padding: 16px;
+}
+
+.infoCurso:hover {
+    text-decoration: none;
+    background-color: rgb(127, 127, 127, 0.3);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+
+
+#nomeCurso {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 0.5px 0.5px 0.5px white;
+}
+
+#campusCurso {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 20px;
+    color: rgb(114, 41, 41);
+    text-shadow: 0.5px 0.5px 0.5px rgb(255, 255, 255);
+
+    
+}
+
+#logoCurso {
+    width: 2.5%;
+    height: auto;
+    margin: 15px;
+}
+
+#nomeFaculdade {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 20px;
+    color: rgb(68, 67, 133);
+    text-shadow: 0.5px 0.5px 0.5px white;
+
+}
+
+#campusFaculdade {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 20px;
+    color: rgb(22, 102, 102);
+    text-shadow: 0.5px 0.5px 0.5px white;
+    text-align: center;
+}

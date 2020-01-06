@@ -9,12 +9,6 @@ import { DataService } from '../../data.service';
 })
 export class FluxogComponent implements OnInit {
 
- /**verde: 58, 173, 67 
-  * azul: 70, 70, 255
-  * "background": "#71C837"
- */
-
-
   curso: any;
   nomeCurso: string;
   gradeCurso: any[];
@@ -94,7 +88,7 @@ export class FluxogComponent implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.dataService.getCurso().subscribe(data => {
+    this.dataService.getCursos().subscribe(data => {
       this.curso = data
       this.nomeCurso = this.curso.curso
       this.gradeCurso = this.curso.grade

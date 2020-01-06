@@ -9,13 +9,12 @@
 
 <div class="cursosContainer">
 
-
-
-    <a [routerLink]="['/fluxograma']" class="infoCurso">
-        <div class="nomeCurso">
-            <p id="nomeCurso">Engenharia Elétrica</p>
-        </div>
-    </a>
-    
+    <div *ngFor="let curso of cursos">
+        <a class="infoCurso" (click)="onSelect(curso.curso)" >
+            <div class="nomeCurso">
+                <p id="nomeCurso">{{curso.curso}}</p>
+            </div>
+        </a>
+    </div>
 
 </div>

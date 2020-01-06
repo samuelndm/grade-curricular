@@ -1,7 +1,11 @@
 .tituloCursos {
     font-family: 'Century Gothic', sans-serif;
-    color: rgb(0, 0, 0);
     text-align: center;
+    color: rgb(85, 85, 85);
+    text-shadow: 1px 1px 1px rgb(190, 190, 190);
+    font-weight: bold;
+    margin-left: 2%;
+    
 }
 
 .input-group-prepend {
@@ -36,6 +40,12 @@
 .infoCurso:hover {
     text-decoration: none;
     background-color: rgb(127, 127, 127, 0.2);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .nomeCurso {

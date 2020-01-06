@@ -1,7 +1,10 @@
 .tituloFaculdades {
     font-family: 'Century Gothic', sans-serif;
-    color: rgb(0, 0, 0);
     text-align: center;
+    color: rgb(85, 85, 85);
+    text-shadow: 1px 1px 1px rgb(190, 190, 190);
+    font-weight: bold;
+    
 }
 
 .input-group-prepend {

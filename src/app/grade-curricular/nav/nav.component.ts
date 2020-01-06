@@ -18,7 +18,7 @@ export class NavComponent implements OnInit {
 constructor(private dataService: DataService) { }
 
 ngOnInit() {
-  this.dataService.getCurso().subscribe(data => {
+  this.dataService.getCursos().subscribe(data => {
     this.curso = data;
     this.nomeCurso = this.curso.curso;
     this.turnoCurso = this.curso.turno;
