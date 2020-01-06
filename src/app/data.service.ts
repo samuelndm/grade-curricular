@@ -9,6 +9,8 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   getCurso(){
-    return this.http.get('https://api.myjson.com/bins/6czpg');
+    //return this.http.get('https://api.myjson.com/bins/124dqs');
+    return this.http.get('https://api.myjson.com/bins/1cu6ms');
+    
   };
 }

@@ -1,0 +1,610 @@
+{
+    "Id": 1,
+    "curso": "Engenharia Ambiental",
+    "turno": "Diurno",
+    "faculdade": "IFBA - Instituto Federal da Bahia",
+    "campus": "Vitória da Conquista",
+    "grade": [
+        {
+            "periodo": "1",
+            "materias": [
+                {
+                    "codigo": "1",
+                    "nome": "Introdução a Engenharia Ambiental",
+                    "horas": "30",
+                    "creditos": "2",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "2",
+                    "nome": "Biologia Geral",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "3",
+                    "nome": "Cálculo Diferencial e Integral I",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "4",
+                    "nome": "Química Geral",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "5",
+                    "nome": "Metodologia da Pesquisa Científica",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "6",
+                    "nome": "Língua Portuguesa",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "7",
+                    "nome": "Álgebra Vetorial e Geometria Analítica",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "8",
+                    "nome": "Filosofia e Ética",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": []
+                }
+            ]
+        },
+        {
+            "periodo": "2",
+            "materias": [
+                {
+                    "codigo": "10",
+                    "nome": "Álgebra Linear",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        7
+                    ]
+                },
+                {
+                    "codigo": "11",
+                    "nome": "Física I",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "12",
+                    "nome": "Química Orgânica",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        4
+                    ]
+                },
+                {
+                    "codigo": "13",
+                    "nome": "Introdução à Programação",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "14",
+                    "nome": "Cálculo Diferencial e Integral II",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        3
+                    ]
+                },
+                {
+                    "codigo": "15",
+                    "nome": "Desenho Técnico",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "16",
+                    "nome": "Ecologia Aplicada",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": []
+                }
+            ]
+        },
+        {
+            "periodo": "3",
+            "materias": [
+                {
+                    "codigo": "17",
+                    "nome": "Cálculo Diferencial e Integral III",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        7,
+                        14
+                    ]
+                },
+                {
+                    "codigo": "18",
+                    "nome": "Física Experimental",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        11
+                    ]
+                },
+                {
+                    "codigo": "19",
+                    "nome": "Física II",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        11,
+                        3
+                    ]
+                },
+                {
+                    "codigo": "20",
+                    "nome": "Topografia",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "21",
+                    "nome": "Técnicas de Programação",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        13
+                    ]
+                },
+                {
+                    "codigo": "22",
+                    "nome": "Probabilidade e Estatística",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "23",
+                    "nome": "Química Analítica",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "periodo": "4",
+            "materias": [
+                {
+                    "codigo": "24",
+                    "nome": "Introdução à Ciência dos Materiais",
+                    "horas": "",
+                    "creditos": "40",
+                    "preRequisito": [
+                        3
+                    ]
+                },
+                {
+                    "codigo": "25",
+                    "nome": "Eletricidade e Magnetismo",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "26",
+                    "nome": "Mecânica Geral",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        3,
+                        11
+                    ]
+                },
+                {
+                    "codigo": "27",
+                    "nome": "Equações Diferenciais",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        14,
+                        10
+                    ]
+                },
+                {
+                    "codigo": "28",
+                    "nome": "Química Ambiental",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        12,
+                        23
+                    ]
+                },
+                {
+                    "codigo": "29",
+                    "nome": "Microbiologia",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        2
+                    ]
+                },
+                {
+                    "codigo": "30",
+                    "nome": "Solos I",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "periodo": "5",
+            "materias": [
+                {
+                    "codigo": "31",
+                    "nome": "Cálculo Numérico",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        21,
+                        27
+                    ]
+                },
+                {
+                    "codigo": "32",
+                    "nome": "Termodinâmica Aplicada",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        19
+                    ]
+                },
+                {
+                    "codigo": "33",
+                    "nome": "Fenômenos de Transporte",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        19,
+                        14
+                    ]
+                },
+                {
+                    "codigo": "34",
+                    "nome": "Geomática",
+                    "horas": "30",
+                    "creditos": "2",
+                    "preRequisito": [
+                        13
+                    ]
+                },
+                {
+                    "codigo": "35",
+                    "nome": "Resistência dos Materiais",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        24
+                    ]
+                },
+                {
+                    "codigo": "36",
+                    "nome": "Meteorologia e Climatologia",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        14
+                    ]
+                },
+                {
+                    "codigo": "37",
+                    "nome": "Solos II",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        30
+                    ]
+                }
+            ]
+        },
+        {
+            "periodo": "6",
+            "materias": [
+                {
+                    "codigo": "38",
+                    "nome": "Economia",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "39",
+                    "nome": "Estrutura de Concreto armado",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "40",
+                    "nome": "Legislação e Direito Ambiental",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "41",
+                    "nome": "Hidráulica",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        33
+                    ]
+                },
+                {
+                    "codigo": "42",
+                    "nome": "Higiene e Segurança do Trabalho",
+                    "horas": "30",
+                    "creditos": "2",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "43",
+                    "nome": "Estabilidade das Construções",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        35
+                    ]
+                },
+                {
+                    "codigo": "44",
+                    "nome": "Energia e Meio Ambiente",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        11
+                    ]
+                }
+            ]
+        },
+        {
+            "periodo": "7",
+            "materias": [
+                {
+                    "codigo": "45",
+                    "nome": "Administração",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "46",
+                    "nome": "Hidrologia Geral",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        36,
+                        41
+                    ]
+                },
+                {
+                    "codigo": "47",
+                    "nome": "Sociologia",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "48",
+                    "nome": "Operações unitárias",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        41
+                    ]
+                },
+                {
+                    "codigo": "49",
+                    "nome": "Obras Hidráulicas",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        41,
+                        39
+                    ]
+                },
+                {
+                    "codigo": "50",
+                    "nome": "Gestão e Planejamento Ambiental",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        40
+                    ]
+                },
+                {
+                    "codigo": "51",
+                    "nome": "Optativa GAIA I",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": []
+                }
+            ]
+        },
+        {
+            "periodo": "8",
+            "materias": [
+                {
+                    "codigo": "52",
+                    "nome": "Tratamento e Abastecimento de Água",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        23,
+                        48
+                    ]
+                },
+                {
+                    "codigo": "53",
+                    "nome": "Poluição Atmosférica",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        36
+                    ]
+                },
+                {
+                    "codigo": "54",
+                    "nome": "Reatores Bioquímicos",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        33,
+                        29
+                    ]
+                },
+                {
+                    "codigo": "55",
+                    "nome": "Gestão Integrada de Bacias hidrográficas",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        46
+                    ]
+                },
+                {
+                    "codigo": "56",
+                    "nome": "Instrumentação e Controle",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "57",
+                    "nome": "Análise e Avaliação e Impactos Ambientais",
+                    "horas": "45",
+                    "creditos": "3",
+                    "preRequisito": [
+                        40
+                    ]
+                },
+                {
+                    "codigo": "58",
+                    "nome": "Optativa SRH I",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": []
+                }
+            ]
+        },
+        {
+            "periodo": "9",
+            "materias": [
+                {
+                    "codigo": "59",
+                    "nome": "Tratamento de Efluentes",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        29,
+                        48
+                    ]
+                },
+                {
+                    "codigo": "60",
+                    "nome": "Auditora e Perícia Ambiental",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        57
+                    ]
+                },
+                {
+                    "codigo": "61",
+                    "nome": "Monitoramento Ambiental",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        57,
+                        28
+                    ]
+                },
+                {
+                    "codigo": "62",
+                    "nome": "Projetos de Engenharia Ambiental",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        50
+                    ]
+                },
+                {
+                    "codigo": "63",
+                    "nome": "Gestão e Tratamento de Resíduos sólidos",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": [
+                        29
+                    ]
+                },
+                {
+                    "codigo": "64",
+                    "nome": "Optativa GAIA II",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "65",
+                    "nome": "Optativa SRH II",
+                    "horas": "60",
+                    "creditos": "4",
+                    "preRequisito": []
+                }
+            ]
+        },
+        {
+            "periodo": "10",
+            "materias": [
+                {
+                    "codigo": "66",
+                    "nome": "Estágio supervisionado",
+                    "horas": "180",
+                    "creditos": "0",
+                    "preRequisito": []
+                },
+                {
+                    "codigo": "67",
+                    "nome": "Trabalho de Conclusão de Curso II",
+                    "horas": "120",
+                    "creditos": "0",
+                    "preRequisito": []
+                }
+            ]
+        }
+    ]
+}
