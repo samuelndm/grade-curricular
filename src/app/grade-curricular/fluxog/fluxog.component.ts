@@ -55,26 +55,28 @@ export class FluxogComponent implements OnInit {
     });
   }
 
-  public updateGradeColorOnOver(codigo: number) {
+  public updateGradeColorOnOver(materiaSelecionada: any) {
 
     this.gradeCurso.forEach(periodo => {
       periodo.materias.forEach(materia => {
 
-        if (materia.codigo == codigo) {
+        if (materia.codigo == materiaSelecionada.codigo) {
           materia.cor = this.corSelecionado;
         };
 
-        materia.libera.forEach(idSuc => {
-          if (idSuc == codigo) {
+        materia.preRequisito.forEach(codigoPreRequisito => {
+          if (codigoPreRequisito == materiaSelecionada.codigo) {
+            materia.cor = this.corLibera;
+          }
+
+        });
+        
+        materiaSelecionada.preRequisito.forEach(codigoPreRequisito => {
+          if ( materia.codigo == codigoPreRequisito ) {
             materia.cor = this.corPreRequisito;
           }
         });
-
-        materia.preRequisito.forEach(idPre => {
-          if (idPre == codigo) {
-            materia.cor = this.corLibera;
-          }
-        });
+    
       });
     });
   }
