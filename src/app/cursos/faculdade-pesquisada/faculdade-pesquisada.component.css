@@ -20,17 +20,18 @@
 #logoFaculdadeTitulo {
     width:60px;
     height: auto;
-    margin-right: 30px;
+    margin-right: 2%;
+    margin-left: 5%;
 }
 
 .nomeFaculdadeContainer {
     display: flex;
     flex-direction: column;
-
     margin-right: 7%;
 }
 
 .tituloFaculdade {
+    font-size: 200%;
     font-family: 'Century Gothic', sans-serif;
     font-weight: bold;
     color: rgb(255, 255, 255);
