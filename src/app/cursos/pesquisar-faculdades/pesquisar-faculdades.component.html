@@ -5,51 +5,17 @@
     <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar Faculdades" aria-label="Search">
 </div>
 
-<div class="faculdadesContainer">
-
-
-
-
-    <a [routerLink]="['/cursos']" class="infoFaculdade">
-        <img class="logoFaculdade" src="../assets/img/IFBA.png">
+<div class="faculdadesContainer" >
+<div *ngFor="let faculdade of faculdades">
+    <a (click)="onSelect(faculdade.idFaculdade)" class="infoFaculdade">
+        <img class="logoFaculdade" src="../assets/img/{{faculdade.idLogoFaculdade}}.webp">
         <div class="nomeCampusFaculdade">
-            <p id="nomeFaculdade">IFBA - Instituto Federal da Bahia</p>
-            <p id="campusFaculdade">Campus - Vitória da Conquista</p>
+            <p id="nomeFaculdade">{{faculdade.faculdade}}</p>
+            <p id="campusFaculdade">Campus - {{faculdade.campus}}</p>
         </div>
     </a>
-    <a [routerLink]="['/cursos']" class="infoFaculdade">
-        <img class="logoFaculdade" src="../assets/img/UESB.png">
-        <div class="nomeCampusFaculdade">
-            <p id="nomeFaculdade">UESB- Universidade Estadual do Sudoeste da Bahia</p>
-            <p id="campusFaculdade">Campus - Vitória da Conquista</p>
-        </div>
-
-    </a>
-    <a [routerLink]="['/cursos']" class="infoFaculdade">
-        <img class="logoFaculdade" src="../assets/img/FAINOR.png">
-        <div class="nomeCampusFaculdade">
-            <p id="nomeFaculdade">FAINOR - Faculdade Independente do Nordeste</p>
-            <p id="campusFaculdade">Campus - Vitória da Conquista</p>
-        </div>
-
-    </a>
-
-    <a [routerLink]="['/cursos']" class="infoFaculdade">
-        <img class="logoFaculdade" src="../assets/img/FTC.png">
-        <div class="nomeCampusFaculdade">
-            <p id="nomeFaculdade">FTC - Faculdade de Tecnologia e Ciências</p>
-            <p id="campusFaculdade">Campus - Vitória da Conquista</p>
-        </div>
-
-    </a>
-
-    <a [routerLink]="['/cursos']" class="infoFaculdade">
-        <img class="logoFaculdade" src="../assets/img/UNINASSAU.png">
-        <div class="nomeCampusFaculdade">
-            <p id="nomeFaculdade">UNINASSAU</p>
-            <p id="campusFaculdade">Campus - Vitória da Conquista</p>
-        </div>
-
-    </a>
-    
 </div>
+        
+        
+</div>
+

@@ -6,18 +6,17 @@ import { EquipeComponent } from './equipe/equipe.component';
 import { AjudaComponent } from './ajuda/ajuda.component';
 import { FaculdadePesquisadaComponent } from './cursos/faculdade-pesquisada/faculdade-pesquisada.component';
 import { CursoPesquisadoComponent } from './cursos/curso-pesquisado/curso-pesquisado.component';
-import { CursoListaComponent } from './cursos/curso-lista/curso-lista.component';
 
 const routes: Routes = [
   { path: '', component: CursosComponent },
 
   { path: 'cursos', component: CursosComponent },
   { path: 'curso/:id', component: CursoPesquisadoComponent },
-  { path: 'fluxograma', component: GradeCurricularComponent },
+  { path: 'faculdade/:id', component: FaculdadePesquisadaComponent },
+  { path: 'fluxograma/:id', component: GradeCurricularComponent },
+  { path: 'minhagrade/:id', component: GradeCurricularComponent },
   { path: 'equipe', component: EquipeComponent },
   { path: 'ajuda', component: AjudaComponent },
-  { path: 'faculdade', component: FaculdadePesquisadaComponent },
-  { path: "cursos/cursoLista", component: CursoListaComponent },
   { path: '**', component: CursosComponent }
 
 ];

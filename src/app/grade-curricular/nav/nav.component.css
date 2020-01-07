@@ -32,7 +32,6 @@
         border-left: none;
         border-right: none;
         background-color: rgb(158, 158, 158);
-        /*background-color: #1E962A;*/
         color: #ffffff;
         font-family: 'Century Gothic', sans-serif;
     }
@@ -51,15 +50,11 @@
         font-family: 'Century Gothic', sans-serif;
     }
     
-    .navbar-toggler {
-        margin-left: 14px;
-        border-color: rgba(31, 167, 72, 0);
-        border-right: 1px solid white;
+    .nav-link {
+        cursor: pointer;
     }
-    
-    .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    }
+
+  
     /*----------- NOME DO CURSO ---------------------*/
     
     #nome-curso {

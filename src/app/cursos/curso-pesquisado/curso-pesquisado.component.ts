@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { DataService } from '../../data.service';
 
 @Component({
@@ -9,11 +9,12 @@ import { DataService } from '../../data.service';
 })
 export class CursoPesquisadoComponent implements OnInit {
 
+  data: any;
+  faculdades: any[];
+  cursos: any[] = [];
   nomeCurso: String;
-  cursosObject: any;
-  cursos = [];
-  
-  
+
+
   getCursosByName(nomeCurso) {
     let cursoPesquisadoList = [];
     this.cursos.forEach(curso => {
@@ -26,19 +27,57 @@ export class CursoPesquisadoComponent implements OnInit {
 
   }
 
-  constructor(private dataService: DataService, private _router: ActivatedRoute) { }
+  getNomeFaculdade(id) {
+    let faculdade: any = this.getFaculdadeByCursoId(id)
+    return faculdade.faculdade;
+  }
 
-  
+  getCampusFaculdade(id) {
+    let faculdade: any = this.getFaculdadeByCursoId(id)
+    return faculdade.campus;
+  }
 
-  
+  getLogoIdFaculdade(id) {
+    let faculdade: any = this.getFaculdadeByCursoId(id)
+    return faculdade.idLogoFaculdade;
+  }
+
+
+
+  getFaculdadeByCursoId(idCurso) {
+    let faculdadeTarget: any;
+    this.faculdades.forEach(faculdade => {
+      faculdade.cursos.forEach(curso => {
+        if (curso.idCurso === idCurso) {
+          faculdadeTarget = faculdade;
+        }
+      })
+    })
+
+    return faculdadeTarget;
+  }
+
+  onSelect(id) {
+    this._router.navigate(['/fluxograma', id]);
+  }
+
+
+  constructor(private _dataService: DataService, private _router: Router, private _activatedRoute: ActivatedRoute) { }
+
+
+
 
   ngOnInit() {
-    this.nomeCurso = this._router.snapshot.paramMap.get('id');
-    this.dataService.getCursos().subscribe(data => {
-      this.cursosObject = data;
-      this.cursos = this.cursosObject.cursos;
+    this.nomeCurso = this._activatedRoute.snapshot.paramMap.get('id');
+    this._dataService.getFaculdadesJson().subscribe(data => {
+      this.data = data;
+      this.faculdades = this.data.faculdades;
+      this.faculdades.forEach(faculdade => {
+        faculdade.cursos.forEach(cursoAtual => {
+          this.cursos.push(cursoAtual);
+        })
+      })
     })
-    
 
   }
 

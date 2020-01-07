@@ -6,7 +6,7 @@
             <p id="periodo-box" class="border border-black rounded">{{periodo.periodo}}° Semestre</p>
             <div *ngFor="let materia of periodo.materias">
                 <div>
-                    <a [routerLink]="['/fluxograma']" id="nome-box" (mouseenter)="updateGradeColorOnOver(materia)" (mouseleave)="resetGradeColor()" [ngStyle]="{ 
+                    <a id="nome-box" (mouseenter)="updateGradeColorOnOver(materia)" (mouseleave)="resetGradeColor()" [ngStyle]="{ 
                         'background-color': materia.cor.background, 
                         'color': materia.cor.texto,
                         'border': materia.cor.border,

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 import { DataService } from '../../data.service';
 
 @Component({
@@ -8,25 +9,73 @@ import { DataService } from '../../data.service';
 })
 export class NavComponent implements OnInit {
 
+  data: any;
+  faculdades: any;
   curso: any;
+  idCurso: number;
   nomeCurso: string;
   turnoCurso: string;
   nomeFaculdade: string;
   campusFaculdade: string;
-  isCollapsed = false;
+  idLogoFaculdade: string;
 
-constructor(private dataService: DataService) { }
+  setCursoById(id) {
+    this.faculdades.forEach(faculdade => {
+      faculdade.cursos.forEach(cursoAtual => {
+        if (cursoAtual.idCurso === id) {
+          this.curso = cursoAtual;
+        }
+      })
+    })
+  }
 
-ngOnInit() {
-  this.dataService.getCursos().subscribe(data => {
-    this.curso = data;
-    this.nomeCurso = this.curso.curso;
-    this.turnoCurso = this.curso.turno;
-    this.nomeFaculdade = this.curso.faculdade;
-    this.campusFaculdade = this.curso.campus;
-  })
+  setNomeFaculdade(id) {
+    let faculdade: any = this.getFaculdadeByCursoId(id)
+    this.nomeFaculdade = faculdade.faculdade;
+  }
 
+  setCampusFaculdade(id) {
+    let faculdade: any = this.getFaculdadeByCursoId(id)
+    this.campusFaculdade = faculdade.campus;
+  }
+
+  setIdLogoFaculdade(id) {
+    let faculdade: any = this.getFaculdadeByCursoId(id)
+    this.idLogoFaculdade = faculdade.idLogoFaculdade;
+  }
+
+
+
+  getFaculdadeByCursoId(idCurso) {
+    let faculdadeTarget: any;
+    this.faculdades.forEach(faculdade => {
+      faculdade.cursos.forEach(curso => {
+        if (curso.idCurso === idCurso) {
+          faculdadeTarget = faculdade;
+        }
+      })
+    })
+
+    return faculdadeTarget;
+  }
+
+  onSelect(id) {
+    this._router.navigate(['/minhagrade', id]);
+  }
+
+  constructor(private _dataService: DataService, private _router: Router, private _activatedRoute: ActivatedRoute) { }
+
+  ngOnInit() {
+    this.idCurso = parseInt(this._activatedRoute.snapshot.paramMap.get('id'));
+    this._dataService.getFaculdadesJson().subscribe(data => {
+      this.data = data;
+      this.faculdades = this.data.faculdades;
+      this.setCursoById(this.idCurso);
+      this.nomeCurso = this.curso.curso;
+      this.turnoCurso = this.curso.turno;
+      this.setNomeFaculdade(this.idCurso);
+      this.setCampusFaculdade(this.idCurso);
+      this.setIdLogoFaculdade(this.idCurso);
+    })
+  }
 }
-
-}
-

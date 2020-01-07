@@ -5,13 +5,43 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class DataService {
-
   constructor(private http: HttpClient) { }
 
-  getCursos(){
-    //return this.http.get('https://api.myjson.com/bins/124dqs');
-    //return this.http.get('https://api.myjson.com/bins/1cu6ms');
-    return this.http.get('https://api.myjson.com/bins/119ax0');
-    
+  data: any;
+
+  getFaculdadesJson() {
+    const localUrl = 'assets/data/faculdades.json';
+    return this.http.get(localUrl);
+
   };
+
+  getFaculdades() {
+    this.getFaculdadesJson().subscribe(data => {
+      this.data = data;
+      return this.data.faculdades;
+    })
+  }
+
+  getCursos() {
+    let faculdades: any[];
+    let cursos: any;
+
+    this.getFaculdadesJson().subscribe(data => {
+      this.data = data;
+      faculdades = this.data.faculdades;
+      cursos = this.getCursosAux(faculdades);
+      
+    })
+    
+  }
+
+  private getCursosAux(faculdades) {
+    let cursos = [];
+    faculdades.forEach(faculdade => {
+      faculdade.cursos.forEach(cursoAtual => {
+        cursos.push(cursoAtual);
+      })
+    })
+    return cursos;
+  }
 }

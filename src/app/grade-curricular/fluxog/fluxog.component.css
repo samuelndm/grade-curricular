@@ -36,7 +36,7 @@
     padding: 6px;
     font-family: 'Century Gothic', sans-serif;
     font-size: 10.5pt;
-  
+    cursor: pointer;
 
     -webkit-user-select: none;
     -khtml-user-select: none;

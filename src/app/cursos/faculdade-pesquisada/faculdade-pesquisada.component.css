@@ -1,0 +1,7 @@
+.faculdadePesquisadaContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 93vh;
+    background-color: #E4E4E4;
+}

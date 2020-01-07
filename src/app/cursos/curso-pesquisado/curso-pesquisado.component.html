@@ -15,15 +15,21 @@
 
 
   <div class="cursosContainer">
-    <div *ngFor="let curso of this.getCursosByName(nomeCurso)">
-      <a class="infoCurso">
-        <p id="nomeFaculdade">{{curso.faculdade}}</p>
-        <p id="campusFaculdade">{{curso.campus}}</p>
-        <p id="campusCurso">{{curso.turno}}</p>
+    <div *ngFor="let curso of this.getCursosByName(nomeCurso)" class="infoCursoContainer">
+      <div (click)="onSelect(curso.idCurso)"class="logoFaculdadeContainer">
+        <img  id="logoFaculdade" src="../../assets/img/{{getLogoIdFaculdade(curso.idCurso)}}.png">
+      </div>
+      <a (click)="onSelect(curso.idCurso)" class="infoCurso">
+        <p id="nomeCurso">{{curso.curso}}</p>
+        <p class="divisorInforCurso">-</p>
+        <p id="nomeFaculdade">{{getNomeFaculdade(curso.idCurso)}}</p>
+        <p class="divisorInforCurso">-</p>
+        <p id="campusFaculdade">{{getCampusFaculdade(curso.idCurso)}}</p>
+        <p class="divisorInforCurso">-</p>
+        <p id="turnoCurso">{{curso.turno}}</p>
       </a>
-      
-
     </div>
+
 
   </div>
 

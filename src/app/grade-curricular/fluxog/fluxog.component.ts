@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 import { DataService } from '../../data.service';
 
 
@@ -9,12 +10,15 @@ import { DataService } from '../../data.service';
 })
 export class FluxogComponent implements OnInit {
 
+  data: any;
+  faculdades: any;
+  cursos: any;
   curso: any;
-  nomeCurso: string;
+  idCurso: number;
   gradeCurso: any[];
   widthMateria: number = 152;
   widthFluxograma: number;
-  
+
   corPadrao: Object = {
     "background": "white",
     "texto": "black",
@@ -22,7 +26,7 @@ export class FluxogComponent implements OnInit {
     "border": "1px solid rgb(206, 206, 206)"
   };
   corSelecionado: Object = {
-    
+
     "background": "rgb(78, 185, 114)",
     "texto": "white",
     "shadowColor": "inset 0px 0px 0px 2px rgb(255, 255, 255)",
@@ -37,9 +41,21 @@ export class FluxogComponent implements OnInit {
   corLibera: Object = {
     "background": "rgb(200, 200, 200)",
     "texto": "black",
-    "shadowColor": "inset 0px 0px 0px 1px rgb(255, 255, 255)", 
+    "shadowColor": "inset 0px 0px 0px 1px rgb(255, 255, 255)",
     "border": "1px solid rgb(119, 173, 255)"
   };
+
+
+
+  setCursoById(id) {
+    this.faculdades.forEach(faculdade => {
+      faculdade.cursos.forEach(cursoAtual => {
+        if (cursoAtual.idCurso === id) {
+          this.curso = cursoAtual;
+        }
+      })
+    })
+  }
 
   addGradeColor() {
     this.gradeCurso.forEach(periodo => {
@@ -64,13 +80,13 @@ export class FluxogComponent implements OnInit {
           }
 
         });
-        
+
         materiaSelecionada.preRequisito.forEach(codigoPreRequisito => {
-          if ( materia.codigo == codigoPreRequisito ) {
+          if (materia.codigo == codigoPreRequisito) {
             materia.cor = this.corPreRequisito;
           }
         });
-    
+
       });
     });
   }
@@ -85,12 +101,14 @@ export class FluxogComponent implements OnInit {
 
 
 
-  constructor(private dataService: DataService) { }
+  constructor(private dataService: DataService, private _router: Router, private _activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
-    this.dataService.getCursos().subscribe(data => {
-      this.curso = data
-      this.nomeCurso = this.curso.curso
+    this.idCurso = parseInt(this._activatedRoute.snapshot.paramMap.get('id'));
+    this.dataService.getFaculdadesJson().subscribe(data => {
+      this.data = data;
+      this.faculdades = this.data.faculdades;
+      this.setCursoById(this.idCurso);
       this.gradeCurso = this.curso.grade
       this.widthFluxograma = this.curso.grade.length * this.widthMateria
       this.addGradeColor();
