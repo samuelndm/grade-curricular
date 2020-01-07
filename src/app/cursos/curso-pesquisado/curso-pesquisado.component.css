@@ -79,6 +79,7 @@
     font-family: 'Century Gothic', sans-serif;
     color: rgb(0, 0, 0);
     text-shadow: 0.5px 0.5px 0.5px white;
+    text-align: center;
 }
 
 #nomeFaculdade {
@@ -86,6 +87,7 @@
     font-family: 'Century Gothic', sans-serif;
     color: rgb(68, 67, 133);
     text-shadow: 0.5px 0.5px 0.5px white;
+    text-align: center;
 }
 
 #campusFaculdade {
@@ -93,6 +95,7 @@
     font-family: 'Century Gothic', sans-serif;
     color: rgb(22, 102, 102);
     text-shadow: 0.5px 0.5px 0.5px white;
+    text-align: center;
 }
 
 #turnoCurso {
@@ -100,6 +103,7 @@
     font-family: 'Century Gothic', sans-serif;
     color: rgb(114, 41, 41);
     text-shadow: 0.5px 0.5px 0.5px rgb(255, 255, 255);
+    text-align: center;
 }
 
 .turnoContainer {
