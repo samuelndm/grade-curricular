@@ -16,10 +16,10 @@
 
   <div class="cursosContainer">
     <div *ngFor="let curso of this.getCursosByName(nomeCurso)" class="infoCursoContainer">
-      <div (click)="onSelect(curso.idCurso)"class="logoFaculdadeContainer">
+      <div (click)="onSelectFaculdade(getIdFaculdade(curso.idCurso))"class="logoFaculdadeContainer">
         <img  id="logoFaculdade" src="../../assets/img/{{getLogoIdFaculdade(curso.idCurso)}}.png">
       </div>
-      <a (click)="onSelect(curso.idCurso)" class="infoCurso">
+      <a (click)="onSelectCurso(curso.idCurso)" class="infoCurso">
         <p id="nomeCurso">{{curso.curso}}</p>
         <p class="divisorInforCurso">-</p>
         <p id="nomeFaculdade">{{getNomeFaculdade(curso.idCurso)}}</p>

@@ -101,3 +101,11 @@
     color: rgb(114, 41, 41);
     text-shadow: 0.5px 0.5px 0.5px rgb(255, 255, 255);
 }
+
+.turnoContainer {
+    display: flex;
+    
+    background-color: rgb(127, 127, 127, 0.3);
+    height: 100px;
+    width: 60px;
+}

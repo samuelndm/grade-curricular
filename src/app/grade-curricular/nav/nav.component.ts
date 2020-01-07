@@ -18,6 +18,7 @@ export class NavComponent implements OnInit {
   nomeFaculdade: string;
   campusFaculdade: string;
   idLogoFaculdade: string;
+  idFaculdade: number;
 
   setCursoById(id) {
     this.faculdades.forEach(faculdade => {
@@ -44,6 +45,11 @@ export class NavComponent implements OnInit {
     this.idLogoFaculdade = faculdade.idLogoFaculdade;
   }
 
+  setIdFaculdade(id) {
+    let faculdade: any = this.getFaculdadeByCursoId(id)
+    this.idFaculdade = faculdade.idFaculdade;
+  }
+
 
 
   getFaculdadeByCursoId(idCurso) {
@@ -59,8 +65,8 @@ export class NavComponent implements OnInit {
     return faculdadeTarget;
   }
 
-  onSelect(id) {
-    this._router.navigate(['/minhagrade', id]);
+  onSelectFaculdade(id) {
+    this._router.navigate(['/faculdade', id]);
   }
 
   constructor(private _dataService: DataService, private _router: Router, private _activatedRoute: ActivatedRoute) { }
@@ -76,6 +82,7 @@ export class NavComponent implements OnInit {
       this.setNomeFaculdade(this.idCurso);
       this.setCampusFaculdade(this.idCurso);
       this.setIdLogoFaculdade(this.idCurso);
+      this.setIdFaculdade(this.idCurso);
     })
   }
 }

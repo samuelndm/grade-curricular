@@ -1,3 +1,37 @@
 <div class="faculdadePesquisadaContainer">
-  <h1>Indisponível :(</h1>
+
+  <div class="tituloFaculdadeContainer">
+    <img id="logoFaculdadeTitulo" src="../../assets/img/{{faculdade.idLogoFaculdade}}.png">
+    <div class="nomeFaculdadeContainer">
+      <h1 class="tituloFaculdade">{{faculdade.faculdade}}</h1>
+      <h4 class="tituloFaculdade">Campus - {{faculdade.campus}}</h4>
+    </div>
+  </div>
+
+  <div class="searchCursos">
+    <div class="input-group-prepend">
+      <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar curso" aria-label="Search">
+    </div>
+    <div class="input-group-prepend">
+      <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar turno" aria-label="Search">
+    </div>
+  </div>
+  
+  <div *ngIf="cursos.length > 0; else nenhumCursoAdcionado" class="cursosContainer">
+    <div *ngFor="let curso of cursos" class="infoCursoContainer">
+      <div (click)="onSelectFaculdade(faculdade.idFaculdade)" class="logoFaculdadeContainer">
+        <img id="logoFaculdade" src="../../assets/img/{{faculdade.idLogoFaculdade}}.png">
+      </div>
+      <a (click)="onSelectCurso(curso.idCurso)" class="infoCurso">
+        <p id="nomeCurso">{{curso.curso}}</p>
+        <p class="divisorInforCurso">-</p>
+        <p id="turnoCurso">{{curso.turno}}</p>
+      </a>
+    </div>
+  </div>
+
+  <ng-template #nenhumCursoAdcionado>
+    <h1 id="nenhumCursoAdcionado">Nenhum curso adicionado até o momento :(</h1>
+  </ng-template>
+
 </div>

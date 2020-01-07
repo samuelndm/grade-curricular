@@ -4,9 +4,9 @@
             <li class="nav-item activate">
                 <a class="nav-link">Fluxograma</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a (click)="onSelect(idCurso)" class="nav-link">Minha Grade</a>
-            </li>
+            </li> -->
         </ul>
 
         <a id="nome-curso">
@@ -19,15 +19,14 @@
 
     </nav>
 
-    
 
 
-    <img src="./assets/img/{{idLogoFaculdade}}.png" alt="Logo Faculdade" class="logoFaculdade-nav">
+    <img (click)="onSelectFaculdade(idFaculdade)" src="./assets/img/{{idLogoFaculdade}}.png" alt="Logo Faculdade"
+        class="logoFaculdade-nav">
 
-    <div class="faculdade-nav">
+    <div (click)="onSelectFaculdade(idFaculdade)" class="faculdade-nav">
 
         <p class="nomeFaculdade-nav">{{nomeFaculdade}}</p>
         <p class="campusFaculdade-nav">{{campusFaculdade}}</p>
     </div>
 </div>
-

@@ -42,6 +42,11 @@ export class CursoPesquisadoComponent implements OnInit {
     return faculdade.idLogoFaculdade;
   }
 
+  getIdFaculdade(id) {
+    let faculdade: any = this.getFaculdadeByCursoId(id)
+    return faculdade.idFaculdade;
+  }
+
 
 
   getFaculdadeByCursoId(idCurso) {
@@ -57,10 +62,13 @@ export class CursoPesquisadoComponent implements OnInit {
     return faculdadeTarget;
   }
 
-  onSelect(id) {
+  onSelectCurso(id) {
     this._router.navigate(['/fluxograma', id]);
   }
 
+  onSelectFaculdade(id) {
+    this._router.navigate(['/faculdade', id]);
+  }
 
   constructor(private _dataService: DataService, private _router: Router, private _activatedRoute: ActivatedRoute) { }
 
