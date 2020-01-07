@@ -15,6 +15,25 @@ export class PesquisarCursosComponent implements OnInit {
   data: any;
   faculdades: any[];
   cursos: string[] = [];
+  filteredCursos: string[];
+  private _searchTerm: string;
+
+  get searchTerm() {
+    return this._searchTerm;
+  }
+
+  set searchTerm(value: string) {
+    this._searchTerm = value;
+    this.filteredCursos = this.filterCursos(value);
+  }
+
+  filterCursos(value: string) {
+    return this.cursos.filter(curso => {
+      return curso.toLowerCase().indexOf(value.toLowerCase()) !== -1;
+      
+    })
+  }
+
 
 
   setCursos() {
@@ -49,6 +68,7 @@ export class PesquisarCursosComponent implements OnInit {
       this.faculdades = this.data.faculdades;
       this.setCursos();
       this.sortCursos();
+      this.filteredCursos = this.cursos;
     })
   }
 

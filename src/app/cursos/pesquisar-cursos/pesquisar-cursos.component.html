@@ -3,14 +3,14 @@
 </h1>
 <div>
     <div class="input-group-prepend">
-        <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar Cursos" aria-label="Search">
+        <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar Cursos" [(ngModel)]="searchTerm">
     </div>
 </div>
 
 
 <div class="cursosContainer">
 
-    <div *ngFor="let curso of cursos">
+    <div *ngFor="let curso of filteredCursos">
         <a class="infoCurso" (click)="onSelect(curso)" >
             <div class="nomeCurso">
                 <p id="nomeCurso">{{curso}}</p>

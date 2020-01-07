@@ -12,7 +12,60 @@ export class CursoPesquisadoComponent implements OnInit {
   data: any;
   faculdades: any[];
   cursos: any[] = [];
+  filteredCursos: any[];
   nomeCurso: String;
+  private _searchFaculdade: string;
+  private _searchCampus: string;
+  private _searchTurno: string;
+
+  get searchFaculdade() {
+    return this._searchFaculdade;
+  }
+
+  set searchFaculdade(value: string) {
+    this._searchFaculdade = value;
+    this.filteredCursos = this.filterCursosByFaculdade(value);
+  }
+
+  filterCursosByFaculdade(value: string) {
+    return this.cursos.filter(curso => {
+      let nomeFaculdade = this.getNomeFaculdade(curso.idCurso);
+      return nomeFaculdade.toLowerCase().indexOf(value.toLowerCase()) !== -1;
+    })
+  }
+
+
+  get searchCampus() {
+    return this._searchCampus;
+  }
+
+  set searchCampus(value: string) {
+    this._searchCampus = value;
+    this.filteredCursos = this.filterCursosByCampus(value);
+  }
+
+  filterCursosByCampus(value: string) {
+    return this.cursos.filter(curso => {
+      let campusFaculdade = this.getCampusFaculdade(curso.idCurso);
+      return campusFaculdade.toLowerCase().indexOf(value.toLowerCase()) !== -1;
+    })
+  }
+  
+
+  get searchTurno() {
+    return this._searchTurno;
+  }
+
+  set searchTurno(value: string) {
+    this._searchTurno = value;
+    this.filteredCursos = this.filterCursosByTurno(value);
+  }
+
+  filterCursosByTurno(value: string) {
+    return this.cursos.filter(curso => {
+      return curso.turno.toLowerCase().indexOf(value.toLowerCase()) !== -1;
+    })
+  }
 
 
   setCursos() {
@@ -79,6 +132,7 @@ export class CursoPesquisadoComponent implements OnInit {
       this.data = data;
       this.faculdades = this.data.faculdades;
       this.setCursos();
+      this.filteredCursos = this.cursos;
     })
 
   }

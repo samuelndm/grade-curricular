@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { DataService } from '../../data.service';
 
+
+
 @Component({
   selector: 'app-pesquisar-faculdades',
   templateUrl: './pesquisar-faculdades.component.html',
@@ -13,6 +15,23 @@ export class PesquisarFaculdadesComponent implements OnInit {
 
   data: any;
   faculdades: any[];
+  filteredFaculdades: any[];
+  private _searchTerm: string;
+
+  get searchTerm(): string {
+    return this._searchTerm;
+  }
+
+  set searchTerm(value: string) {
+    this._searchTerm = value;
+    this.filteredFaculdades = this.filterFaculdades(value);
+  }
+
+  filterFaculdades(value: string) {
+    return this.faculdades.filter(faculdade => {
+      return faculdade.faculdade.toLowerCase().indexOf(value.toLowerCase()) !== -1;
+    })
+  }
 
   sortFaculdades() {
     this.faculdades.sort((faculdade1, faculdade2) => {
@@ -34,6 +53,8 @@ export class PesquisarFaculdadesComponent implements OnInit {
       this.data = data;
       this.faculdades = this.data.faculdades;
       this.sortFaculdades();
+      this.filteredFaculdades = this.faculdades;
+  
     })
   }
 

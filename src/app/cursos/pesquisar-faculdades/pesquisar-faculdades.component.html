@@ -2,11 +2,12 @@
     Faculdades
 </h1>
 <div class="input-group-prepend">
-    <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar Faculdades" aria-label="Search">
+    <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar Faculdades"
+    [(ngModel)]="searchTerm">
 </div>
 
 <div class="faculdadesContainer" >
-<div *ngFor="let faculdade of faculdades">
+<div *ngFor="let faculdade of filteredFaculdades">
     <a (click)="onSelect(faculdade.idFaculdade)" class="infoFaculdade">
         <img class="logoFaculdade" src="../assets/img/{{faculdade.idLogoFaculdade}}.webp">
         <div class="nomeCampusFaculdade">

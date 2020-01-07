@@ -44,9 +44,7 @@ export class FluxogComponent implements OnInit {
     "shadowColor": "inset 0px 0px 0px 1px rgb(255, 255, 255)",
     "border": "1px solid rgb(119, 173, 255)"
   };
-
-
-
+  
   setCursoById(id) {
     this.faculdades.forEach(faculdade => {
       faculdade.cursos.forEach(cursoAtual => {

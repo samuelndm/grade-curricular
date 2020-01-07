@@ -10,15 +10,15 @@
 
   <div class="searchCursos">
     <div class="input-group-prepend">
-      <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar curso" aria-label="Search">
+      <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar curso" [(ngModel)]="searchCurso">
     </div>
     <div class="input-group-prepend">
       <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar turno" aria-label="Search">
     </div>
   </div>
   
-  <div *ngIf="cursos.length > 0; else nenhumCursoAdcionado" class="cursosContainer">
-    <div *ngFor="let curso of cursos" class="infoCursoContainer">
+  <div *ngIf="cursos.length > 1; else nenhumCursoAdcionado" class="cursosContainer">
+    <div *ngFor="let curso of filteredCursos" class="infoCursoContainer">
       <div (click)="onSelectFaculdade(faculdade.idFaculdade)" class="logoFaculdadeContainer">
         <img id="logoFaculdade" src="../../assets/img/{{faculdade.idLogoFaculdade}}.png">
       </div>

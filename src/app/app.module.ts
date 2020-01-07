@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { FormsModule }   from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule }   from '@angular/common/http';
@@ -17,6 +18,7 @@ import { AjudaComponent } from './ajuda/ajuda.component';
 import { PesquisarCursosComponent } from './cursos/pesquisar-cursos/pesquisar-cursos.component';
 import { PesquisarFaculdadesComponent } from './cursos/pesquisar-faculdades/pesquisar-faculdades.component';
 import { NavCursosComponent } from './cursos/nav-cursos/nav-cursos.component';
+import { FaculdadesFilterPipe } from './cursos/faculdades-filter.pipe';
 
 
 @NgModule({
@@ -33,13 +35,15 @@ import { NavCursosComponent } from './cursos/nav-cursos/nav-cursos.component';
     AjudaComponent,
     PesquisarCursosComponent,
     PesquisarFaculdadesComponent,
-    NavCursosComponent
+    NavCursosComponent,
+    FaculdadesFilterPipe,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    RouterModule
+    RouterModule,
+    FormsModule
 
   ],
   providers: [],

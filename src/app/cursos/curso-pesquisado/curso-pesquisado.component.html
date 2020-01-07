@@ -3,19 +3,19 @@
   <h1 class="tituloCurso">{{nomeCurso}}</h1>
   <div class="searchCursos">
     <div class="input-group-prepend">
-      <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar faculdade" aria-label="Search">
+      <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar faculdade" [(ngModel)]="searchFaculdade">
     </div>
     <div class="input-group-prepend">
-      <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar campus" aria-label="Search">
+      <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar campus" [(ngModel)]="searchCampus">
     </div>
     <div class="input-group-prepend">
-      <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar turno" aria-label="Search">
+      <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar turno" [(ngModel)]="searchTurno">
     </div>
   </div>
 
 
   <div class="cursosContainer">
-    <div *ngFor="let curso of cursos" class="infoCursoContainer">
+    <div *ngFor="let curso of filteredCursos" class="infoCursoContainer">
       <div (click)="onSelectFaculdade(getIdFaculdade(curso.idCurso))"class="logoFaculdadeContainer">
         <img  id="logoFaculdade" src="../../assets/img/{{getLogoIdFaculdade(curso.idCurso)}}.png">
       </div>

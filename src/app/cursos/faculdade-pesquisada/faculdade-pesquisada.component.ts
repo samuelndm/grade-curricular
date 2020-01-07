@@ -16,6 +16,25 @@ export class FaculdadePesquisadaComponent implements OnInit {
   faculdade: any;
   idFaculdade: number;
   cursos: any;
+  filteredCursos: any;
+  private _searchCurso: string;
+  private _searchTurno: string;
+
+  get searchCurso() {
+    return this._searchCurso;
+  }
+
+  set searchCurso(value: string) {
+    this._searchCurso = value;
+    this.filteredCursos = this.filterCursosByName(value);
+  }
+
+  filterCursosByName(value: string) {
+    return this.cursos.filter(curso => {
+      return curso.curso.toLowerCase().indexOf(value.toLowerCase()) !== -1;
+    })
+  }
+
 
   setFaculdadeById(id) {
     this.faculdades.forEach(faculdade => {
@@ -55,6 +74,7 @@ export class FaculdadePesquisadaComponent implements OnInit {
       this.setFaculdadeById(this.idFaculdade);
       this.cursos = this.faculdade.cursos;
       this.sortCursos();
+      this.filteredCursos = this.cursos;
 
     })
   }
