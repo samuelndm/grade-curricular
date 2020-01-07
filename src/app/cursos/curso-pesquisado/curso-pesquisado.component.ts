@@ -18,7 +18,7 @@ export class CursoPesquisadoComponent implements OnInit {
   setCursos() {
     this.faculdades.forEach(faculdade => {
       faculdade.cursos.forEach(curso => {
-        if (curso.curso === this.nomeCurso) {
+        if (curso.curso.toLowerCase() === this.nomeCurso.toLowerCase()) {
           this.cursos.push(curso);
         }
       })
