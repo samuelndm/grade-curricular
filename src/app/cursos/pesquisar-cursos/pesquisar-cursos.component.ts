@@ -17,6 +17,26 @@ export class PesquisarCursosComponent implements OnInit {
   cursos: any[] = [];
 
 
+  setCursos() {
+    this.faculdades.forEach(faculdade => {
+      faculdade.cursos.forEach(cursoAtual => {  
+        this.cursos.push(cursoAtual);
+      })
+    })
+  }
+
+  sortCursos() {
+    this.cursos.sort((curso1, curso2) => {
+      if (curso1.curso > curso2.curso) {
+        return 1;
+      }
+
+      if (curso1.curso < curso2.curso) {
+        return -1;
+      }
+    })
+  }
+
   onSelect(curso) {
     this._router.navigate(['/curso', curso]);
   }
@@ -25,12 +45,8 @@ export class PesquisarCursosComponent implements OnInit {
     this._dataService.getFaculdadesJson().subscribe(data => {
       this.data = data;
       this.faculdades = this.data.faculdades;
-      this.faculdades.forEach(faculdade => {
-        faculdade.cursos.forEach(cursoAtual => {
-          this.cursos.forEach
-          this.cursos.push(cursoAtual);
-        })
-      })
+      this.setCursos();
+      this.sortCursos();
     })
   }
 

@@ -25,6 +25,20 @@ export class FaculdadePesquisadaComponent implements OnInit {
     })
   }
 
+  sortCursos() {
+    this.cursos.sort((curso1, curso2) => {
+      if (curso1.curso > curso2.curso) {
+        return 1;
+      }
+
+      if (curso1.curso < curso2.curso) {
+        return -1;
+      }
+
+      return 0;
+    });
+  }
+
   onSelectCurso(id) {
     this._router.navigate(['/fluxograma', id]);
   }
@@ -40,6 +54,8 @@ export class FaculdadePesquisadaComponent implements OnInit {
       this.faculdades = this.data.faculdades;
       this.setFaculdadeById(this.idFaculdade);
       this.cursos = this.faculdade.cursos;
+      this.sortCursos();
+
     })
   }
 
