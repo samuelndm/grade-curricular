@@ -11,9 +11,9 @@
 <div class="cursosContainer">
 
     <div *ngFor="let curso of cursos">
-        <a class="infoCurso" (click)="onSelect(curso.curso)" >
+        <a class="infoCurso" (click)="onSelect(curso)" >
             <div class="nomeCurso">
-                <p id="nomeCurso">{{curso.curso}}</p>
+                <p id="nomeCurso">{{curso}}</p>
             </div>
         </a>
     </div>

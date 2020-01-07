@@ -14,24 +14,26 @@ export class PesquisarCursosComponent implements OnInit {
 
   data: any;
   faculdades: any[];
-  cursos: any[] = [];
+  cursos: string[] = [];
 
 
   setCursos() {
     this.faculdades.forEach(faculdade => {
-      faculdade.cursos.forEach(cursoAtual => {  
-        this.cursos.push(cursoAtual);
+      faculdade.cursos.forEach(cursoAtual => {
+        if (!(this.cursos.includes(cursoAtual.curso))) {
+          this.cursos.push(cursoAtual.curso);
+        }
       })
     })
   }
 
   sortCursos() {
     this.cursos.sort((curso1, curso2) => {
-      if (curso1.curso > curso2.curso) {
+      if (curso1 > curso2) {
         return 1;
       }
 
-      if (curso1.curso < curso2.curso) {
+      if (curso1 < curso2) {
         return -1;
       }
     })

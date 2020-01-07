@@ -15,7 +15,7 @@
 
 
   <div class="cursosContainer">
-    <div *ngFor="let curso of this.getCursosByName(nomeCurso)" class="infoCursoContainer">
+    <div *ngFor="let curso of cursos" class="infoCursoContainer">
       <div (click)="onSelectFaculdade(getIdFaculdade(curso.idCurso))"class="logoFaculdadeContainer">
         <img  id="logoFaculdade" src="../../assets/img/{{getLogoIdFaculdade(curso.idCurso)}}.png">
       </div>

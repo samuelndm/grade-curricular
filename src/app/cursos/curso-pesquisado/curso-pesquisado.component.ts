@@ -15,16 +15,14 @@ export class CursoPesquisadoComponent implements OnInit {
   nomeCurso: String;
 
 
-  getCursosByName(nomeCurso) {
-    let cursoPesquisadoList = [];
-    this.cursos.forEach(curso => {
-      if (curso.curso === nomeCurso) {
-        cursoPesquisadoList.push(curso);
-      }
+  setCursos() {
+    this.faculdades.forEach(faculdade => {
+      faculdade.cursos.forEach(curso => {
+        if (curso.curso === this.nomeCurso) {
+          this.cursos.push(curso);
+        }
+      })
     })
-
-    return cursoPesquisadoList;
-
   }
 
   getNomeFaculdade(id) {
@@ -80,11 +78,7 @@ export class CursoPesquisadoComponent implements OnInit {
     this._dataService.getFaculdadesJson().subscribe(data => {
       this.data = data;
       this.faculdades = this.data.faculdades;
-      this.faculdades.forEach(faculdade => {
-        faculdade.cursos.forEach(cursoAtual => {
-          this.cursos.push(cursoAtual);
-        })
-      })
+      this.setCursos();
     })
 
   }
