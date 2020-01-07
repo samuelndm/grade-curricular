@@ -10,7 +10,7 @@ export class DataService {
   data: any;
 
   getFaculdadesJson() {
-    const localUrl = 'assets/data/faculdades-moc.json';
+    const localUrl = 'assets/data/faculdades.json';
     return this.http.get(localUrl);
 
   };

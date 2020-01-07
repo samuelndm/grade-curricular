@@ -29,7 +29,8 @@ export class PesquisarFaculdadesComponent implements OnInit {
 
   filterFaculdades(value: string) {
     return this.faculdades.filter(faculdade => {
-      return faculdade.faculdade.toLowerCase().indexOf(value.toLowerCase()) !== -1;
+      return ((faculdade.faculdade.toLowerCase().indexOf(value.toLowerCase()) !== -1) 
+      || faculdade.campus.toLowerCase().indexOf(value.toLowerCase()) !== -1);
     })
   }
 
