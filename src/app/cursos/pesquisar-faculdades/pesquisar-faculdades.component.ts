@@ -29,8 +29,11 @@ export class PesquisarFaculdadesComponent implements OnInit {
 
   filterFaculdades(value: string) {
     return this.faculdades.filter(faculdade => {
-      return ((faculdade.faculdade.toLowerCase().indexOf(value.toLowerCase()) !== -1) 
-      || faculdade.campus.toLowerCase().indexOf(value.toLowerCase()) !== -1);
+      let new_value = value.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Removendo letras acentuadas
+      let new_faculdade = faculdade.faculdade.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Removendo letras acentuadas
+      let new_campus = faculdade.campus.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Removendo letras acentuadas
+      return ((new_faculdade.toLowerCase().indexOf(new_value .toLowerCase()) !== -1) 
+      || new_campus.toLowerCase().indexOf(value.toLowerCase()) !== -1);
     })
   }
 

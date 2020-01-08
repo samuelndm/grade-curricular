@@ -31,7 +31,26 @@ export class FaculdadePesquisadaComponent implements OnInit {
 
   filterCursosByName(value: string) {
     return this.cursos.filter(curso => {
-      return curso.curso.toLowerCase().indexOf(value.toLowerCase()) !== -1;
+      let newValue = value.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Removendo letras acentuadas
+      let newCurso =  curso.curso.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Removendo letras acentuadas
+      return newCurso.toLowerCase().indexOf(newValue.toLowerCase()) !== -1;
+    })
+  }
+
+  get searchTurno() {
+    return this._searchTurno;
+  }
+
+  set searchTurno(value: string) {
+    this._searchTurno = value;
+    this.cursos = this.filterCursosByTurno(value);
+  }
+
+  filterCursosByTurno(value: string) {
+    this.filteredCursos = this.cursos.find(curso => {
+      let newValue = value.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      let newTurno = curso.turno.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      return newTurno.toLowerCase().indexOf(newValue.toLowerCase()) !== -1;
     })
   }
 

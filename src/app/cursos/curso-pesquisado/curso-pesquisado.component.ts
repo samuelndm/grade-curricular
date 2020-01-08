@@ -30,7 +30,9 @@ export class CursoPesquisadoComponent implements OnInit {
   filterCursosByFaculdade(value: string) {
     return this.cursos.filter(curso => {
       let nomeFaculdade = this.getNomeFaculdade(curso.idCurso);
-      return nomeFaculdade.toLowerCase().indexOf(value.toLowerCase()) !== -1;
+      let newValue = value.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Removendo letras acentuadas
+      let newFaculdade =  nomeFaculdade.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Removendo letras acentuadas
+      return newFaculdade.toLowerCase().indexOf(newValue.toLowerCase()) !== -1;
     })
   }
 
@@ -46,8 +48,11 @@ export class CursoPesquisadoComponent implements OnInit {
 
   filterCursosByCampus(value: string) {
     return this.cursos.filter(curso => {
+      
       let campusFaculdade = this.getCampusFaculdade(curso.idCurso);
-      return campusFaculdade.toLowerCase().indexOf(value.toLowerCase()) !== -1;
+      let newValue = value.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Removendo letras acentuadas
+      let newCampus =  campusFaculdade.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Removendo letras acentuadas
+      return newCampus.toLowerCase().indexOf(newValue.toLowerCase()) !== -1;
     })
   }
   
@@ -63,7 +68,9 @@ export class CursoPesquisadoComponent implements OnInit {
 
   filterCursosByTurno(value: string) {
     return this.cursos.filter(curso => {
-      return curso.turno.toLowerCase().indexOf(value.toLowerCase()) !== -1;
+      let newValue = value.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Removendo letras acentuadas
+      let newTurno =  curso.turno.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Removendo letras acentuadas
+      return newTurno.toLowerCase().indexOf(newValue.toLowerCase()) !== -1;
     })
   }
 

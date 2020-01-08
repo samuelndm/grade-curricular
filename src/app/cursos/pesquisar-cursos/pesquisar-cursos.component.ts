@@ -29,7 +29,9 @@ export class PesquisarCursosComponent implements OnInit {
 
   filterCursos(value: string) {
     return this.cursos.filter(curso => {
-      return curso.toLowerCase().indexOf(value.toLowerCase()) !== -1;
+      let new_value = value.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Removendo letras acentuadas
+      let new_curso = curso.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Removendo letras acentuadas
+      return new_curso.toLowerCase().indexOf(new_value.toLowerCase()) !== -1;
       
     })
   }

@@ -39,20 +39,7 @@
     text-align: center;
 }
 
-.logoFaculdadeContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(127, 127, 127, 0.3);
-    height: 100px;
-    width: 60px;
-    cursor: pointer;
-}
 
-#logoFaculdade {
-    width: 30px;
-    height: auto;
-}
 
 #nomeFaculdade {
     font-size: 20px;
@@ -112,6 +99,21 @@
     -ms-user-select: none;
 }
 
+.logoFaculdadeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(127, 127, 127, 0.3);
+    height: 100px;
+    width: 60px;
+    cursor: pointer;
+}
+
+#logoFaculdade {
+    width: 30px;
+    height: auto;
+}
+
 .nomeCursoContainer {
     display: flex;
     align-items: center;
@@ -124,6 +126,7 @@
 #nomeCurso {
     font-size: 20px;
     font-family: 'Century Gothic', sans-serif;
+
     color: rgb(0, 0, 0);
     text-shadow: 0.5px 0.5px 0.5px white;
     margin-top: 2%;

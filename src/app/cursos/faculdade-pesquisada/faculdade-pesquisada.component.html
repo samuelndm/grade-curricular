@@ -16,7 +16,7 @@
       <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar turno" aria-label="Search">
     </div>
   </div>
-  
+
   <div *ngIf="cursos.length > 1; else nenhumCursoAdcionado" class="cursosContainer">
     <div *ngFor="let curso of filteredCursos" class="infoCursoContainer">
       <div (click)="onSelectFaculdade(faculdade.idFaculdade)" class="logoFaculdadeContainer">
@@ -24,11 +24,11 @@
       </div>
       <a (click)="onSelectCurso(curso.idCurso)" class="infoCurso">
         <div class="nomeCursoContainer">
-        <p id="nomeCurso">{{curso.curso}}</p>
-      </div>
+          <p id="nomeCurso">{{curso.curso}}</p>
+        </div>
         <div class="turnoCursoContainer">
-        <p id="turnoCurso">{{curso.turno}}</p>
-      </div>
+          <p id="turnoCurso">{{curso.turno}}</p>
+        </div>
       </a>
     </div>
   </div>
