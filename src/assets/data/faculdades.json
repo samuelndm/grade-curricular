@@ -1,6 +1,5 @@
 {
     "faculdades": [
-        
         {
             "faculdade": "FASA - Instituto Educacional Santo Agostinho",
             "idFaculdade": 4,
@@ -36,6 +35,441 @@
             "campus": "Vitória da Conquista",
             "cursos": [
                 {
+                    "curso": "Sistemas de Informação",
+                    "idCurso": 2,
+                    "turno": "Noturno",
+                    "grade": [
+                        {
+                            "periodo": "1",
+                            "materias": [
+                                {
+                                    "codigo": "1",
+                                    "nome": "INTRODUÇÃO A PROGRAMAÇÃO",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": []
+                                },
+                                {
+                                    "codigo": "2",
+                                    "nome": "INTRODUÇÃO A INFORMÁTICA",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": []
+                                },
+                                {
+                                    "codigo": "3",
+                                    "nome": "CÁLCULO DIFERENCIAL E INTEGRAL I",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": []
+                                },
+                                {
+                                    "codigo": "4",
+                                    "nome": "ÁLGEBRA VETORIAL",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": []
+                                },
+                                {
+                                    "codigo": "5",
+                                    "nome": "INGLÊS TÉCNICO INSTRUMENTAL",
+                                    "horas": "30",
+                                    "creditos": "2",
+                                    "preRequisito": []
+                                },
+                                {
+                                    "codigo": "6",
+                                    "nome": "LÍNGUA PORTUGUESA",
+                                    "horas": "45",
+                                    "creditos": "3",
+                                    "preRequisito": []
+                                },
+                                {
+                                    "codigo": "7",
+                                    "nome": "DIREITO E LEGISLAÇÃO EM INFORMÁTICA",
+                                    "horas": "30",
+                                    "creditos": "2",
+                                    "preRequisito": []
+                                }
+                            ]
+                        },
+                        {
+                            "periodo": "2",
+                            "materias": [
+                                {
+                                    "codigo": "8",
+                                    "nome": "LINGUAGEM DE PROGRAMAÇÃO I",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        1
+                                    ]
+                                },
+                                {
+                                    "codigo": "9",
+                                    "nome": "ORGANIZAÇÃO E ARQUITETURA DE COMPUTADORES",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        1
+                                    ]
+                                },
+                                {
+                                    "codigo": "10",
+                                    "nome": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": []
+                                },
+                                {
+                                    "codigo": "11",
+                                    "nome": "ÁLGEBRA LINEAR",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        4
+                                    ]
+                                },
+                                {
+                                    "codigo": "12",
+                                    "nome": "CÁLCULO DIFERENCIAL E INTEGRAL II",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        3
+                                    ]
+                                },
+                                {
+                                    "codigo": "13",
+                                    "nome": "ADMINISTRAÇÃO",
+                                    "horas": "45",
+                                    "creditos": "3",
+                                    "preRequisito": []
+                                }
+                            ]
+                        },
+                        {
+                            "periodo": "3",
+                            "materias": [
+                                {
+                                    "codigo": "14",
+                                    "nome": "Linguagem de Programação II",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        8,
+                                        10
+                                    ]
+                                },
+                                {
+                                    "codigo": "15",
+                                    "nome": "ESTRUTURA DE DADOS",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        8
+                                    ]
+                                },
+                                {
+                                    "codigo": "16",
+                                    "nome": "SISTEMAS OPERACIONAIS",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        9
+                                    ]
+                                },
+                                {
+                                    "codigo": "17",
+                                    "nome": "PROBABILIDADE E ESTATÍSTICA",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        12
+                                    ]
+                                },
+                                {
+                                    "codigo": "18",
+                                    "nome": "ORGANIZAÇÃO, SISTEMAS E MÉTODOS",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": []
+                                },
+                                {
+                                    "codigo": "19",
+                                    "nome": "ECONOMIA",
+                                    "horas": "45",
+                                    "creditos": "3",
+                                    "preRequisito": []
+                                }
+                            ]
+                        },
+                        {
+                            "periodo": "4",
+                            "materias": [
+                                {
+                                    "codigo": "20",
+                                    "nome": "COMPUTAÇÃO E ALGORÍTIMOS",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        14
+                                    ]
+                                },
+                                {
+                                    "codigo": "21",
+                                    "nome": "BANCO DE DADOS I",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        15
+                                    ]
+                                },
+                                {
+                                    "codigo": "22",
+                                    "nome": "REDES DE COMPUTADORES I",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        9
+                                    ]
+                                },
+                                {
+                                    "codigo": "23",
+                                    "nome": "SEGURANÇA E AUDITORIA DE SISTEMAS",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        16
+                                    ]
+                                },
+                                {
+                                    "codigo": "24",
+                                    "nome": "EMPREENDEDORISMO",
+                                    "horas": "30",
+                                    "creditos": "2",
+                                    "preRequisito": []
+                                },
+                                {
+                                    "codigo": "25",
+                                    "nome": "CONTABILIDADE GERAL",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        19
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "periodo": "5",
+                            "materias": [
+                                {
+                                    "codigo": "26",
+                                    "nome": "PROGRAMAÇÃO WEB",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        14,
+                                        21
+                                    ]
+                                },
+                                {
+                                    "codigo": "27",
+                                    "nome": "BANCO DE DADOS II",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        21
+                                    ]
+                                },
+                                {
+                                    "codigo": "28",
+                                    "nome": "REDES DE COMPUTADORES II",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        22,
+                                        23
+                                    ]
+                                },
+                                {
+                                    "codigo": "29",
+                                    "nome": "GESTÃO DE PROJETOS E QUALIDADE DE SOFTWARE",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        18,
+                                        23
+                                    ]
+                                },
+                                {
+                                    "codigo": "30",
+                                    "nome": "OPTATIVA I",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": []
+                                },
+                                {
+                                    "codigo": "31",
+                                    "nome": "TÓPICOS GERAIS A",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": []
+                                }
+                            ]
+                        },
+                        {
+                            "periodo": "6",
+                            "materias": [
+                                {
+                                    "codigo": "32",
+                                    "nome": "ANÁLISE E MODELAGEM DE SISTEMAS I",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        15
+                                    ]
+                                },
+                                {
+                                    "codigo": "33",
+                                    "nome": "ENGENHARIA DE SOFTWARE",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        15
+                                    ]
+                                },
+                                {
+                                    "codigo": "34",
+                                    "nome": "SISTEMAS DISTRIBUÍDOS I",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        27,
+                                        28
+                                    ]
+                                },
+                                {
+                                    "codigo": "35",
+                                    "nome": "GESTÃO E AVALIAÇÃO DE SISTEMAS",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        29
+                                    ]
+                                },
+                                {
+                                    "codigo": "36",
+                                    "nome": "INTERFACE HOMEM MÁQUINA",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        14,
+                                        26
+                                    ]
+                                },
+                                {
+                                    "codigo": "37",
+                                    "nome": "TÓPICOS GERAIS B",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": []
+                                }
+                            ]
+                        },
+                        {
+                            "periodo": "7",
+                            "materias": [
+                                {
+                                    "codigo": "38",
+                                    "nome": "ANÁLISE E MODELAGEM DE SISTEMAS II",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        32,
+                                        33
+                                    ]
+                                },
+                                {
+                                    "codigo": "39",
+                                    "nome": "SISTEMAS DE APOIO À DECISÃO",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        27,
+                                        28
+                                    ]
+                                },
+                                {
+                                    "codigo": "40",
+                                    "nome": "SISTEMAS DISTRIBUÍDOS II",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": [
+                                        34,
+                                        26
+                                    ]
+                                },
+                                {
+                                    "codigo": "41",
+                                    "nome": "TRABALHO DE CONCLUSÃO DE DE CURSO I",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": []
+                                },
+                                {
+                                    "codigo": "42",
+                                    "nome": "OPTATIVA II",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": []
+                                },
+                                {
+                                    "codigo": "43",
+                                    "nome": "OPTATIVA III",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": []
+                                }
+                            ]
+                        },
+                        {
+                            "periodo": "8",
+                            "materias": [
+                                {
+                                    "codigo": "44",
+                                    "nome": "TRABALHO DE CONCLUSÃO DE CURSO II",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": []
+                                },
+                                {
+                                    "codigo": "45",
+                                    "nome": "ESTÁGIO SUPERVISIONADO",
+                                    "horas": "375",
+                                    "creditos": "25",
+                                    "preRequisito": []
+                                },
+                                {
+                                    "codigo": "46",
+                                    "nome": "OPTATIVA IV",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": []
+                                },
+                                {
+                                    "codigo": "47",
+                                    "nome": "TÓPICOS GERAIS C",
+                                    "horas": "60",
+                                    "creditos": "4",
+                                    "preRequisito": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "curso": "Engenharia Elétrica",
                     "idCurso": 0,
                     "turno": "Diurno",
@@ -48,10 +482,7 @@
                                     "nome": "Introdução à Programação",
                                     "horas": "60",
                                     "creditos": "4",
-                                    "preRequisito": [],
-                                    "libera": [
-                                        8
-                                    ]
+                                    "preRequisito": []
                                 },
                                 {
                                     "codigo": "2",
