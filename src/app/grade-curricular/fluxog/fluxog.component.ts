@@ -16,6 +16,7 @@ export class FluxogComponent implements OnInit {
   curso: any;
   idCurso: number;
   gradeCurso: any[];
+  gradeCursoCapitalized: any[];
   widthMateria: number = 152;
   widthFluxograma: number;
 
@@ -44,13 +45,36 @@ export class FluxogComponent implements OnInit {
     "shadowColor": "inset 0px 0px 0px 1px rgb(255, 255, 255)",
     "border": "1px solid rgb(119, 173, 255)"
   };
-  
+
   setCursoById(id) {
     this.faculdades.forEach(faculdade => {
       faculdade.cursos.forEach(cursoAtual => {
         if (cursoAtual.idCurso === id) {
           this.curso = cursoAtual;
         }
+      })
+    })
+  }
+
+  capitalizeCursosName() {
+    this.gradeCurso.forEach(periodo => {
+      periodo.materias.forEach(materia => {
+        let materiaNomeSplited = materia.nome.split(" ");
+        let materiaNomeCapitalized = "";
+        materiaNomeSplited.forEach(word => {
+          if (word.length > 3) {
+            let wordLowerCase = word.toLowerCase();
+            materiaNomeCapitalized += " " + wordLowerCase.charAt(0).toUpperCase() + wordLowerCase.slice(1);
+          } else {
+            if (word.toLowerCase() === "i" || word.toLowerCase() == "iv")
+              materiaNomeCapitalized += " " + word.toUpperCase();
+            else
+              materiaNomeCapitalized += " " + word.toLowerCase();
+          }
+        })
+
+        materia.nome = materiaNomeCapitalized.trim();
+
       })
     })
   }
@@ -110,6 +134,7 @@ export class FluxogComponent implements OnInit {
       this.gradeCurso = this.curso.grade
       this.widthFluxograma = this.curso.grade.length * this.widthMateria
       this.addGradeColor();
+      this.capitalizeCursosName();
     })
   }
 
