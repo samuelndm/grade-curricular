@@ -23,9 +23,12 @@
         <img id="logoFaculdade" src="../../assets/img/{{faculdade.idLogoFaculdade}}.png">
       </div>
       <a (click)="onSelectCurso(curso.idCurso)" class="infoCurso">
+        <div class="nomeCursoContainer">
         <p id="nomeCurso">{{curso.curso}}</p>
-        <p class="divisorInforCurso">-</p>
+      </div>
+        <div class="turnoCursoContainer">
         <p id="turnoCurso">{{curso.turno}}</p>
+      </div>
       </a>
     </div>
   </div>

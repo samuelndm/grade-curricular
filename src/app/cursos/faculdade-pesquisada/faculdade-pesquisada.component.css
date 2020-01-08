@@ -18,7 +18,7 @@
 }
 
 #logoFaculdadeTitulo {
-    width:60px;
+    width: 60px;
     height: auto;
     margin-right: 2%;
     margin-left: 5%;
@@ -37,6 +37,35 @@
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px rgb(190, 190, 190);
     text-align: center;
+}
+
+.logoFaculdadeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(127, 127, 127, 0.3);
+    height: 100px;
+    width: 60px;
+    cursor: pointer;
+}
+
+#logoFaculdade {
+    width: 30px;
+    height: auto;
+}
+
+#nomeFaculdade {
+    font-size: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    color: rgb(68, 67, 133);
+    text-shadow: 0.5px 0.5px 0.5px white;
+}
+
+#campusFaculdade {
+    font-size: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    color: rgb(22, 102, 102);
+    text-shadow: 0.5px 0.5px 0.5px white;
 }
 
 .searchCursos {
@@ -60,22 +89,6 @@
     margin-top: 1%;
 }
 
-.logoFaculdadeContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(127, 127, 127, 0.3);
-    height: 100px;
-    width: 60px;
-    cursor: pointer;
-}
-
-#logoFaculdade {
-    width: 30px;
-    height: auto;
-    
-}
-
 .infoCurso {
     display: flex;
     align-items: center;
@@ -84,10 +97,7 @@
     height: 100px;
     background-color: #D6D8DB;
     border: 0.1px solid rgb(158, 158, 158);
-    padding: 1%;
-    padding-top: 2%;
-    padding-left: 1%;
-    
+    padding-left: 5%;
 }
 
 .infoCurso:hover {
@@ -102,25 +112,32 @@
     -ms-user-select: none;
 }
 
+.nomeCursoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
 #nomeCurso {
     font-size: 20px;
     font-family: 'Century Gothic', sans-serif;
     color: rgb(0, 0, 0);
     text-shadow: 0.5px 0.5px 0.5px white;
+    margin-top: 2%;
 }
 
-#nomeFaculdade {
-    font-size: 20px;
-    font-family: 'Century Gothic', sans-serif;
-    color: rgb(68, 67, 133);
-    text-shadow: 0.5px 0.5px 0.5px white;
-}
-
-#campusFaculdade {
-    font-size: 20px;
-    font-family: 'Century Gothic', sans-serif;
-    color: rgb(22, 102, 102);
-    text-shadow: 0.5px 0.5px 0.5px white;
+.turnoCursoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(127, 127, 127, 0.2);
+    height: 100%;
+    width: 90px;
+    border-left: 0.1px solid rgb(158, 158, 158);
+    
 }
 
 #turnoCurso {
@@ -128,16 +145,9 @@
     font-family: 'Century Gothic', sans-serif;
     color: rgb(114, 41, 41);
     text-shadow: 0.5px 0.5px 0.5px rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 2%;
 }
-
-.turnoContainer {
-    display: flex;
-    
-    background-color: rgb(127, 127, 127, 0.3);
-    height: 100px;
-    width: 60px;
-}
-
 
 #nenhumCursoAdcionado {
     margin-top: 10%;
