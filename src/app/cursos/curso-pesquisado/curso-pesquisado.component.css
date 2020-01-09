@@ -28,7 +28,7 @@
     flex-direction: column;
 }
 
-.infoCursoContainer {
+.cursoContainer {
     display: flex;
     align-items: center;
     margin-top: 1%;
@@ -44,25 +44,25 @@
     cursor: pointer;
 }
 
+.logoFaculdadeContainer:hover {
+    background-color: rgb(127, 127, 127, 0.7);
+}
+
 #logoFaculdade {
     width: 30px;
     height: auto;
-    
 }
 
-.infoCurso {
+.infoCursoContainer {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     width: 880px;
     height: 100px;
     background-color: #D6D8DB;
     border: 0.1px solid rgb(158, 158, 158);
-    padding: 1%;
-    padding-top: 2%;
 }
 
-.infoCurso:hover {
+.infoCursoContainer:hover {
     text-decoration: none;
     border: none;
     background-color: rgb(127, 127, 127, 0.3);
@@ -74,42 +74,59 @@
     -ms-user-select: none;
 }
 
+.infoCursoDetailsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+
 #nomeCurso {
-    font-size: 20px;
+    font-size: 100%;
     font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
     color: rgb(0, 0, 0);
     text-shadow: 0.5px 0.5px 0.5px white;
     text-align: center;
+    margin-top: 1%;
 }
 
 #nomeFaculdade {
-    font-size: 20px;
+    font-size: 100%;
     font-family: 'Century Gothic', sans-serif;
     color: rgb(68, 67, 133);
     text-shadow: 0.5px 0.5px 0.5px white;
     text-align: center;
+    margin-top: 1%;
 }
 
 #campusFaculdade {
-    font-size: 20px;
+    font-size: 100%;
     font-family: 'Century Gothic', sans-serif;
     color: rgb(22, 102, 102);
     text-shadow: 0.5px 0.5px 0.5px white;
     text-align: center;
+    margin-top: 1%;
 }
+
+.turnoCursoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(127, 127, 127, 0.2);
+    height: 100%;
+    width: 100px;
+    border-left: 0.1px solid rgb(158, 158, 158);
+    margin-left: auto;
+}
+
 
 #turnoCurso {
-    font-size: 20px;
+    font-size: 100%;
     font-family: 'Century Gothic', sans-serif;
     color: rgb(114, 41, 41);
-    text-shadow: 0.5px 0.5px 0.5px rgb(255, 255, 255);
+    text-shadow: 0.3px 0.3px 0.3px rgb(255, 255, 255);
     text-align: center;
-}
-
-.turnoContainer {
-    display: flex;
-    
-    background-color: rgb(127, 127, 127, 0.3);
-    height: 100px;
-    width: 60px;
+    margin-top: 1%;
 }
