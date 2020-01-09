@@ -1,32 +1,29 @@
 <div class="navContainer">
-    <nav class="navBarContainer">
-        <ul class="nav nav-tabs">
-            <li class="nav-item activate">
-                <a class="nav-link">Fluxograma</a>
-            </li>
-            <!-- <li class="nav-item">
-                <a (click)="onSelect(idCurso)" class="nav-link">Minha Grade</a>
-            </li> -->
-        </ul>
+    <div class="navBarContainer">
 
-        <a id="nome-curso">
-            <div id="nome-curso-backgroud">
-                <div id="text-center">
-                    {{nomeCurso}} - {{turnoCurso}}
-                </div>
-            </div>
-        </a>
+        <nav class="navMenuContainer">
+            <a (click)="onSelectFluxograma(idCurso)" class="navMenuLink">
+                <p class="textMenuContainer">Fluxograma</p>
+            </a>
+            <a (click)="onSelectMinhaGrade(idCurso)" class="navMenuLink">
+                <p class="textMenuContainer">Minha Grade</p>
+            </a>
+        </nav>
 
-    </nav>
+        <div class="nomeCursoContainer">
+            <p class="nomeCurso">
+                {{nomeCurso}} - {{turnoCurso}}
+            </p>
+        </div>
 
-
-
-    <img (click)="onSelectFaculdade(idFaculdade)" src="./assets/img/{{idLogoFaculdade}}.webp" alt="Logo Faculdade"
-        class="logoFaculdade-nav">
-
-    <div (click)="onSelectFaculdade(idFaculdade)" class="faculdade-nav">
-
-        <p class="nomeFaculdade-nav">{{nomeFaculdade}}</p>
-        <p class="campusFaculdade-nav">{{campusFaculdade}}</p>
     </div>
+    <a (click)="onSelectFaculdade(idFaculdade)" class="navFaculdadeInfo">
+        <img src="./assets/img/{{idLogoFaculdade}}.webp" alt="Logo Faculdade" class="logoFaculdade-nav">
+
+        <div class="faculdade-nav">
+
+            <p class="nomeFaculdade-nav">{{nomeFaculdade}}</p>
+            <p class="campusFaculdade-nav">{{campusFaculdade}}</p>
+        </div>
+    </a>
 </div>
