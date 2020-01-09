@@ -31,13 +31,13 @@
 }
 
 #nome-box {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 135px;
     height: 75px;
     margin: 8px;
-    padding: 6px;
-    font-family: 'Century Gothic', sans-serif;
-    font-size: 85%;
+    padding: 2%;
     cursor: pointer;
 
     -webkit-user-select: none;
@@ -53,11 +53,8 @@
 }
 
 #text-center {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 85%;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     
 }

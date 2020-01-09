@@ -9,9 +9,8 @@
                     <a id="nome-box" (mouseenter)="updateGradeColorOnOver(materia)" (mouseleave)="resetGradeColor()" [ngStyle]="{ 
                         'background-color': materia.cor.background, 
                         'color': materia.cor.texto,
-                        'border': materia.cor.border,
-                        
-                        'text-align': center}">
+                        'border': materia.cor.border
+                        }">
                         <div id="text-center">
                             {{materia.nome}}
                         </div>
