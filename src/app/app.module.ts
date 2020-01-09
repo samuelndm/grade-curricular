@@ -19,6 +19,8 @@ import { PesquisarCursosComponent } from './cursos/pesquisar-cursos/pesquisar-cu
 import { PesquisarFaculdadesComponent } from './cursos/pesquisar-faculdades/pesquisar-faculdades.component';
 import { NavCursosComponent } from './cursos/nav-cursos/nav-cursos.component';
 import { FaculdadesFilterPipe } from './cursos/faculdades-filter.pipe';
+import { MinhagradeComponent } from './grade-curricular/minhagrade/minhagrade.component';
+
 
 
 @NgModule({
@@ -37,6 +39,7 @@ import { FaculdadesFilterPipe } from './cursos/faculdades-filter.pipe';
     PesquisarFaculdadesComponent,
     NavCursosComponent,
     FaculdadesFilterPipe,
+    MinhagradeComponent,
   ],
   imports: [
     BrowserModule,

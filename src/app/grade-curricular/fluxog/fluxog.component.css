@@ -2,7 +2,7 @@
 .fluxogContainer {
     background-color: rgb(228, 228, 228);
     overflow-y: auto;
-    height:80vh;
+    height:79vh;
     width: 100vw;
     padding-left: 1vw;
 }
@@ -22,6 +22,8 @@
     text-align: center;
     font-weight: bold;
     font-size: 11pt;
+    
+    
     cursor: default;
     user-select: none;
     -webkit-user-select: none;
@@ -38,8 +40,10 @@
     height: 75px;
     margin: 8px;
     padding: 2%;
+    border-radius: 5px;
+    
+    
     cursor: pointer;
-
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -47,14 +51,10 @@
 
 }
 
-#nome-box:hover {
-    background-color: rgb(92, 201, 252);
-    text-decoration: none;
-}
 
 #text-center {
     font-family: 'Century Gothic', sans-serif;
-    font-size: 85%;
+    font-size: 83%;
     text-align: center;
     
 }

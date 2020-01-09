@@ -1,3 +1,4 @@
+<app-nav></app-nav>
 <div class="fluxogContainer">
     <div *ngIf="curso" class="row" [style.width.px]="widthFluxograma">
 
@@ -9,7 +10,8 @@
                     <a id="nome-box" (mouseenter)="updateGradeColorOnOver(materia)" (mouseleave)="resetGradeColor()" [ngStyle]="{ 
                         'background-color': materia.cor.background, 
                         'color': materia.cor.texto,
-                        'border': materia.cor.border
+                        'border': materia.cor.border,
+                        'text-shadow': materia.cor.shadowColor
                         }">
                         <div id="text-center">
                             {{materia.nome}}
@@ -23,5 +25,3 @@
         </div>
     </div>
 <div>
-
-<!--"-->
