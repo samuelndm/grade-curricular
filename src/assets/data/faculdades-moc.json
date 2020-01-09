@@ -33,8 +33,657 @@
             "idFaculdade": 0,
             "idLogoFaculdade": "IFBA",
             "campus": "Vitória da Conquista",
-            "cursos": [
-                {
+            "cursos": [{
+                "curso": "Engenharia Civil",
+                "idCurso": 3,
+                "turno": "Diurno",
+                "grade": [
+                    {
+                        "periodo": "1",
+                        "materias": [
+                            {
+                                "codigo": "1",
+                                "nome": "Introdução à Engenharia Civil",
+                                "horas": "30",
+                                "creditos": "2",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "2",
+                                "nome": "Cálculo Diferencial e Integral I",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "3",
+                                "nome": "Química",
+                                "horas": "45",
+                                "creditos": "4",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "4",
+                                "nome": "Expressão Gráfica",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "5",
+                                "nome": "Álgebra Vetorial e Geometria Analítica",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "6",
+                                "nome": "Ciências do Ambiente",
+                                "horas": "45",
+                                "creditos": "3",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "7",
+                                "nome": "Higiene e Segurança no Trabalho",
+                                "horas": "45",
+                                "creditos": "3",
+                                "preRequisito": []
+                            }
+                        ]
+                    },
+                    {
+                        "periodo": "2",
+                        "materias": [
+                            {
+                                "codigo": "8",
+                                "nome": "Álgebra Linear",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    5
+                                ]
+                            },
+                            {
+                                "codigo": "9",
+                                "nome": "Desenho Arquitetônico",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    4
+                                ]
+                            },
+                            {
+                                "codigo": "10",
+                                "nome": "Língua Portuguesa",
+                                "horas": "45",
+                                "creditos": "3",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "11",
+                                "nome": "Introdução à Programação",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "12",
+                                "nome": "Cálculo Diferencial e Integral II",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    2
+                                ]
+                            },
+                            {
+                                "codigo": "13",
+                                "nome": "Física I",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    2,
+                                    5
+                                ]
+                            },
+                            {
+                                "codigo": "14",
+                                "nome": "Desenho Auxiliado por Computador",
+                                "horas": "45",
+                                "creditos": "3",
+                                "preRequisito": [
+                                    4
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "periodo": "3",
+                        "materias": [
+                            {
+                                "codigo": "15",
+                                "nome": "Cálculo Diferencial e Integral III",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    5,
+                                    12
+                                ]
+                            },
+                            {
+                                "codigo": "16",
+                                "nome": "Geologia Aplicada à Engenharia",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    3,
+                                    13
+                                ]
+                            },
+                            {
+                                "codigo": "17",
+                                "nome": "Topografia",
+                                "horas": "75",
+                                "creditos": "5",
+                                "preRequisito": [
+                                    9,
+                                    14
+                                ]
+                            },
+                            {
+                                "codigo": "18",
+                                "nome": "Física Experimental I",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    2,
+                                    5
+                                ]
+                            },
+                            {
+                                "codigo": "19",
+                                "nome": "Relações Étnico-Raciais",
+                                "horas": "30",
+                                "creditos": "2",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "20",
+                                "nome": "Física II",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    12,
+                                    13
+                                ]
+                            },
+                            {
+                                "codigo": "21",
+                                "nome": "Sociologia",
+                                "horas": "45",
+                                "creditos": "3",
+                                "preRequisito": []
+                            }
+                        ]
+                    },
+                    {
+                        "periodo": "4",
+                        "materias": [
+                            {
+                                "codigo": "22",
+                                "nome": "Equações Diferenciais Ordinárias",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    12,
+                                    8
+                                ]
+                            },
+                            {
+                                "codigo": "23",
+                                "nome": "Física III",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    12,
+                                    20
+                                ]
+                            },
+                            {
+                                "codigo": "24",
+                                "nome": "Fenômenos de Transportes",
+                                "horas": "75",
+                                "creditos": "5",
+                                "preRequisito": [
+                                    12,
+                                    20
+                                ]
+                            },
+                            {
+                                "codigo": "25",
+                                "nome": "Probabilidade e Estatística",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    12
+                                ]
+                            },
+                            {
+                                "codigo": "26",
+                                "nome": "Mecânica Geral I",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    12,
+                                    13,
+                                    20
+                                ]
+                            },
+                            {
+                                "codigo": "27",
+                                "nome": "Física Experimental II",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    12,
+                                    18
+                                ]
+                            },
+                            {
+                                "codigo": "28",
+                                "nome": "Mecânica dos Solos I",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    16,
+                                    20
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "periodo": "5",
+                        "materias": [
+                            {
+                                "codigo": "29",
+                                "nome": "Introdução à Ciência dos Materiais",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    3
+                                ]
+                            },
+                            {
+                                "codigo": "30",
+                                "nome": "Hidráulica",
+                                "horas": "45",
+                                "creditos": "3",
+                                "preRequisito": [
+                                    24
+                                ]
+                            },
+                            {
+                                "codigo": "31",
+                                "nome": "Mecânica dos Solos II",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    26,
+                                    28
+                                ]
+                            },
+                            {
+                                "codigo": "32",
+                                "nome": "Cálculo Numérico",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    11,
+                                    22
+                                ]
+                            },
+                            {
+                                "codigo": "33",
+                                "nome": "Resistência dos Materiais I",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    26
+                                ]
+                            },
+                            {
+                                "codigo": "34",
+                                "nome": "Eletricidade Aplicada",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    23,
+                                    27
+                                ]
+                            },
+                            {
+                                "codigo": "35",
+                                "nome": "Mecânica Geral II",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    26
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "periodo": "6",
+                        "materias": [
+                            {
+                                "codigo": "36",
+                                "nome": "Hidrologia Geral",
+                                "horas": "45",
+                                "creditos": "3",
+                                "preRequisito": [
+                                    30
+                                ]
+                            },
+                            {
+                                "codigo": "37",
+                                "nome": "Obras Hidráulicas",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    30
+                                ]
+                            },
+                            {
+                                "codigo": "38",
+                                "nome": "Materiais de Construção I",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    29,
+                                    33
+                                ]
+                            },
+                            {
+                                "codigo": "39",
+                                "nome": "Estruturas Isostáticas",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    33
+                                ]
+                            },
+                            {
+                                "codigo": "40",
+                                "nome": "Administração",
+                                "horas": "45",
+                                "creditos": "3",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "41",
+                                "nome": "Saneamento Básico e Emergências Ambientais",
+                                "horas": "45",
+                                "creditos": "3",
+                                "preRequisito": [
+                                    6,
+                                    3,
+                                    24
+                                ]
+                            },
+                            {
+                                "codigo": "42",
+                                "nome": "Resistência dos Materiais II",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    33
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "periodo": "7",
+                        "materias": [
+                            {
+                                "codigo": "43",
+                                "nome": "Instalações Prediais Hidrossanitárias",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    30
+                                ]
+                            },
+                            {
+                                "codigo": "44",
+                                "nome": "Concreto Armado I",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    39,
+                                    38
+                                ]
+                            },
+                            {
+                                "codigo": "45",
+                                "nome": "Instituições de Direito",
+                                "horas": "45",
+                                "creditos": "3",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "46",
+                                "nome": "Estruturas Hiperestáticas",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    39,
+                                    42
+                                ]
+                            },
+                            {
+                                "codigo": "47",
+                                "nome": "Drenagem Urbana",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    36,
+                                    37
+                                ]
+                            },
+                            {
+                                "codigo": "48",
+                                "nome": "Fundações e Estruturas de Contenção",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    31,
+                                    38
+                                ]
+                            },
+                            {
+                                "codigo": "49",
+                                "nome": "Materiais de Construção II",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    38
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "periodo": "8",
+                        "materias": [
+                            {
+                                "codigo": "50",
+                                "nome": "Combate a Incêndio I",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    30
+                                ]
+                            },
+                            {
+                                "codigo": "51",
+                                "nome": "Metodologia de Pesquisa Científica",
+                                "horas": "45",
+                                "creditos": "3",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "52",
+                                "nome": "Concreto Armado II",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    44,
+                                    49
+                                ]
+                            },
+                            {
+                                "codigo": "53",
+                                "nome": "Abastecimento de Água",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    41,
+                                    36,
+                                    37
+                                ]
+                            },
+                            {
+                                "codigo": "54",
+                                "nome": "Optativa",
+                                "horas": "45",
+                                "creditos": "3",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "55",
+                                "nome": "Estruturas de Aço",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    46,
+                                    49
+                                ]
+                            },
+                            {
+                                "codigo": "56",
+                                "nome": "Estruturas de Madeira",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    46,
+                                    49
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "periodo": "9",
+                        "materias": [
+                            {
+                                "codigo": "57",
+                                "nome": "Concreto Protendido",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    52
+                                ]
+                            },
+                            {
+                                "codigo": "58",
+                                "nome": "Orçamento de Obras",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    52,
+                                    49,
+                                    48
+                                ]
+                            },
+                            {
+                                "codigo": "59",
+                                "nome": "TCC",
+                                "horas": "120",
+                                "creditos": "8",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "60",
+                                "nome": "Optativo",
+                                "horas": "45",
+                                "creditos": "3",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "61",
+                                "nome": "Gestão Integrada de Bacias Hidrográficas",
+                                "horas": "45",
+                                "creditos": "3",
+                                "preRequisito": [
+                                    36
+                                ]
+                            },
+                            {
+                                "codigo": "62",
+                                "nome": "Economia",
+                                "horas": "45",
+                                "creditos": "3",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "63",
+                                "nome": "Tecnologia das Construções",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    52,
+                                    49,
+                                    48
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "periodo": "10",
+                        "materias": [
+                            {
+                                "codigo": "64",
+                                "nome": "Estágio em Engenharia Civil",
+                                "horas": "180",
+                                "creditos": "12",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "65",
+                                "nome": "Optativa",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": []
+                            },
+                            {
+                                "codigo": "66",
+                                "nome": "Estradas e Rodovias",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": [
+                                    17
+                                ]
+                            },
+                            {
+                                "codigo": "67",
+                                "nome": "Optativa",
+                                "horas": "60",
+                                "creditos": "4",
+                                "preRequisito": []
+                            }
+                        ]
+                    }
+                ]
+            }
+                ,{
                     "curso": "Sistemas de Informação",
                     "idCurso": 2,
                     "turno": "Noturno",
