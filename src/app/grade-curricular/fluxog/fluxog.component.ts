@@ -66,9 +66,9 @@ export class FluxogComponent implements OnInit {
             let wordLowerCase = word.toLowerCase();
             materiaNomeCapitalized += " " + wordLowerCase.charAt(0).toUpperCase() + wordLowerCase.slice(1);
           } else {
-            if (word[0].toLowerCase() === "i")
+            if (word[0].toLowerCase() === "i" || word.length === 3)
               materiaNomeCapitalized += " " + word.toUpperCase();
-            else
+            else 
               materiaNomeCapitalized += " " + word.toLowerCase();
           }
         })
