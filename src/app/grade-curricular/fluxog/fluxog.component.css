@@ -37,7 +37,7 @@
     align-items: center;
     justify-content: center;
     width: 135px;
-    height: 75px;
+    height: 90px;
     margin: 8px;
     padding: 2%;
     border-radius: 5px;
@@ -54,7 +54,9 @@
 
 #text-center {
     font-family: 'Century Gothic', sans-serif;
-    font-size: 83%;
+    font-size: 79%;
+    font-weight: 500;
+    /* font-size: 0.786vw; */
     text-align: center;
     
 }

@@ -14,7 +14,7 @@ export class FluxogComponent implements OnInit {
   faculdades: any;
   cursos: any;
   curso: any;
-  idCurso: number;
+  idCurso: any;
   gradeCurso: any[];
   gradeCursoCapitalized: any[];
   widthMateria: number = 152;
@@ -59,21 +59,26 @@ export class FluxogComponent implements OnInit {
   capitalizeCursosName() {
     this.gradeCurso.forEach(periodo => {
       periodo.materias.forEach(materia => {
-        let materiaNomeSplited = materia.nome.split(" ");
+        let materiaNomeSplited = materia.nome.split(/(\s+)/).filter(e => e.trim().length > 0);
         let materiaNomeCapitalized = "";
         materiaNomeSplited.forEach(word => {
-          if (word.length > 3) {
-            let wordLowerCase = word.toLowerCase();
-            materiaNomeCapitalized += " " + wordLowerCase.charAt(0).toUpperCase() + wordLowerCase.slice(1);
-          } else {
-            if (word[0].toLowerCase() === "i" || word.length === 3)
+          if (word[0] != "(" && word[-1] != ")") {
+            if (word.length > 3) {
+              let wordLowerCase = word.toLowerCase();
+              if (wordLowerCase == "viii") {
+                materiaNomeCapitalized += " " + word.toUpperCase();
+              } else
+                materiaNomeCapitalized += " " + word.toLowerCase().charAt(0).toUpperCase() + wordLowerCase.slice(1);
+            } else if (word[0].toLowerCase() == "i" || word[0].toLowerCase() == "v" || word.length == 3 && word[0].toLowerCase() !== "d") {
               materiaNomeCapitalized += " " + word.toUpperCase();
-            else 
+            }
+            else {
               materiaNomeCapitalized += " " + word.toLowerCase();
+            }
           }
         })
 
-        materia.nome = materiaNomeCapitalized.trim();
+        materia.nome = materiaNomeCapitalized;
 
       })
     })
@@ -92,9 +97,12 @@ export class FluxogComponent implements OnInit {
     this.gradeCurso.forEach(periodo => {
       periodo.materias.forEach(materia => {
 
+
         if (materia.codigo == materiaSelecionada.codigo) {
           materia.cor = this.corSelecionado;
         };
+
+
 
         materia.preRequisito.forEach(codigoPreRequisito => {
           if (codigoPreRequisito == materiaSelecionada.codigo) {
