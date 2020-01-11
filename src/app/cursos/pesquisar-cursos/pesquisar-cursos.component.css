@@ -1,6 +1,7 @@
 .tituloCursos {
     font-family: 'Century Gothic', sans-serif;
     text-align: center;
+    font-weight: bold;
     color: rgb(85, 85, 85);
     text-shadow: 1px 1px 1px rgb(190, 190, 190);
     font-weight: bold;

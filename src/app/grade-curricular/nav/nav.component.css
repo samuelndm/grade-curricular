@@ -1,7 +1,7 @@
     .navContainer {
         display: flex;
         background-color: rgb(158, 158, 158, 0.8);
-        height: 7vw;
+        height: 8vw;
     }
 
     .navBarContainer {
@@ -12,6 +12,7 @@
         display: flex;
         align-items: center;
         height: 55%;
+        padding: 1px;
     }
 
     .navMenuLink {

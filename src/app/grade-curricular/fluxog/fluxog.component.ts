@@ -28,22 +28,22 @@ export class FluxogComponent implements OnInit {
   };
   corSelecionado: Object = {
 
-    "background": "rgb(52, 58, 64, 0.7)",
+    "background": "rgb(14, 170, 0)",
     "texto": "white",
     "shadowColor": "none",
-    "border": "1px solid rgb(0, 0, 0, 0)"
+    "border": "1 solid rgb(0, 0, 0, 0)"
   };
   corPreRequisito: Object = {
     "background": "rgb(200, 200, 200)",
     "texto": "black",
     "shadowColor": "none",
-    "border": "1.2px solid rgb(255, 119, 119)"
+    "border": "1.45px solid rgb(253, 255, 119)"
   };
   corLibera: Object = {
     "background": "rgb(200, 200, 200)",
     "texto": "black",
     "shadowColor": "none",
-    "border": "1.2px solid rgb(119, 173, 255)"
+    "border": "1.45px solid rgb(119, 173, 255)"
   };
 
   setCursoById(id) {
@@ -62,21 +62,33 @@ export class FluxogComponent implements OnInit {
         let materiaNomeSplited = materia.nome.split(/(\s+)/).filter(e => e.trim().length > 0);
         let materiaNomeCapitalized = "";
         materiaNomeSplited.forEach(word => {
-          if (word[0] != "(" && word[-1] != ")") {
-            if (word.length > 3) {
-              let wordLowerCase = word.toLowerCase();
-              if (wordLowerCase == "viii") {
+          let wordLowerCase = word.toLowerCase();
+          console.log(word);
+          console.log(word.length);
+          console.log(word[0]);
+          console.log(word[-1]);
+          if (!(word.length == 3 && word[0] == "(" && word.slice(-1) == ")")) {
+            
+          if (word.length > 3) {
+            
+              if (wordLowerCase.indexOf("iii") != -1) 
                 materiaNomeCapitalized += " " + word.toUpperCase();
-              } else
-                materiaNomeCapitalized += " " + word.toLowerCase().charAt(0).toUpperCase() + wordLowerCase.slice(1);
-            } else if (word[0].toLowerCase() == "i" || word[0].toLowerCase() == "v" || word.length == 3 && word[0].toLowerCase() !== "d") {
-              materiaNomeCapitalized += " " + word.toUpperCase();
-            }
-            else {
-              materiaNomeCapitalized += " " + word.toLowerCase();
-            }
+              else
+                materiaNomeCapitalized += " " + wordLowerCase.charAt(0).toUpperCase() + wordLowerCase.slice(1);
           }
+          
+          else if (wordLowerCase == materiaNomeSplited[0].toLowerCase()) 
+              materiaNomeCapitalized += " " + word.toUpperCase();
+            
+          else if (wordLowerCase[0] == "i" || wordLowerCase[0] == "V") 
+          materiaNomeCapitalized += " " + word.toUpperCase();
+          else {
+            materiaNomeCapitalized += " " + word.toLowerCase();
+          }
+            
+        } 
         })
+
 
         materia.nome = materiaNomeCapitalized;
 
@@ -139,8 +151,8 @@ export class FluxogComponent implements OnInit {
       this.data = data;
       this.faculdades = this.data.faculdades;
       this.setCursoById(this.idCurso);
-      this.gradeCurso = this.curso.grade
-      this.widthFluxograma = this.curso.grade.length * this.widthMateria
+      this.gradeCurso = this.curso.grade;
+      this.widthFluxograma = this.curso.grade.length * this.widthMateria;
       this.addGradeColor();
       this.capitalizeCursosName();
     })

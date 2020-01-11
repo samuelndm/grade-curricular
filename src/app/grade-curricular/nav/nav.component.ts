@@ -65,6 +65,10 @@ export class NavComponent implements OnInit {
     return faculdadeTarget;
   }
 
+  // onSelectVoltar(id) {
+  //   this._router.navigate([''])
+  // }
+
   onSelectFluxograma(id) {
     this._router.navigate(['/fluxograma', id]);
   }

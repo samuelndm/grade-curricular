@@ -5871,7 +5871,7 @@
                 
                , {
                     "curso": "Direito",
-                    "idCurso": 20111667,
+                    "idCurso": 201116767,
                     "tipoCurso": " Bacharelado",
                     "campus": " Vitória Da Conquista ",
                     "turno": " Noturno ",
@@ -11652,7 +11652,7 @@
             "cursos": [{
                     "curso": "Engenharia Civil",
                     "idCurso": 3,
-                    "turno": "Diurno",
+                    "turno": "Diúrno",
                     "grade": [
                         {
                             "periodo": "1",
@@ -12737,7 +12737,7 @@
                 {
                     "curso": "Engenharia Elétrica",
                     "idCurso": 0,
-                    "turno": "Diurno",
+                    "turno": "Diúrno",
                     "grade": [
                         {
                             "periodo": "1",
@@ -13335,7 +13335,7 @@
                 {
                     "curso": "Engenharia Ambiental",
                     "idCurso": 1,
-                    "turno": "Diurno",
+                    "turno": "Diúrno",
                     "grade": [
                         {
                             "periodo": "1",
