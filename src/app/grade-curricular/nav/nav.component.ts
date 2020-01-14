@@ -14,6 +14,7 @@ export class NavComponent implements OnInit {
   curso: any;
   idCurso: number;
   nomeCurso: string;
+  tipoCurso: string;
   turnoCurso: string;
   nomeFaculdade: string;
   campusFaculdade: string;
@@ -90,6 +91,7 @@ export class NavComponent implements OnInit {
       this.faculdades = this.data.faculdades;
       this.setCursoById(this.idCurso);
       this.nomeCurso = this.curso.curso;
+      this.tipoCurso = this.curso.tipoCurso;
       this.turnoCurso = this.curso.turno;
       this.setNomeFaculdade(this.idCurso);
       this.setCampusFaculdade(this.idCurso);
