@@ -21,7 +21,7 @@
       </div>
       <a (click)="onSelectCurso(curso.idCurso)" class="infoCursoContainer">
         <div class="infoCursoDetailsContainer">
-          <p id="nomeCurso">{{curso.curso}}</p>
+          <p id="nomeCurso">{{curso.curso}} <br>({{curso.tipoCurso}})</p>
           <p id="nomeFaculdade">{{getNomeFaculdade(curso.idCurso)}}</p>
           <p id="campusFaculdade">{{getCampusFaculdade(curso.idCurso)}}</p>
         </div>
