@@ -4,7 +4,6 @@
     font-weight: bold;
     color: rgb(85, 85, 85);
     text-shadow: 1px 1px 1px rgb(190, 190, 190);
-    font-weight: bold;
     margin-left: 2%;
     
 }
@@ -34,13 +33,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #D6D8DB;
+    background-color: rgb(127, 127, 127, 0.2);
     border: 0.1px solid rgb(158, 158, 158);
 }
 
 .infoCurso:hover {
     text-decoration: none;
-    background-color: rgb(127, 127, 127, 0.2);
+    background-color: rgb(127, 127, 127, 0.4);
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
@@ -53,6 +52,7 @@
     display: flex;
     align-items: center;
     margin-top: 4%;
+    text-shadow: 0.5px 0.5px 0.5px white;
 }
 
 .nomeCurso #nomeCurso {

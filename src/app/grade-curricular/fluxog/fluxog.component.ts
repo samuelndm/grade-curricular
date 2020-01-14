@@ -27,23 +27,25 @@ export class FluxogComponent implements OnInit {
     "border": "1px solid rgb(206, 206, 206)"
   };
   corSelecionado: Object = {
-
-    "background": "rgb(14, 170, 0)",
+    // "background": "rgb(14, 170, 0)",
+    "background": "rgb(101, 110, 238)",
     "texto": "white",
-    "shadowColor": "none",
+    "shadowColor": "0.5px 0.2px black",
     "border": "1 solid rgb(0, 0, 0, 0)"
   };
   corPreRequisito: Object = {
     "background": "rgb(200, 200, 200)",
     "texto": "black",
     "shadowColor": "none",
-    "border": "1.45px solid rgb(253, 255, 119)"
+    "border": "1.49px solid rgb(248, 245, 38)"
   };
   corLibera: Object = {
     "background": "rgb(200, 200, 200)",
     "texto": "black",
     "shadowColor": "none",
-    "border": "1.45px solid rgb(119, 173, 255)"
+    // "border": "1.45px solid rgb(119, 173, 255)"
+    "border": "1.49px solid rgb(122, 223, 82)"
+
   };
 
   setCursoById(id) {

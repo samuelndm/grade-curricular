@@ -1,7 +1,7 @@
 .footerContainer {
     position: fixed;
     bottom: 0px;
-    height: 7vh;
+    height: 8vh;
     width: 100vw;
     background-color: #343A40;
     padding: 0px;
@@ -20,6 +20,6 @@
     text-decoration: none;
     color: white;
     font-family: 'Century Gothic', sans-serif;
-    font-size: 170%;
+    font-size: 23px;
     text-align: center;
 }
