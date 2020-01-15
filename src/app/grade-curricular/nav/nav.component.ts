@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
 import { DataService } from '../../data.service';
 
 @Component({
@@ -8,6 +9,10 @@ import { DataService } from '../../data.service';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  constructor(private _dataService: DataService,
+    private _router: Router,
+    private _activatedRoute: ActivatedRoute,
+    private _location: Location) { }
 
   data: any;
   faculdades: any;
@@ -66,9 +71,9 @@ export class NavComponent implements OnInit {
     return faculdadeTarget;
   }
 
-  // onSelectVoltar(id) {
-  //   this._router.navigate([''])
-  // }
+  onSelectVoltar() {
+    this._location.back();
+  }
 
   onSelectFluxograma(id) {
     this._router.navigate(['/fluxograma', id]);
@@ -77,12 +82,12 @@ export class NavComponent implements OnInit {
   onSelectMinhaGrade(id) {
     this._router.navigate(['/minhagrade', id]);
   }
- 
+
   onSelectFaculdade(id) {
     this._router.navigate(['/faculdade', id]);
   }
 
-  constructor(private _dataService: DataService, private _router: Router, private _activatedRoute: ActivatedRoute) { }
+
 
   ngOnInit() {
     this.idCurso = parseInt(this._activatedRoute.snapshot.paramMap.get('id'));
