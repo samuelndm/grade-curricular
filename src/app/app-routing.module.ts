@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CursosComponent } from './cursos/cursos.component';
-import { GradeCurricularComponent } from './grade-curricular/grade-curricular.component';
 import { EquipeComponent } from './equipe/equipe.component';
 import { AjudaComponent } from './ajuda/ajuda.component';
 import { FaculdadePesquisadaComponent } from './cursos/faculdade-pesquisada/faculdade-pesquisada.component';

@@ -5,7 +5,7 @@
             <a class="navMenuLink">
                 <p class="textMenuContainer">Voltar</p>
             </a>
-            <a class="navMenuLink">
+            <a (click)="onSelectFluxograma(idCurso)" class="navMenuLink">
                 <p class="textMenuContainer">Fluxograma</p>
             </a>
             <a (click)="onSelectMinhaGrade(idCurso)" class="lastNavMenuLink">
@@ -27,7 +27,7 @@
         <div class="faculdade-nav">
 
             <p class="nomeFaculdade-nav">{{nomeFaculdade}}</p>
-            <p class="campusFaculdade-nav">{{campusFaculdade}}</p>
+            <p class="campusFaculdade-nav">Campus - {{campusFaculdade}}</p>
         </div>
     </a>
 </div>

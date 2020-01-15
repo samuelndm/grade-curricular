@@ -65,10 +65,6 @@ export class FluxogComponent implements OnInit {
         let materiaNomeCapitalized = "";
         materiaNomeSplited.forEach(word => {
           let wordLowerCase = word.toLowerCase();
-          console.log(word);
-          console.log(word.length);
-          console.log(word[0]);
-          console.log(word[-1]);
           if (!(word.length == 3 && word[0] == "(" && word.slice(-1) == ")")) {
             
           if (word.length > 3) {
