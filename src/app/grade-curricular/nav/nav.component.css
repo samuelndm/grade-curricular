@@ -1,7 +1,7 @@
 .navContainer {
         display: flex;
         background-color: rgb(158, 158, 158, 0.8);
-        height: 14vh;
+        height: 10vh;
         width: 100vw;
         
         
@@ -15,7 +15,7 @@
 
     .navMenuContainer {
         display: flex;
-        height: 40%;
+        height: 43%;
         border-right: 2px solid white;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
@@ -74,7 +74,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 60%;
+        height: 57%;
         font-weight: bold;
         font-family: 'Century Gothic', sans-serif;
         font-size: 120%;
