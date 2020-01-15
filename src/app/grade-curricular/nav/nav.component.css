@@ -38,6 +38,10 @@
         -ms-user-select: none;
     }
 
+    .navMenuLink:hover {
+        background-color: rgb(52, 58, 64, 0.7);
+    }
+
     .lastNavMenuLink {
         display: flex;
         align-items: center;
@@ -55,6 +59,10 @@
         -khtml-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
+    }
+
+    .lastNavMenuLink:hover {
+        background-color: rgb(52, 58, 64, 0.7);
     }
 
     .textMenuContainer {
