@@ -98,13 +98,27 @@ export class MinhagradeComponent implements OnInit {
   updatePeriodoColor(periodoSelecionado) {
     this.gradeCurso.forEach(periodo => {
       if (periodo.periodo == periodoSelecionado) {
+        let isAllSelecionado = true;
         periodo.materias.forEach(materia => {
-          this.updateMateriaNaoSelecionada(materia.codigo);
+          if (!(materia.isSelecionado)) {
+            isAllSelecionado = false;
+          }
           
+          
+        })
+        periodo.materias.forEach(materia => {
+          if (!(isAllSelecionado)) {
+            this.updateMateriaNaoSelecionada(materia.codigo);
+            this.updateAptosParaCursar();
+            
+          } else {
+            this.updateMateriaSelecionada(materia.codigo);
+            this.updateNaoAptosParaCursar();
+          }
         })
       }
     })
-    this.updateAptosParaCursar();
+   
   }
   
 
