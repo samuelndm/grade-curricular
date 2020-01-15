@@ -4,7 +4,7 @@
 
         <div *ngFor="let periodo of gradeCurso">
 
-            <p id="periodo-box" class="border border-black rounded">{{periodo.periodo}}° Semestre</p>
+            <a id="periodo-box" (click)="updatePeriodoColor(periodo.periodo)"  class="border border-black rounded">{{periodo.periodo}}° Semestre</a>
             <div *ngFor="let materia of periodo.materias">
                 <div>
                     <a id="nome-box" (click)="updateGradeColor(materia)" [ngStyle]="{ 

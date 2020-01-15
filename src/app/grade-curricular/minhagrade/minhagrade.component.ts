@@ -83,24 +83,37 @@ export class MinhagradeComponent implements OnInit {
 
   addGradeColor() {
     this.gradeCurso.forEach(periodo => {
+      periodo.isSelecionado = false;
       periodo.materias.forEach(materia => {
         materia.isSelecionado = false;
         if (materia.preRequisito.length == 0) {
           materia.cor = this.corLiberado;
-          materia.isLiberado = true;
 
         } else {
           materia.cor = this.corBloqueado;
-          materia.isBloqueado = true;
+
         }
       })
     })
   }
 
-  public updateGradeColor(materia: any) {
+
+  updatePeriodoColor(periodoSelecionado) {
+    this.gradeCurso.forEach(periodo => {
+      if (periodo.periodo == periodoSelecionado) {
+        periodo.materias.forEach(materia => {
+          // this.updateGradeColor(materia);
+          this.updateMateriaNaoSelecionada(materia.codigo);
+        })
+      }
+    })
+  }
+  
+
+  updateGradeColor(materia: any) {
     if (materia.isSelecionado) {
       this.updateMateriaSelecionada(materia.codigo);
-      this.updateAptosParaCursar();
+      this.updateNaoAptosParaCursar();
     }
     else {
       this.updateMateriaNaoSelecionada(materia.codigo);
@@ -132,13 +145,21 @@ export class MinhagradeComponent implements OnInit {
 
   }
 
+  updateMateriaSelecionada(codigoMateria) {
+    var materia: any = this.getMateriaById(codigoMateria);
+    console.log(materia);
+    materia.isSelecionado = false;
+    materia.cor = this.corLiberado;
+  }
+
 
   private updateAptosParaCursar() {
     this.gradeCurso.forEach(periodo => {
       periodo.materias.forEach(materiaAlvo => {
-        if (!materiaAlvo.isSelecionado) {
+        if (!(materiaAlvo.isSelecionado)) {
           let isApto = true;
           materiaAlvo.preRequisito.forEach(codigoPreRequisito => {
+            console.log(codigoPreRequisito);
             var materiaPreRequisito: any = this.getMateriaById(codigoPreRequisito);
 
             if (!(materiaPreRequisito.isSelecionado))
@@ -147,52 +168,42 @@ export class MinhagradeComponent implements OnInit {
 
           if (isApto)
             materiaAlvo.cor = this.corLiberado;
+
         }
       })
     })
   }
 
-  getMateriaById(id) {
+  private updateNaoAptosParaCursar() {
+    this.gradeCurso.forEach(periodo => {
+      periodo.materias.forEach(materiaAlvo => {
+        let isApto = true;
+        materiaAlvo.preRequisito.forEach(codigoPreRequisito => {
+          
+          var materiaPreRequisito: any = this.getMateriaById(codigoPreRequisito);
+
+          if (!(materiaPreRequisito.isSelecionado))
+            isApto = false;
+        })
+
+        if (!isApto) {
+          materiaAlvo.cor = this.corBloqueado;
+          materiaAlvo.isSelecionado = false;
+        }
+      })
+    })
+  }
+
+  private getMateriaById(id) {
     let materiaAlvo: any;
 
     this.gradeCurso.forEach(periodo => {
       periodo.materias.forEach(materia => {
-        if (materia.codigo == id)
-          
+        if (materia.codigo.includes(id))
           materiaAlvo = materia;
       })
     })
-
     return materiaAlvo;
-  }
-
-  updateMateriaSelecionada(materiaSelecionada: any) {
-    this.gradeCurso.forEach(periodo => {
-      periodo.materias.forEach(materia => {
-
-        if (materia.cor == this.corBloqueado)
-          return;
-        if (materia.codigo == materiaSelecionada.codigo && materia.isSelecionado) {
-          materia.cor = this.corLiberado;
-          materia.isSelecionado = false;
-        } else {
-          materia.cor = this.corBloqueado;
-          materia.isSelecionado = false;
-        }
-
-        materiaSelecionada.preRequisito.forEach(codigoPreRequisito => {
-          this.updateMateriaSelecionada(materia);
-        })
-      })
-    })
-  }
-
-  resetGradeColor() {
-    this.gradeCurso.forEach(periodo => {
-      periodo.materias.forEach(materia => {
-        materia.cor = this.corLiberado;
-      })
-    })
   }
 
   constructor(private dataService: DataService, private _router: Router, private _activatedRoute: ActivatedRoute) { }

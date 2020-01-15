@@ -16,7 +16,7 @@
     display: block;
     background-color: white;
     width: 135px;
-    height: 25px;
+    height: 30px;
     padding-bottom: 10px;
     margin: 8px;
     text-align: center;
@@ -24,7 +24,7 @@
     font-size: 11pt;
     
     
-    cursor: default;
+    cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
