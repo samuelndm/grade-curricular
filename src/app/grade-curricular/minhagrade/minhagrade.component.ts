@@ -73,10 +73,7 @@ export class MinhagradeComponent implements OnInit {
 
           }
         })
-
-
         materia.nome = materiaNomeCapitalized;
-
       })
     })
   }
@@ -180,7 +177,7 @@ export class MinhagradeComponent implements OnInit {
         let isApto = true;
         materiaAlvo.preRequisito.forEach(codigoPreRequisito => {
           
-          var materiaPreRequisito: any = this.getMateriaById(codigoPreRequisito);
+          let materiaPreRequisito: any = this.getMateriaById(codigoPreRequisito);
 
           if (!(materiaPreRequisito.isSelecionado))
             isApto = false;
@@ -199,7 +196,7 @@ export class MinhagradeComponent implements OnInit {
 
     this.gradeCurso.forEach(periodo => {
       periodo.materias.forEach(materia => {
-        if (materia.codigo.includes(id))
+        if (materia.codigo == id)
           materiaAlvo = materia;
       })
     })

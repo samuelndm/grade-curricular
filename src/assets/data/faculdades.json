@@ -203,7 +203,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0002, DCEN0159"
+                                        "DCEN0002","DCEN0159"
                                     ]
                                 },
                                 {
@@ -235,7 +235,7 @@
                                     "horas": "75h",
                                     "creditos": "(3.1.0)",
                                     "preRequisito": [
-                                        "DCEN0156, DCEN0160"
+                                        "DCEN0156","DCEN0160"
                                     ]
                                 },
                                 {
@@ -280,7 +280,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0159, DCEN0163"
+                                        "DCEN0159","DCEN0163"
                                     ]
                                 }
                             ]
@@ -294,7 +294,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0160, DCEN0266"
+                                        "DCEN0160","DCEN0266"
                                     ]
                                 },
                                 {
@@ -312,7 +312,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCEN0155, DCEN0161"
+                                        "DCEN0155","DCEN0161"
                                     ]
                                 },
                                 {
@@ -321,7 +321,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0159, DCEN0163"
+                                        "DCEN0159","DCEN0163"
                                     ]
                                 },
                                 {
@@ -330,7 +330,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCEN0268, DTRA1487"
+                                        "DCEN0268","DTRA1487"
                                     ]
                                 },
                                 {
@@ -389,7 +389,7 @@
                                     "horas": "75h",
                                     "creditos": "(5.0.0)",
                                     "preRequisito": [
-                                        "DTRA0704, DTRA0015"
+                                        "DTRA0704","DTRA0015"
                                     ]
                                 },
                                 {
@@ -439,7 +439,7 @@
                                     "horas": "75h",
                                     "creditos": "(3.1.0)",
                                     "preRequisito": [
-                                        "DCEN0268, DCEN0021"
+                                        "DCEN0268","DCEN0021"
                                     ]
                                 },
                                 {
@@ -448,7 +448,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DTRA0018, DTRA0019"
+                                        "DTRA0018","DTRA0019"
                                     ]
                                 },
                                 {
@@ -466,7 +466,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DTRA0018, DTRA0019"
+                                        "DTRA0018","DTRA0019"
                                     ]
                                 }
                             ]
@@ -498,7 +498,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCHEL0265, DCEN0102, DTRA0014"
+                                        "DCHEL0265","DCEN0102","DTRA0014"
                                     ]
                                 },
                                 {
@@ -507,7 +507,7 @@
                                     "horas": "75h",
                                     "creditos": "(3.1.0)",
                                     "preRequisito": [
-                                        "DTRA0018, DTRA1488"
+                                        "DTRA0018","DTRA1488"
                                     ]
                                 },
                                 {
@@ -516,7 +516,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0269, DTRA0018, DCEN0840"
+                                        "DCEN0269","DTRA0018","DCEN0840"
                                     ]
                                 },
                                 {
@@ -534,7 +534,7 @@
                                     "horas": "30h",
                                     "creditos": "(0.1.0)",
                                     "preRequisito": [
-                                        "DTRA0050, DTRA0051, DTRA0022"
+                                        "DTRA0050","DTRA0051","DTRA0022"
                                     ]
                                 },
                                 {
@@ -543,7 +543,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCHEL0264, DTRA0050"
+                                        "DCHEL0264","DTRA0050"
                                     ]
                                 }
                             ]
@@ -557,7 +557,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DTRA0018, DCEN0840"
+                                        "DTRA0018","DCEN0840"
                                     ]
                                 },
                                 {
@@ -575,7 +575,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DTRA0018, DTRA0158, DTRA0019"
+                                        "DTRA0018","DTRA0158","DTRA0019"
                                     ]
                                 },
                                 {
@@ -584,7 +584,7 @@
                                     "horas": "45h",
                                     "creditos": "(3.0.0)",
                                     "preRequisito": [
-                                        "DCHEL0265, DTRA0026"
+                                        "DCHEL0265","DTRA0026"
                                     ]
                                 },
                                 {
@@ -861,7 +861,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0115, DCEN0155"
+                                        "DCEN0115","DCEN0155"
                                     ]
                                 },
                                 {
@@ -888,7 +888,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0155, DCEN0161"
+                                        "DCEN0155","DCEN0161"
                                     ]
                                 },
                                 {
@@ -947,7 +947,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0020, DTRA0136"
+                                        "DCEN0020","DTRA0136"
                                     ]
                                 },
                                 {
@@ -956,7 +956,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0016, DCEN0018"
+                                        "DCEN0016","DCEN0018"
                                     ]
                                 },
                                 {
@@ -997,7 +997,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0018, DCEN0065"
+                                        "DCEN0018","DCEN0065"
                                     ]
                                 },
                                 {
@@ -1042,7 +1042,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DTRA0137, DCEN0067"
+                                        "DTRA0137","DCEN0067"
                                     ]
                                 },
                                 {
@@ -1083,7 +1083,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0020, DTRA0137"
+                                        "DCEN0020","DTRA0137"
                                     ]
                                 },
                                 {
@@ -1092,7 +1092,7 @@
                                     "horas": "75h",
                                     "creditos": "(3.1.0)",
                                     "preRequisito": [
-                                        "DCEN0018, DCEN0023"
+                                        "DCEN0018","DCEN0023"
                                     ]
                                 },
                                 {
@@ -1110,7 +1110,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0018, DCEN0020"
+                                        "DCEN0018","DCEN0020"
                                     ]
                                 },
                                 {
@@ -1119,7 +1119,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0152, DCEN0161"
+                                        "DCEN0152","DCEN0161"
                                     ]
                                 }
                             ]
@@ -1160,7 +1160,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCHEL0074, DCEN0075"
+                                        "DCHEL0074","DCEN0075"
                                     ]
                                 },
                                 {
@@ -1169,7 +1169,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0018, DCEN0020"
+                                        "DCEN0018","DCEN0020"
                                     ]
                                 },
                                 {
@@ -1178,7 +1178,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0018, DTRA0702"
+                                        "DCEN0018","DTRA0702"
                                     ]
                                 },
                                 {
@@ -1196,7 +1196,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0073, DCHEL0074, DCEN0075"
+                                        "DCEN0073","DCHEL0074","DCEN0075"
                                     ]
                                 }
                             ]
@@ -1219,7 +1219,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0081, DCEN0082, DCEN0086"
+                                        "DCEN0081","DCEN0082","DCEN0086"
                                     ]
                                 },
                                 {
@@ -1228,7 +1228,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0073, DCHEL0074, DCEN0075"
+                                        "DCEN0073","DCHEL0074","DCEN0075"
                                     ]
                                 },
                                 {
@@ -1237,7 +1237,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCEN0084, DCEN0085, DCEN0087"
+                                        "DCEN0084","DCEN0085","DCEN0087"
                                     ]
                                 },
                                 {
@@ -1246,7 +1246,7 @@
                                     "horas": "45h",
                                     "creditos": "(3.0.0)",
                                     "preRequisito": [
-                                        "DCEN0087, DCEN0088"
+                                        "DCEN0087","DCEN0088"
                                     ]
                                 }
                             ]
@@ -1559,7 +1559,7 @@
                                     "horas": "135h",
                                     "creditos": "(0.0.3)",
                                     "preRequisito": [
-                                        "DCET0097, DCET0098"
+                                        "DCET0097","DCET0098"
                                     ]
                                 },
                                 {
@@ -1786,7 +1786,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DELL0734, DELL0733"
+                                        "DELL0734","DELL0733"
                                     ]
                                 },
                                 {
@@ -1854,7 +1854,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DELL0736, DELL0741"
+                                        "DELL0736","DELL0741"
                                     ]
                                 },
                                 {
@@ -1881,7 +1881,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DELL0734, DELL0738"
+                                        "DELL0734","DELL0738"
                                     ]
                                 },
                                 {
@@ -1922,7 +1922,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DELL0745, DELL0744"
+                                        "DELL0745","DELL0744"
                                     ]
                                 },
                                 {
@@ -1931,7 +1931,7 @@
                                     "horas": "60h",
                                     "creditos": "(0.2.0)",
                                     "preRequisito": [
-                                        "DELL0746, DELL0745"
+                                        "DELL0746","DELL0745"
                                     ]
                                 },
                                 {
@@ -1940,7 +1940,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DELL0745, DELL0744"
+                                        "DELL0745","DELL0744"
                                     ]
                                 },
                                 {
@@ -1972,7 +1972,7 @@
                                     "horas": "90h",
                                     "creditos": "(0.0.2)",
                                     "preRequisito": [
-                                        "DELL0752, DELL0751"
+                                        "DELL0752","DELL0751"
                                     ]
                                 },
                                 {
@@ -1981,7 +1981,7 @@
                                     "horas": "60h",
                                     "creditos": "(0.2.0)",
                                     "preRequisito": [
-                                        "DELL0752, DELL0746"
+                                        "DELL0752","DELL0746"
                                     ]
                                 },
                                 {
@@ -1990,7 +1990,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DELL0749, DELL0745"
+                                        "DELL0749","DELL0745"
                                     ]
                                 },
                                 {
@@ -2058,7 +2058,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DELL0734, DELL0756"
+                                        "DELL0734","DELL0756"
                                     ]
                                 }
                             ]
@@ -2081,7 +2081,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DELL0749, DELL0745"
+                                        "DELL0749","DELL0745"
                                     ]
                                 },
                                 {
@@ -2113,7 +2113,7 @@
                                     "horas": "45h",
                                     "creditos": "(0.0.1)",
                                     "preRequisito": [
-                                        "DELL0751, DELL0757"
+                                        "DELL0751","DELL0757"
                                     ]
                                 },
                                 {
@@ -2249,7 +2249,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DELL0734, DELL0733"
+                                        "DELL0734","DELL0733"
                                     ]
                                 },
                                 {
@@ -2326,7 +2326,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DELL0736, DELL0741"
+                                        "DELL0736","DELL0741"
                                     ]
                                 },
                                 {
@@ -2344,7 +2344,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DELL0734, DELL0738"
+                                        "DELL0734","DELL0738"
                                     ]
                                 },
                                 {
@@ -2394,7 +2394,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DELL0745, DELL0744"
+                                        "DELL0745","DELL0744"
                                     ]
                                 },
                                 {
@@ -2403,7 +2403,7 @@
                                     "horas": "60h",
                                     "creditos": "(0.2.0)",
                                     "preRequisito": [
-                                        "DELL0875, DELL0745"
+                                        "DELL0875","DELL0745"
                                     ]
                                 },
                                 {
@@ -2412,7 +2412,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DELL0745, DELL0744"
+                                        "DELL0745","DELL0744"
                                     ]
                                 },
                                 {
@@ -2430,7 +2430,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DELL0740, DELL0876"
+                                        "DELL0740","DELL0876"
                                     ]
                                 }
                             ]
@@ -2444,7 +2444,7 @@
                                     "horas": "60h",
                                     "creditos": "(0.2.0)",
                                     "preRequisito": [
-                                        "DELL0875, DELL0752"
+                                        "DELL0875","DELL0752"
                                     ]
                                 },
                                 {
@@ -2453,7 +2453,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DELL0745, DELL0749"
+                                        "DELL0745","DELL0749"
                                     ]
                                 },
                                 {
@@ -2471,7 +2471,7 @@
                                     "horas": "90h",
                                     "creditos": "(0.0.2)",
                                     "preRequisito": [
-                                        "DELL0877, DELL0752"
+                                        "DELL0877","DELL0752"
                                     ]
                                 },
                                 {
@@ -2575,7 +2575,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DELL0734, DELL0756"
+                                        "DELL0734","DELL0756"
                                     ]
                                 }
                             ]
@@ -2616,7 +2616,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DELL0745, DELL0749"
+                                        "DELL0745","DELL0749"
                                     ]
                                 },
                                 {
@@ -2657,7 +2657,7 @@
                                     "horas": "90h",
                                     "creditos": "(0.0.2)",
                                     "preRequisito": [
-                                        "DELL0880, DELL0879"
+                                        "DELL0880","DELL0879"
                                     ]
                                 },
                                 {
@@ -2675,7 +2675,7 @@
                                     "horas": "45h",
                                     "creditos": "(0.0.1)",
                                     "preRequisito": [
-                                        "DELL0751, DELL0757"
+                                        "DELL0751","DELL0757"
                                     ]
                                 },
                                 {
@@ -3075,7 +3075,7 @@
                                     "horas": "120h",
                                     "creditos": "(0.1.2)",
                                     "preRequisito": [
-                                        "DH0126, DH0101, DH0102, DH0109, DH0103, DH0107, DH0108, DH0104, DH0110, DH0111, DH0105, DH0133"
+                                        "DH0126","DH0101","DH0102","DH0109","DH0103","DH0107","DH0108","DH0104","DH0110","DH0111","DH0105","DH0133"
                                     ]
                                 },
                                 {
@@ -3443,7 +3443,7 @@
                                     "horas": "120h",
                                     "creditos": "(0.1.2)",
                                     "preRequisito": [
-                                        "DH0126, DH0101, DH0102, DH0103, DH0107, DH0109, DH0110, DH0108, DH0104, DH0133, DH0105, DH0111"
+                                        "DH0126","DH0101","DH0102","DH0103","DH0107","DH0109","DH0110","DH0108","DH0104","DH0133","DH0105","DH0111"
                                     ]
                                 },
                                 {
@@ -3875,7 +3875,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DG0018, DG0744"
+                                        "DG0018","DG0744"
                                     ]
                                 },
                                 {
@@ -3907,7 +3907,7 @@
                                     "horas": "180h",
                                     "creditos": "(0.0.4)",
                                     "preRequisito": [
-                                        "DG0704, DG0708"
+                                        "DG0704","DG0708"
                                     ]
                                 }
                             ]
@@ -4302,7 +4302,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DG0018, DG0744"
+                                        "DG0018","DG0744"
                                     ]
                                 },
                                 {
@@ -4334,7 +4334,7 @@
                                     "horas": "180h",
                                     "creditos": "(0.0.4)",
                                     "preRequisito": [
-                                        "DG0704, DG0708"
+                                        "DG0704","DG0708"
                                     ]
                                 }
                             ]
@@ -6620,7 +6620,7 @@
                                     "horas": "405h",
                                     "creditos": "(0.0.9)",
                                     "preRequisito": [
-                                        "DCN0821, DCN0820, DCN0819, DCN0818, DCN0817, DCN0816, DCN0815, DCN0814, DCN0704, DCN0829, DCN0828, DCN0827, DCN0826, DCN0825, DCN0824, DCN0823, DCN0822, DCN0709, DCN0837, DCN0836, DCN0835, DCN0834, DCN0833, DCN0832, DCN0831, DCN0830, DCN0718, DCN0847, DCN0846, DCN0845, DCN0844, DCN0843, DCN0842, DCN0841, DCN0840, DCN0839, DCN0838, DCN0719"
+                                        "DCN0821","DCN0820","DCN0819","DCN0818","DCN0817","DCN0816","DCN0815","DCN0814","DCN0704","DCN0829","DCN0828","DCN0827","DCN0826","DCN0825","DCN0824","DCN0823","DCN0822","DCN0709","DCN0837","DCN0836","DCN0835","DCN0834","DCN0833","DCN0832","DCN0831","DCN0830","DCN0718","DCN0847","DCN0846","DCN0845","DCN0844","DCN0843","DCN0842","DCN0841","DCN0840","DCN0839","DCN0838","DCN0719"
                                     ]
                                 },
                                 {
@@ -6629,7 +6629,7 @@
                                     "horas": "405h",
                                     "creditos": "(0.0.9)",
                                     "preRequisito": [
-                                        "DCN0821, DCN0820, DCN0819, DCN0818, DCN0817, DCN0816, DCN0815, DCN0814, DCN0704, DCN0829, DCN0828, DCN0827, DCN0826, DCN0825, DCN0824, DCN0823, DCN0822, DCN0709, DCN0837, DCN0836, DCN0835, DCN0834, DCN0833, DCN0832, DCN0831, DCN0830, DCN0718, DCN0847, DCN0846, DCN0845, DCN0844, DCN0843, DCN0842, DCN0841, DCN0840, DCN0839, DCN0838, DCN0719"
+                                        "DCN0821","DCN0820","DCN0819","DCN0818","DCN0817","DCN0816","DCN0815","DCN0814","DCN0704","DCN0829","DCN0828","DCN0827","DCN0826","DCN0825","DCN0824","DCN0823","DCN0822","DCN0709","DCN0837","DCN0836","DCN0835","DCN0834","DCN0833","DCN0832","DCN0831","DCN0830","DCN0718","DCN0847","DCN0846","DCN0845","DCN0844","DCN0843","DCN0842","DCN0841","DCN0840","DCN0839","DCN0838","DCN0719"
                                     ]
                                 },
                                 {
@@ -6638,7 +6638,7 @@
                                     "horas": "405h",
                                     "creditos": "(0.0.9)",
                                     "preRequisito": [
-                                        "DCN0821, DCN0820, DCN0819, DCN0818, DCN0817, DCN0816, DCN0815, DCN0814, DCN0704, DCN0829, DCN0828, DCN0827, DCN0826, DCN0825, DCN0824, DCN0823, DCN0822, DCN0837, DCN0836, DCN0835, DCN0834, DCN0833, DCN0832, DCN0831, DCN0830, DCN0718, DCN0847, DCN0846, DCN0845, DCN0844, DCN0843, DCN0842, DCN0841, DCN0840, DCN0839, DCN0838, DCN0719"
+                                        "DCN0821","DCN0820","DCN0819","DCN0818","DCN0817","DCN0816","DCN0815","DCN0814","DCN0704","DCN0829","DCN0828","DCN0827","DCN0826","DCN0825","DCN0824","DCN0823","DCN0822","DCN0837","DCN0836","DCN0835","DCN0834","DCN0833","DCN0832","DCN0831","DCN0830","DCN0718","DCN0847","DCN0846","DCN0845","DCN0844","DCN0843","DCN0842","DCN0841","DCN0840","DCN0839","DCN0838","DCN0719"
                                     ]
                                 },
                                 {
@@ -6647,7 +6647,7 @@
                                     "horas": "405h",
                                     "creditos": "(0.0.9)",
                                     "preRequisito": [
-                                        "DCN0821, DCN0820, DCN0819, DCN0818, DCN0817, DCN0816, DCN0815, DCN0814, DCN0704, DCN0829, DCN0828, DCN0827, DCN0826, DCN0825, DCN0824, DCN0823, DCN0822, DCN0709, DCN0837, DCN0836, DCN0835, DCN0834, DCN0833, DCN0832, DCN0831, DCN0830, DCN0718, DCN0847, DCN0846, DCN0845, DCN0844, DCN0843, DCN0842, DCN0841, DCN0840, DCN0839, DCN0838, DCN0719"
+                                        "DCN0821","DCN0820","DCN0819","DCN0818","DCN0817","DCN0816","DCN0815","DCN0814","DCN0704","DCN0829","DCN0828","DCN0827","DCN0826","DCN0825","DCN0824","DCN0823","DCN0822","DCN0709","DCN0837","DCN0836","DCN0835","DCN0834","DCN0833","DCN0832","DCN0831","DCN0830","DCN0718","DCN0847","DCN0846","DCN0845","DCN0844","DCN0843","DCN0842","DCN0841","DCN0840","DCN0839","DCN0838","DCN0719"
                                     ]
                                 },
                                 {
@@ -6656,7 +6656,7 @@
                                     "horas": "405h",
                                     "creditos": "(0.0.9)",
                                     "preRequisito": [
-                                        "DCN0821, DCN0820, DCN0819, DCN0818, DCN0817, DCN0816, DCN0815, DCN0814, DCN0704, DCN0829, DCN0828, DCN0827, DCN0825, DCN0823, DCN0822, DCN0709, DCN0837, DCN0836, DCN0835, DCN0834, DCN0833, DCN0832, DCN0831, DCN0830, DCN0718, DCN0847, DCN0846, DCN0845, DCN0844, DCN0843, DCN0842, DCN0841, DCN0840, DCN0839, DCN0838, DCN0719"
+                                        "DCN0821","DCN0820","DCN0819","DCN0818","DCN0817","DCN0816","DCN0815","DCN0814","DCN0704","DCN0829","DCN0828","DCN0827","DCN0825","DCN0823","DCN0822","DCN0709","DCN0837","DCN0836","DCN0835","DCN0834","DCN0833","DCN0832","DCN0831","DCN0830","DCN0718","DCN0847","DCN0846","DCN0845","DCN0844","DCN0843","DCN0842","DCN0841","DCN0840","DCN0839","DCN0838","DCN0719"
                                     ]
                                 }
                             ]
@@ -6670,7 +6670,7 @@
                                     "horas": "360h",
                                     "creditos": "(0.0.8)",
                                     "preRequisito": [
-                                        "DCN0744, DCN0720, DCN0722, DCN0743, DCN0736"
+                                        "DCN0744","DCN0720","DCN0722","DCN0743","DCN0736"
                                     ]
                                 },
                                 {
@@ -6679,7 +6679,7 @@
                                     "horas": "360h",
                                     "creditos": "(0.0.8)",
                                     "preRequisito": [
-                                        "DCN0744, DCN0720, DCN0722, DCN0743, DCN0736"
+                                        "DCN0744","DCN0720","DCN0722","DCN0743","DCN0736"
                                     ]
                                 },
                                 {
@@ -6688,7 +6688,7 @@
                                     "horas": "360h",
                                     "creditos": "(0.0.8)",
                                     "preRequisito": [
-                                        "DCN0744, DCN0720, DCN0722, DCN0743, DCN0736"
+                                        "DCN0744","DCN0720","DCN0722","DCN0743","DCN0736"
                                     ]
                                 },
                                 {
@@ -6697,7 +6697,7 @@
                                     "horas": "360h",
                                     "creditos": "(0.0.8)",
                                     "preRequisito": [
-                                        "DCN0744, DCN0720, DCN0722, DCN0743, DCN0736"
+                                        "DCN0744","DCN0720","DCN0722","DCN0743","DCN0736"
                                     ]
                                 },
                                 {
@@ -6706,7 +6706,7 @@
                                     "horas": "360h",
                                     "creditos": "(0.0.8)",
                                     "preRequisito": [
-                                        "DCN0744, DCN0720, DCN0722, DCN0743, DCN0736"
+                                        "DCN0744","DCN0720","DCN0722","DCN0743","DCN0736"
                                     ]
                                 },
                                 {
@@ -6715,7 +6715,7 @@
                                     "horas": "360h",
                                     "creditos": "(0.0.8)",
                                     "preRequisito": [
-                                        "DCN0744, DCN0720, DCN0722, DCN0743, DCN0736"
+                                        "DCN0744","DCN0720","DCN0722","DCN0743","DCN0736"
                                     ]
                                 }
                             ]
@@ -7333,7 +7333,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCN0004, DCET0823"
+                                        "DCN0004","DCET0823"
                                     ]
                                 },
                                 {
@@ -7342,7 +7342,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCN0043, DEAS0016"
+                                        "DCN0043","DEAS0016"
                                     ]
                                 },
                                 {
@@ -7351,7 +7351,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCET0200, DCET0822"
+                                        "DCET0200","DCET0822"
                                     ]
                                 },
                                 {
@@ -7446,7 +7446,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCET0201, DCN0043, DFZ0713"
+                                        "DCET0201","DCN0043","DFZ0713"
                                     ]
                                 },
                                 {
@@ -7455,7 +7455,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFZ0050, DCET0728"
+                                        "DFZ0050","DCET0728"
                                     ]
                                 },
                                 {
@@ -7564,7 +7564,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DEAS0016, DEAS0019"
+                                        "DEAS0016","DEAS0019"
                                     ]
                                 },
                                 {
@@ -7600,7 +7600,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DEAS0028, DEAS0018"
+                                        "DEAS0028","DEAS0018"
                                     ]
                                 },
                                 {
@@ -7659,7 +7659,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DEAS0024, DFZ0716"
+                                        "DEAS0024","DFZ0716"
                                     ]
                                 },
                                 {
@@ -7682,7 +7682,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFZ0716, DFZ0724"
+                                        "DFZ0716","DFZ0724"
                                     ]
                                 },
                                 {
@@ -7691,7 +7691,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFZ0702, DFZ0724"
+                                        "DFZ0702","DFZ0724"
                                     ]
                                 },
                                 {
@@ -7850,7 +7850,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCSA0481, DFCH0152"
+                                        "DCSA0481","DFCH0152"
                                     ]
                                 },
                                 {
@@ -8054,7 +8054,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCSA0486, DCSA0179"
+                                        "DCSA0486","DCSA0179"
                                     ]
                                 }
                             ]
@@ -8136,7 +8136,7 @@
                                     "horas": "45h",
                                     "creditos": "(0.0.1)",
                                     "preRequisito": [
-                                        "DCSA0218, DCSA0769"
+                                        "DCSA0218","DCSA0769"
                                     ]
                                 },
                                 {
@@ -8213,7 +8213,7 @@
                                     "horas": "45h",
                                     "creditos": "(0.0.1)",
                                     "preRequisito": [
-                                        "DCSA0218, DCSA0494, DCSA0769"
+                                        "DCSA0218","DCSA0494","DCSA0769"
                                     ]
                                 },
                                 {
@@ -8290,7 +8290,7 @@
                                     "horas": "45h",
                                     "creditos": "(0.0.1)",
                                     "preRequisito": [
-                                        "DCSA0219, DCSA0498, DCSA0769"
+                                        "DCSA0219","DCSA0498","DCSA0769"
                                     ]
                                 },
                                 {
@@ -8335,7 +8335,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCSA0202, DCSA0209"
+                                        "DCSA0202","DCSA0209"
                                     ]
                                 },
                                 {
@@ -8353,7 +8353,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DFCH0152, DCSA0202"
+                                        "DFCH0152","DCSA0202"
                                     ]
                                 }
                             ]
@@ -8367,7 +8367,7 @@
                                     "horas": "45h",
                                     "creditos": "(0.0.1)",
                                     "preRequisito": [
-                                        "DCSA0219, DCSA0501, DCSA0769"
+                                        "DCSA0219","DCSA0501","DCSA0769"
                                     ]
                                 },
                                 {
@@ -8412,7 +8412,7 @@
                                     "horas": "30h",
                                     "creditos": "(0.1.0)",
                                     "preRequisito": [
-                                        "DCSA0191, DCSA0211"
+                                        "DCSA0191","DCSA0211"
                                     ]
                                 },
                                 {
@@ -8539,7 +8539,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCSA0481, DFCH0152"
+                                        "DCSA0481","DFCH0152"
                                     ]
                                 },
                                 {
@@ -8743,7 +8743,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCSA0179, DCSA0486"
+                                        "DCSA0179","DCSA0486"
                                     ]
                                 }
                             ]
@@ -8825,7 +8825,7 @@
                                     "horas": "45h",
                                     "creditos": "(0.0.1)",
                                     "preRequisito": [
-                                        "DCSA0218, DCSA0769"
+                                        "DCSA0218","DCSA0769"
                                     ]
                                 },
                                 {
@@ -8902,7 +8902,7 @@
                                     "horas": "45h",
                                     "creditos": "(0.0.1)",
                                     "preRequisito": [
-                                        "DCSA0218, DCSA0494, DCSA0769"
+                                        "DCSA0218","DCSA0494","DCSA0769"
                                     ]
                                 },
                                 {
@@ -8979,7 +8979,7 @@
                                     "horas": "45h",
                                     "creditos": "(0.0.1)",
                                     "preRequisito": [
-                                        "DCSA0219, DCSA0498, DCSA0769"
+                                        "DCSA0219","DCSA0498","DCSA0769"
                                     ]
                                 },
                                 {
@@ -9024,7 +9024,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCSA0202, DCSA0209"
+                                        "DCSA0202","DCSA0209"
                                     ]
                                 },
                                 {
@@ -9042,7 +9042,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DFCH0152, DCSA0202"
+                                        "DFCH0152","DCSA0202"
                                     ]
                                 }
                             ]
@@ -9056,7 +9056,7 @@
                                     "horas": "45h",
                                     "creditos": "(0.0.1)",
                                     "preRequisito": [
-                                        "DCSA0219, DCSA0501, DCSA0769"
+                                        "DCSA0219","DCSA0501","DCSA0769"
                                     ]
                                 },
                                 {
@@ -9101,7 +9101,7 @@
                                     "horas": "30h",
                                     "creditos": "(0.1.0)",
                                     "preRequisito": [
-                                        "DCSA0191, DCSA0211"
+                                        "DCSA0191","DCSA0211"
                                     ]
                                 },
                                 {
@@ -9351,7 +9351,7 @@
                                     "horas": "90h",
                                     "creditos": "(2.2.0)",
                                     "preRequisito": [
-                                        "DELL0210, DFCH0937"
+                                        "DELL0210","DFCH0937"
                                     ]
                                 },
                                 {
@@ -9451,7 +9451,7 @@
                                     "horas": "75h",
                                     "creditos": "(1.2.0)",
                                     "preRequisito": [
-                                        "DFCH0146, DFCH0145, DFCH0336, DFCH0334, DFCH0140, DFCH0937"
+                                        "DFCH0146","DFCH0145","DFCH0336","DFCH0334","DFCH0140","DFCH0937"
                                     ]
                                 },
                                 {
@@ -9469,7 +9469,7 @@
                                     "horas": "90h",
                                     "creditos": "(2.2.0)",
                                     "preRequisito": [
-                                        "DELL0210, DFCH0139, DFCH0134"
+                                        "DELL0210","DFCH0139","DFCH0134"
                                     ]
                                 }
                             ]
@@ -9992,7 +9992,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCSA0007, DFCH0002"
+                                        "DCSA0007","DFCH0002"
                                     ]
                                 },
                                 {
@@ -10051,7 +10051,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCET0324, DCSA0161"
+                                        "DCET0324","DCSA0161"
                                     ]
                                 },
                                 {
@@ -10192,7 +10192,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCSA0158, DCSA0159, DCSA0334"
+                                        "DCSA0158","DCSA0159","DCSA0334"
                                     ]
                                 },
                                 {
@@ -10210,7 +10210,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCSA0157, DCSA0159"
+                                        "DCSA0157","DCSA0159"
                                     ]
                                 },
                                 {
@@ -10483,7 +10483,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DFCH0002, DFCH0924"
+                                        "DFCH0002","DFCH0924"
                                     ]
                                 },
                                 {
@@ -10692,7 +10692,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCSA0022, DCSA0031"
+                                        "DCSA0022","DCSA0031"
                                     ]
                                 },
                                 {
@@ -10701,7 +10701,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCSA0022, DCSA0032"
+                                        "DCSA0022","DCSA0032"
                                     ]
                                 }
                             ]
@@ -10724,7 +10724,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCSA0100, DCSA0022"
+                                        "DCSA0100","DCSA0022"
                                     ]
                                 },
                                 {
@@ -10765,7 +10765,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFCH0077, DCSA0054, DCSA0772"
+                                        "DFCH0077","DCSA0054","DCSA0772"
                                     ]
                                 },
                                 {
@@ -10801,7 +10801,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DFCH0077, DCSA0052"
+                                        "DFCH0077","DCSA0052"
                                     ]
                                 }
                             ]
@@ -10824,7 +10824,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCSA0033, DCSA0035"
+                                        "DCSA0033","DCSA0035"
                                     ]
                                 },
                                 {
@@ -10965,7 +10965,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCN0146, DCN0145"
+                                        "DCN0146","DCN0145"
                                     ]
                                 },
                                 {
@@ -11219,7 +11219,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCN0155, DCN0163"
+                                        "DCN0155","DCN0163"
                                     ]
                                 },
                                 {
@@ -11269,7 +11269,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCN0855, DCN0759"
+                                        "DCN0855","DCN0759"
                                     ]
                                 },
                                 {
@@ -11278,7 +11278,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCN0146, DCN0173"
+                                        "DCN0146","DCN0173"
                                     ]
                                 },
                                 {
@@ -11419,7 +11419,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCET0100, DCET0118"
+                                        "DCET0100","DCET0118"
                                     ]
                                 },
                                 {
@@ -11600,7 +11600,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCN0108, DCN0105"
+                                        "DCN0108","DCN0105"
                                     ]
                                 },
                                 {
@@ -11636,7 +11636,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCN0002, DCN0105"
+                                        "DCN0002","DCN0105"
                                     ]
                                 },
                                 {
@@ -11668,7 +11668,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCN0301, DFZ0113, DFZ0050"
+                                        "DCN0301","DFZ0113","DFZ0050"
                                     ]
                                 },
                                 {
@@ -11745,7 +11745,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFZ0112, DFZ0711"
+                                        "DFZ0112","DFZ0711"
                                     ]
                                 },
                                 {
@@ -11763,7 +11763,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCN0301, DFZ0112, DFZ0050"
+                                        "DCN0301","DFZ0112","DFZ0050"
                                     ]
                                 },
                                 {
@@ -11813,7 +11813,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DEAS0115, DEAS0100"
+                                        "DEAS0115","DEAS0100"
                                     ]
                                 },
                                 {
@@ -11831,7 +11831,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFZ0110, DFZ0101, DFZ0102, DEAS0100, DFZ0711"
+                                        "DFZ0110","DFZ0101","DFZ0102","DEAS0100","DFZ0711"
                                     ]
                                 },
                                 {
@@ -11840,7 +11840,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFZ0110, DFZ0101, DFZ0102, DEAS0100, DFZ0711"
+                                        "DFZ0110","DFZ0101","DFZ0102","DEAS0100","DFZ0711"
                                     ]
                                 },
                                 {
@@ -11849,7 +11849,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFZ0113, DFZ0100"
+                                        "DFZ0113","DFZ0100"
                                     ]
                                 },
                                 {
@@ -11872,7 +11872,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFZ0118, DFZ0119"
+                                        "DFZ0118","DFZ0119"
                                     ]
                                 },
                                 {
@@ -11881,7 +11881,7 @@
                                     "horas": "75h",
                                     "creditos": "(3.1.0)",
                                     "preRequisito": [
-                                        "DFZ0118, DFZ0119"
+                                        "DFZ0118","DFZ0119"
                                     ]
                                 },
                                 {
@@ -11890,7 +11890,7 @@
                                     "horas": "75h",
                                     "creditos": "(3.1.0)",
                                     "preRequisito": [
-                                        "DFZ0110, DFZ0101, DFZ0102, DEAS0100, DFZ0711"
+                                        "DFZ0110","DFZ0101","DFZ0102","DEAS0100","DFZ0711"
                                     ]
                                 },
                                 {
@@ -11899,7 +11899,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFZ0110, DFZ0101, DFZ0102, DEAS0100, DFZ0711"
+                                        "DFZ0110","DFZ0101","DFZ0102","DEAS0100","DFZ0711"
                                     ]
                                 },
                                 {
@@ -11908,7 +11908,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCET0110, DEAS0114"
+                                        "DCET0110","DEAS0114"
                                     ]
                                 },
                                 {
@@ -11940,7 +11940,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DEAS0114, DEAS0111, DEAS0103"
+                                        "DEAS0114","DEAS0111","DEAS0103"
                                     ]
                                 },
                                 {
@@ -11976,7 +11976,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DEAS0003, DEAS0109"
+                                        "DEAS0003","DEAS0109"
                                     ]
                                 },
                                 {
@@ -11985,7 +11985,7 @@
                                     "horas": "75h",
                                     "creditos": "(3.1.0)",
                                     "preRequisito": [
-                                        "DFZ0110, DFZ0101, DFZ0102, DEAS0100, DFZ0711"
+                                        "DFZ0110","DFZ0101","DFZ0102","DEAS0100","DFZ0711"
                                     ]
                                 },
                                 {
@@ -11994,7 +11994,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFZ0110, DFZ0101, DFZ0102, DEAS0100, DFZ0711"
+                                        "DFZ0110","DFZ0101","DFZ0102","DEAS0100","DFZ0711"
                                     ]
                                 }
                             ]
@@ -12008,7 +12008,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFZ0110, DFZ0101, DFZ0102, DEAS0100, DFZ0711"
+                                        "DFZ0110","DFZ0101","DFZ0102","DEAS0100","DFZ0711"
                                     ]
                                 },
                                 {
@@ -12017,7 +12017,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFZ0110, DFZ0101, DFZ0102, DEAS0100, DFZ0711"
+                                        "DFZ0110","DFZ0101","DFZ0102","DEAS0100","DFZ0711"
                                     ]
                                 },
                                 {
@@ -12026,7 +12026,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFZ0118, DFZ0119"
+                                        "DFZ0118","DFZ0119"
                                     ]
                                 },
                                 {
@@ -12044,7 +12044,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCSA0121, DFCH0110"
+                                        "DCSA0121","DFCH0110"
                                     ]
                                 },
                                 {
@@ -12198,7 +12198,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DFCH0116, DFCH0924"
+                                        "DFCH0116","DFCH0924"
                                     ]
                                 }
                             ]
@@ -12339,7 +12339,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFCH0102, DCSA0123"
+                                        "DFCH0102","DCSA0123"
                                     ]
                                 },
                                 {
@@ -12425,7 +12425,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCET0211, DCET0212"
+                                        "DCET0211","DCET0212"
                                     ]
                                 },
                                 {
@@ -12466,7 +12466,7 @@
                                     "horas": "60h",
                                     "creditos": "(1.0.1)",
                                     "preRequisito": [
-                                        "DCSA0107, DCSA0111, DCSA0132, DCSA0109, DCSA0105"
+                                        "DCSA0107","DCSA0111","DCSA0132","DCSA0109","DCSA0105"
                                     ]
                                 },
                                 {
@@ -12484,7 +12484,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCET0213, DCSA0303"
+                                        "DCET0213","DCSA0303"
                                     ]
                                 },
                                 {
@@ -12543,7 +12543,7 @@
                                     "horas": "45h",
                                     "creditos": "(3.0.0)",
                                     "preRequisito": [
-                                        "DCSA0102, DFCH0102"
+                                        "DCSA0102","DFCH0102"
                                     ]
                                 },
                                 {
@@ -12561,7 +12561,7 @@
                                     "horas": "240h",
                                     "creditos": "(1.0.5)",
                                     "preRequisito": [
-                                        "DCSA0108, DCSA0112, DCSA0106, DCSA0110, DCSA0133, DCSA0134"
+                                        "DCSA0108","DCSA0112","DCSA0106","DCSA0110","DCSA0133","DCSA0134"
                                     ]
                                 }
                             ]
@@ -12643,7 +12643,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DFCH0116, DFCH0924"
+                                        "DFCH0116","DFCH0924"
                                     ]
                                 },
                                 {
@@ -12797,7 +12797,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DELL0008, DCSA0308"
+                                        "DELL0008","DCSA0308"
                                     ]
                                 }
                             ]
@@ -12820,7 +12820,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DFCH0102, DCSA0123"
+                                        "DFCH0102","DCSA0123"
                                     ]
                                 },
                                 {
@@ -12979,7 +12979,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCET0211, DCSA0106, DCSA0112"
+                                        "DCET0211","DCSA0106","DCSA0112"
                                     ]
                                 },
                                 {
@@ -12988,7 +12988,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCET0213, DCSA0303"
+                                        "DCET0213","DCSA0303"
                                     ]
                                 },
                                 {
@@ -12997,7 +12997,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCET0212, DCET0211"
+                                        "DCET0212","DCET0211"
                                     ]
                                 }
                             ]
@@ -13011,7 +13011,7 @@
                                     "horas": "60h",
                                     "creditos": "(1.0.1)",
                                     "preRequisito": [
-                                        "DCSA0107, DCSA0132, DCSA0111, DCSA0109, DCSA0105"
+                                        "DCSA0107","DCSA0132","DCSA0111","DCSA0109","DCSA0105"
                                     ]
                                 },
                                 {
@@ -13038,7 +13038,7 @@
                                     "horas": "45h",
                                     "creditos": "(3.0.0)",
                                     "preRequisito": [
-                                        "DCSA0102, DFCH0102"
+                                        "DCSA0102","DFCH0102"
                                     ]
                                 },
                                 {
@@ -13079,7 +13079,7 @@
                                     "horas": "240h",
                                     "creditos": "(1.0.5)",
                                     "preRequisito": [
-                                        "DCSA0108, DCSA0133, DCSA0106, DCSA0110, DCSA0112, DCSA0134"
+                                        "DCSA0108","DCSA0133","DCSA0106","DCSA0110","DCSA0112","DCSA0134"
                                     ]
                                 }
                             ]
@@ -13274,7 +13274,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCET0725, DCET0731"
+                                        "DCET0725","DCET0731"
                                     ]
                                 },
                                 {
@@ -13383,7 +13383,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCET0727, DCET0742"
+                                        "DCET0727","DCET0742"
                                     ]
                                 },
                                 {
@@ -13392,7 +13392,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCET0723, DCET0739"
+                                        "DCET0723","DCET0739"
                                     ]
                                 },
                                 {
@@ -13433,7 +13433,7 @@
                                     "horas": "60h",
                                     "creditos": "(4.0.0)",
                                     "preRequisito": [
-                                        "DCET0725, DCET0733"
+                                        "DCET0725","DCET0733"
                                     ]
                                 },
                                 {
@@ -13469,7 +13469,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCET0733, DCET0740"
+                                        "DCET0733","DCET0740"
                                     ]
                                 }
                             ]
@@ -13501,7 +13501,7 @@
                                     "horas": "60h",
                                     "creditos": "(2.1.0)",
                                     "preRequisito": [
-                                        "DCET0724, DCET0728"
+                                        "DCET0724","DCET0728"
                                     ]
                                 }
                             ]
