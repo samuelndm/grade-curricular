@@ -99,11 +99,12 @@ export class MinhagradeComponent implements OnInit {
     this.gradeCurso.forEach(periodo => {
       if (periodo.periodo == periodoSelecionado) {
         periodo.materias.forEach(materia => {
-          // this.updateGradeColor(materia);
           this.updateMateriaNaoSelecionada(materia.codigo);
+          
         })
       }
     })
+    this.updateAptosParaCursar();
   }
   
 

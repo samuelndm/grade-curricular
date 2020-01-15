@@ -2,7 +2,7 @@
 .fluxogContainer {
     background-color: rgb(228, 228, 228);
     overflow-y: auto;
-    height:77vh;
+    height:79vh;
     width: 100vw;
     padding-left: 1vw;
 }
@@ -56,7 +56,6 @@
     font-family: 'Century Gothic', sans-serif;
     font-size: 79%;
     font-weight: 500;
-    /* font-size: 0.786vw; */
     text-align: center;
     
 }

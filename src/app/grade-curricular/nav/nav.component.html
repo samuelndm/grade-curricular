@@ -1,4 +1,4 @@
-<div class="navContainer">
+<div *ngIf="curso" class="navContainer">
     <div class="navBarContainer">
 
         <nav class="navMenuContainer">
@@ -14,11 +14,10 @@
             
         </nav>
 
-        <div class="nomeCursoContainer">
+        
             <p class="nomeCurso">
                 {{nomeCurso}} ({{tipoCurso}}) - {{turnoCurso}}
             </p>
-        </div>
 
     </div>
     <a (click)="onSelectFaculdade(idFaculdade)" class="navFaculdadeInfo">
@@ -26,7 +25,7 @@
 
         <div class="faculdade-nav">
 
-            <p class="nomeFaculdade-nav">{{nomeFaculdade}}</p>
+            <p class="nomeFaculdade-nav">{{nomeFaculdade}} </p>
             <p class="campusFaculdade-nav">Campus - {{campusFaculdade}}</p>
         </div>
     </a>
