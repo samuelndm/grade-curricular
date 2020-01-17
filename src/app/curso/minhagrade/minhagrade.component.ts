@@ -16,7 +16,7 @@ export class MinhagradeComponent implements OnInit {
   gradeCurso: any[];
   gradeCursoCapitalized: any[];
   widthMateria: number = 152;
-  widthFluxograma: number;
+  widthMinhaGrade: number;
 
   corLiberado: Object = {
     "background": "white",
@@ -24,7 +24,6 @@ export class MinhagradeComponent implements OnInit {
     "shadowColor": "none",
   };
   corSelecionado: Object = {
-    // "background": "rgb(14, 170, 0)",
     "background": "rgb(101, 110, 238)",
     "texto": "white",
     "shadowColor": "0.5px 0.2px black",
@@ -225,7 +224,7 @@ export class MinhagradeComponent implements OnInit {
       this.faculdades = this.data.faculdades;
       this.setCursoById(this.idCurso);
       this.gradeCurso = this.curso.grade;
-      this.widthFluxograma = this.curso.grade.length * this.widthMateria;
+      this.widthMinhaGrade = this.curso.grade.length * this.widthMateria;
       this.addGradeColor();
       this.capitalizeCursosName();
     })
