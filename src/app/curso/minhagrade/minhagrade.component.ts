@@ -159,7 +159,6 @@ export class MinhagradeComponent implements OnInit {
 
   updateMateriaSelecionada(codigoMateria) {
     var materia: any = this.getMateriaById(codigoMateria);
-    console.log(materia);
     materia.isSelecionado = false;
     materia.cor = this.corLiberado;
   }
@@ -171,7 +170,6 @@ export class MinhagradeComponent implements OnInit {
         if (!(materiaAlvo.isSelecionado)) {
           let isApto = true;
           materiaAlvo.preRequisito.forEach(codigoPreRequisito => {
-            console.log(codigoPreRequisito);
             var materiaPreRequisito: any = this.getMateriaById(codigoPreRequisito);
 
             if (!(materiaPreRequisito.isSelecionado))
