@@ -8,6 +8,7 @@ import { PesquisarCursosComponent } from './pesquisar-cursos/pesquisar-cursos.co
 import { PesquisarFaculdadesComponent } from './pesquisar-faculdades/pesquisar-faculdades.component';
 import { CursoPesquisadoComponent } from './curso-pesquisado/curso-pesquisado.component';
 import { FaculdadePesquisadaComponent } from './faculdade-pesquisada/faculdade-pesquisada.component';
+import { NavCursosComponent } from './nav-cursos/nav-cursos.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { FaculdadePesquisadaComponent } from './faculdade-pesquisada/faculdade-p
     PesquisarCursosComponent,
     PesquisarFaculdadesComponent,
     CursoPesquisadoComponent,
-    FaculdadePesquisadaComponent
+    FaculdadePesquisadaComponent,
+    NavCursosComponent
   ],
   imports: [
     CommonModule,
