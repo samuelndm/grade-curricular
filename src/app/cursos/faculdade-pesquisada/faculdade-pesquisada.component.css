@@ -131,7 +131,6 @@
     text-align: center;
     color: rgb(0, 0, 0);
     text-shadow: 0.5px 0.5px 0.5px white;
-    margin-top: 2%;
 }
 
 .turnoCursoContainer {
@@ -151,9 +150,13 @@
     color: rgb(114, 41, 41);
     text-shadow: 0.5px 0.5px 0.5px rgb(255, 255, 255);
     text-align: center;
-    margin-top: 2%;
 }
 
 #nenhumCursoAdcionado {
     margin-top: 10%;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
 }
