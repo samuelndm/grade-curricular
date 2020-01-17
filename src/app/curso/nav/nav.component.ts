@@ -76,15 +76,15 @@ export class NavComponent implements OnInit {
   }
 
   onSelectFluxograma(id) {
-    this._router.navigate(['/fluxograma', id]);
+    this._router.navigate(['/curso/fluxograma', id]);
   }
 
   onSelectMinhaGrade(id) {
-    this._router.navigate(['/minhagrade', id]);
+    this._router.navigate(['/curso/minhagrade', id]);
   }
 
   onSelectFaculdade(id) {
-    this._router.navigate(['/faculdade', id]);
+    this._router.navigate(['/cursos/faculdade', id]);
   }
 
 

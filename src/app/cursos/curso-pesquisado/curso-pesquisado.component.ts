@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 import { Router, ActivatedRoute } from '@angular/router';
 import { DataService } from '../../data.service';
 
@@ -121,11 +122,11 @@ export class CursoPesquisadoComponent implements OnInit {
   }
 
   onSelectCurso(id) {
-    this._router.navigate(['/fluxograma', id]);
+    this._router.navigate(['/curso/fluxograma', id]);
   }
 
   onSelectFaculdade(id) {
-    this._router.navigate(['/faculdade', id]);
+    this._router.navigate(['/cursos/faculdade', id]);
   }
 
   constructor(private _dataService: DataService, private _router: Router, private _activatedRoute: ActivatedRoute) { }

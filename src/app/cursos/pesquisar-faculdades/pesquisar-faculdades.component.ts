@@ -49,7 +49,7 @@ export class PesquisarFaculdadesComponent implements OnInit {
   }
 
   onSelect(id) {
-    this._router.navigate(['/faculdade', id]);
+    this._router.navigate(['/cursos/faculdade', id]);
   }
 
   ngOnInit() {

@@ -19,7 +19,7 @@
 
   <div *ngIf="cursos.length >= 1" class="cursosContainer">
     <div *ngFor="let curso of filteredCursos" class="infoCursoContainer">
-      <div (click)="onSelectFaculdade(faculdade.idFaculdade)" class="logoFaculdadeContainer">
+      <div class="logoFaculdadeContainer">
         <img id="logoFaculdade" src="../../assets/img/{{faculdade.idLogoFaculdade}}.webp">
       </div>
       <a (click)="onSelectCurso(curso.idCurso)" class="infoCurso">

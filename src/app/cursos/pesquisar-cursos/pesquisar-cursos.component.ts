@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { DataService } from '../../data.service';
 
@@ -61,7 +62,7 @@ export class PesquisarCursosComponent implements OnInit {
   }
 
   onSelect(curso) {
-    this._router.navigate(['/curso', curso]);
+    this._router.navigate(['/cursos/curso-pesq', curso]);
   }
 
   ngOnInit() {

@@ -78,11 +78,7 @@ export class FaculdadePesquisadaComponent implements OnInit {
   }
 
   onSelectCurso(id) {
-    this._router.navigate(['/fluxograma', id]);
-  }
-
-  onSelectFaculdade(id) {
-    this._router.navigate(['/faculdade', id]);
+    this._router.navigate(['/curso/fluxograma', id]);
   }
 
   ngOnInit() {
