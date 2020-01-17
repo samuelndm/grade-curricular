@@ -4,7 +4,6 @@
     align-items: center;
     height: 93vh;
     background-color: #E4E4E4;
-    
 }
 
 .tituloFaculdadeContainer {
@@ -39,8 +38,6 @@
     text-align: center;
 }
 
-
-
 #nomeFaculdade {
     font-size: 20px;
     font-family: 'Century Gothic', sans-serif;
@@ -63,6 +60,7 @@
     margin: 3px;
     margin-bottom: 9px;
 }
+
 
 .cursosContainer {
     display: flex;
@@ -121,7 +119,6 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    
 }
 
 #nomeCurso {
@@ -141,7 +138,6 @@
     height: 100%;
     width: 100px;
     border-left: 0.1px solid rgb(158, 158, 158);
-    
 }
 
 #turnoCurso {
