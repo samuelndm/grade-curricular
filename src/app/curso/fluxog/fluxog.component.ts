@@ -37,7 +37,7 @@ export class FluxogComponent implements OnInit {
     "background": "rgb(200, 200, 200)",
     "texto": "black",
     "shadowColor": "none",
-    "border": "1.49px solid rgb(248, 245, 38)"
+    "border": "1.49px solid rgb(255, 119, 119)"
   };
   corLibera: Object = {
     "background": "rgb(200, 200, 200)",
