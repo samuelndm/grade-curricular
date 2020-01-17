@@ -1,1 +1,1 @@
-# GradecProjeto
+Site que contém as grades curriculares dos cursos do IFBA e UESB, com possibilidade de adicionar outros cursos de qualquer faculdade, facilitando aos alunos e a quem pretende visualizar o fluxograma dos mesmo, como também simular sua grade.
