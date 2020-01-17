@@ -6,7 +6,7 @@
 			"campus": "Jequié",
 			"cursos": [{
 					"curso": "Fisioterapia",
-					"idCurso": 14203,
+					"idCurso": 15203,
 					"tipoCurso": "Bacharelado",
 					"campus": "Jequié",
 					"turno": "Diúrno",
@@ -513,7 +513,7 @@
 				},
 				{
 					"curso": "Química",
-					"idCurso": 14204,
+					"idCurso": 15204,
 					"tipoCurso": "Bacharelado",
 					"campus": "Jequié",
 					"turno": "Diúrno",
@@ -869,7 +869,7 @@
 				},
 				{
 					"curso": "Enfermagem E Obstetrícia",
-					"idCurso": 14205,
+					"idCurso": 15205,
 					"tipoCurso": "Bacharelado",
 					"campus": "Jequié",
 					"turno": "Diúrno",
@@ -1257,7 +1257,7 @@
 				},
 				{
 					"curso": "Odontologia",
-					"idCurso": 14206,
+					"idCurso": 15206,
 					"tipoCurso": "Bacharelado",
 					"campus": "Jequié",
 					"turno": "Diúrno",
@@ -1728,7 +1728,7 @@
 				},
 				{
 					"curso": "Matemática Com Enfoque Em Informática",
-					"idCurso": 14207,
+					"idCurso": 15207,
 					"tipoCurso": "Licenciatura",
 					"campus": "Jequié",
 					"turno": "Noturno",
@@ -2124,7 +2124,7 @@
 				},
 				{
 					"curso": "Ciências Biológicas",
-					"idCurso": 14208,
+					"idCurso": 15208,
 					"tipoCurso": "Licenciatura",
 					"campus": "Jequié",
 					"turno": "Diúrno",
@@ -2552,7 +2552,7 @@
 				},
 				{
 					"curso": "Ciências Biológicas",
-					"idCurso": 14209,
+					"idCurso": 15209,
 					"tipoCurso": "Licenciatura",
 					"campus": "Jequié",
 					"turno": "Noturno",
@@ -2984,7 +2984,7 @@
 				},
 				{
 					"curso": "Letras",
-					"idCurso": 14211,
+					"idCurso": 15211,
 					"tipoCurso": "Licenciatura",
 					"campus": "Jequié",
 					"turno": "Matutino",
@@ -3420,7 +3420,7 @@
 				},
 				{
 					"curso": "Letras",
-					"idCurso": 14212,
+					"idCurso": 15212,
 					"tipoCurso": "Licenciatura",
 					"campus": "Jequié",
 					"turno": "Noturno",
@@ -3855,7 +3855,7 @@
 				},
 				{
 					"curso": "Sistemas De Informação",
-					"idCurso": 14213,
+					"idCurso": 15213,
 					"tipoCurso": "Bacharelado",
 					"campus": "Jequié",
 					"turno": "Diúrno",
@@ -4312,7 +4312,7 @@
 				},
 				{
 					"curso": "Educação Física",
-					"idCurso": 14214,
+					"idCurso": 15214,
 					"tipoCurso": "Licenciatura",
 					"campus": "Jequié",
 					"turno": "Diúrno",
@@ -4838,7 +4838,7 @@
 				},
 				{
 					"curso": "Pedagogia",
-					"idCurso": 14215,
+					"idCurso": 15215,
 					"tipoCurso": "Licenciatura",
 					"campus": "Jequié",
 					"turno": "Matutino",
@@ -5392,7 +5392,7 @@
 				},
 				{
 					"curso": "Pedagogia",
-					"idCurso": 14216,
+					"idCurso": 15216,
 					"tipoCurso": "Licenciatura",
 					"campus": "Jequié",
 					"turno": "Noturno",
@@ -5946,7 +5946,7 @@
 				},
 				{
 					"curso": "Química",
-					"idCurso": 14217,
+					"idCurso": 15217,
 					"tipoCurso": "Licenciatura",
 					"campus": "Jequié",
 					"turno": "Noturno",
