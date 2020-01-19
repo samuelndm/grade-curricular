@@ -4,7 +4,800 @@
 			"idFaculdade": 213,
 			"idLogoFaculdade": "UESB",
 			"campus": "Jequié",
-			"cursos": [{
+			"cursos": [
+				{
+					"curso": "Medicina",
+					"idCurso": 142025,
+					"tipoCurso": "Bacharelado",
+					"campus": "Jequié",
+					"turno": "Diúrno",
+					"grade": [
+						{
+							"periodo": "1",
+							"materias": [
+								{
+									"codigo": "DSII0708",
+									"nome": "PRÁTICAS DE INTEGRAÇÃO ENSINO, SERVIÇO E COMUNIDADE I (PIESC)",
+									"horas": "135h",
+									"creditos": "(1.4.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DSII0707",
+									"nome": "ABRANGÊNCIA DAS AÇÕES DE SAÚDE",
+									"horas": "120h",
+									"creditos": "(2.3.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DSII0705",
+									"nome": "ATUALIZAÇÃO I (eletiva)",
+									"horas": "75h",
+									"creditos": "(1.2.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DSII0701",
+									"nome": "HABILIDADES CLÍNICAS E ATITUDES I",
+									"horas": "135h",
+									"creditos": "(1.4.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DSII0700",
+									"nome": "INTRODUÇÃO AO ESTUDO DA MEDICINA",
+									"horas": "135h",
+									"creditos": "(3.3.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DCB0703",
+									"nome": "MECANISMOS DE AGRESSÃO E DEFESA",
+									"horas": "180h",
+									"creditos": "(4.4.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DCB0702",
+									"nome": "FUNÇÕES BIOLÓGICAS",
+									"horas": "165h",
+									"creditos": "(3.4.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DCB0701",
+									"nome": "METABOLISMO",
+									"horas": "135h",
+									"creditos": "(3.3.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DCB0700",
+									"nome": "CONCEPÇÃO E FORMAÇÃO DO SER HUMANO",
+									"horas": "135h",
+									"creditos": "(3.3.0)",
+									"preRequisito": [
+									]
+								}
+							]
+						},
+						{
+							"periodo": "2",
+							"materias": [
+								{
+									"codigo": "DSII0717",
+									"nome": "PRÁTICAS DE INTEGRAÇÃO ENSINO, SERVIÇO E COMUNIDADE II (PIESC)",
+									"horas": "135h",
+									"creditos": "(1.4.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DSII0716",
+									"nome": "PERCEPÇÃO, CONSCIÊNCIA E EMOÇÃO",
+									"horas": "135h",
+									"creditos": "(3.3.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DSII0715",
+									"nome": "NASCIMENTO, CRESCIMENTO E DESENVOLVIMENTO",
+									"horas": "135h",
+									"creditos": "(3.3.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DSII0714",
+									"nome": "ATUALIZAÇÃO II (eletiva)",
+									"horas": "75h",
+									"creditos": "(1.2.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DSII0713",
+									"nome": "PROCESSO DE ENVELHECIMENTO",
+									"horas": "180h",
+									"creditos": "(4.4.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DSII0712",
+									"nome": "DOENÇAS RESULTANTES DA AGRESSÃO AO MEIO AMBIENTE",
+									"horas": "120h",
+									"creditos": "(2.3.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DSII0711",
+									"nome": "LOCOMOÇÃO E PREENSÃO",
+									"horas": "120h",
+									"creditos": "(2.3.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DSII0710",
+									"nome": "HABILIDADES CLÍNICAS E ATITUDES II",
+									"horas": "135h",
+									"creditos": "(1.4.0)",
+									"preRequisito": []
+								},
+								{
+									"codigo": "DSII0709",
+									"nome": "PROLIFERAÇÃO CELULAR",
+									"horas": "180h",
+									"creditos": "(4.4.0)",
+									"preRequisito": []
+								}
+							]},
+								{
+									"periodo": "3",
+									"materias": [
+										{
+											"codigo": "DSII0726",
+											"nome": "PRÁTICAS DE INTEGRAÇÃO ENSINO, SERVIÇO E COMUNIDADE III (PIESC)",
+											"horas": "135h",
+											"creditos": "(1.4.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0725",
+											"nome": "FEBRE, INFLAMAÇÃO E INFECÇÃO",
+											"horas": "135h",
+											"creditos": "(3.3.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0724",
+											"nome": "DOR ABDOMINAL, DIARRÉIA, VÔMITOS E ICTERÍCIA",
+											"horas": "180h",
+											"creditos": "(4.4.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0723",
+											"nome": "DOR",
+											"horas": "150h",
+											"creditos": "(4.3.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0722",
+											"nome": "PROBLEMAS MENTAIS E DE COMPORTAMENTO",
+											"horas": "120h",
+											"creditos": "(2.3.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0721",
+											"nome": "PERDA DE SANGUE",
+											"horas": "135h",
+											"creditos": "(3.3.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0720",
+											"nome": "FADIGA, PERDA DE PESO E ANEMIAS",
+											"horas": "135h",
+											"creditos": "(3.3.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0719",
+											"nome": "HABILIDADES CLÍNICAS E ATITUDES III",
+											"horas": "135h",
+											"creditos": "(1.4.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0718",
+											"nome": "TRABALHO DE CONCLUSÃO DE CURSO I",
+											"horas": "75h",
+											"creditos": "(1.2.0)",
+											"preRequisito": []
+										}
+									]
+								},
+								{
+									"periodo": "4",
+									"materias": [
+										{
+											"codigo": "DSII0735",
+											"nome": "PRÁTICAS DE INTEGRAÇÃO ENSINO, SERVIÇO E COMUNIDADE IV (PIESC)",
+											"horas": "135h",
+											"creditos": "(1.4.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0734",
+											"nome": "DISPNÉIA, DOR TORÁCICA, EDEMAS E TOSSE",
+											"horas": "165h",
+											"creditos": "(3.4.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0733",
+											"nome": "DISTÚRBIOS SENSORIAS, MOTORES E DA CONSCIÊNCIA",
+											"horas": "135h",
+											"creditos": "(3.3.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0732",
+											"nome": "SAÚDE DA MULHER, SEXUALIDADE HUMANA E PLANEJAMENTO FAMILIAR",
+											"horas": "165h",
+											"creditos": "(3.4.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0731",
+											"nome": "DESORDENS NUTRICIONAIS E METABÓLICAS",
+											"horas": "90h",
+											"creditos": "(2.2.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0730",
+											"nome": "MANIFESTAÇÕES EXTERNAS DAS DOENÇAS E IATROGENIAS",
+											"horas": "135h",
+											"creditos": "(3.3.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0729",
+											"nome": "EMERGÊNCIAS",
+											"horas": "135h",
+											"creditos": "(3.3.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0728",
+											"nome": "HABILIDADES CLÍNICAS E ATITUDES IV",
+											"horas": "135h",
+											"creditos": "(1.4.0)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0727",
+											"nome": "TRABALHO DE CONCLUSÃO DE CURSO II",
+											"horas": "75h",
+											"creditos": "(1.2.0)",
+											"preRequisito": []
+										}
+									]
+								},
+								{
+									"periodo": "5",
+									"materias": [
+										{
+											"codigo": "DSII0740",
+											"nome": "ESTÁGIO CURRICULAR SUPERVISIONADO EM ÁREA À ESCOLHA DO ALUNO",
+											"horas": "360h",
+											"creditos": "(0.0.8)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0739",
+											"nome": "ESTÁGIO CURRICULAR SUPERVISIONADO EM EMERGÊNCIAS E TRAUMA I",
+											"horas": "240h",
+											"creditos": "(1.0.5)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0738",
+											"nome": "ESTÁGIO CURRICULAR SUPERVISIONADO EM SAÚDE DO ADULTO I",
+											"horas": "435h",
+											"creditos": "(5.0.8)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0737",
+											"nome": "ESTÁGIO CURRICULAR SUPERVISIONADO EM SAÚDE DA MULHER I",
+											"horas": "435h",
+											"creditos": "(5.0.8)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0736",
+											"nome": "ESTÁGIO CURRICULAR SUPERVISIONADO EM SAÚDE DA CRIANÇA E DO ADOLESCENTE I",
+											"horas": "435h",
+											"creditos": "(5.0.8)",
+											"preRequisito": []
+										}
+									]
+								},
+								{
+									"periodo": "6",
+									"materias": [
+										{
+											"codigo": "DSII0745",
+											"nome": "ESTÁGIO CURRICULAR SUPERVISIONADO EM SAÚDE COLETIVA",
+											"horas": "420h",
+											"creditos": "(4.0.8)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0744",
+											"nome": "ESTÁGIO CURRICULAR SUPERVISIONADO EM EMERGÊNCIAS E TRAUMA II",
+											"horas": "240h",
+											"creditos": "(1.0.5)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0743",
+											"nome": "ESTÁGIO CURRICULAR SUPERVISIONDADO EM SAÚDE DO ADULTO II",
+											"horas": "420h",
+											"creditos": "(4.0.8)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0742",
+											"nome": "ESTÁGIO CURRICULAR SUPERVISIONADO EM SAÚDE DA MULHER II",
+											"horas": "420h",
+											"creditos": "(4.0.8)",
+											"preRequisito": []
+										},
+										{
+											"codigo": "DSII0741",
+											"nome": "ESTÁGIO CURRICULAR SUPERVISIONADO EM SAÚDE DA CRIANÇA E DO ADOLESCENTE II",
+											"horas": "420h",
+											"creditos": "(4.0.8)",
+											"preRequisito": []
+										}
+									]
+								}
+							]
+						},
+						{
+					"curso": "Farmácia",
+					"idCurso": 1420242,
+					"tipoCurso": "Bacharelado",
+					"campus": "Jequié",
+					"turno": "Diúrno",
+					"grade": [
+					{
+					"periodo": "1",
+					"materias": [
+					{
+					"codigo": "DCT0270",
+					"nome": "INTRODUÇÃO À FARMÁCIA",
+					"horas": "30h",
+					"creditos": "(2.0.0)",
+					"preRequisito": [
+					]},
+					{
+					"codigo": "DCB0138",
+					"nome": "ANATOMIA HUMANA",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": [
+					]},
+					{
+					"codigo": "DCT0289",
+					"nome": "QUÍMICA GERAL (2)",
+					"horas": "75h",
+					"creditos": "(3.1.0)",
+					"preRequisito": [
+					]},
+					{
+					"codigo": "DCT0293",
+					"nome": "ELEMENTOS DE CÁLCULO APLICADO",
+					"horas": "60h",
+					"creditos": "(4.0.0)",
+					"preRequisito": [
+					]},
+					{
+					"codigo": "DCT0292",
+					"nome": "FUNDAMENTOS DE FÍSICA",
+					"horas": "75h",
+					"creditos": "(3.1.0)",
+					"preRequisito": [
+					]},
+					{
+					"codigo": "DCB0290",
+					"nome": "GENÉTICA BÁSICA",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": [
+					]},
+					{
+					"codigo": "DCB0043",
+					"nome": "BIOLOGIA CELULAR BÁSICA",
+					"horas": "45h",
+					"creditos": "(3.0.0)",
+					"preRequisito": [
+					]}
+					]},
+					{
+					"periodo": "2",
+					"materias": [
+					{
+					"codigo": "DCT0421",
+					"nome": "INFORMÁTICA APLICADA À SAÚDE",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": [
+					]},
+					{
+					"codigo": "DCB0139",
+					"nome": "HISTOEMBRIOLOGIA ANIMAL",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCB0043"
+					]},
+					{
+					"codigo": "DCT0295",
+					"nome": "QUÍMICA INORGÂNICA (1)",
+					"horas": "75h",
+					"creditos": "(3.1.0)",
+					"preRequisito": ["DCT0289"
+					]},
+					{
+					"codigo": "DCT0294",
+					"nome": "QUÍMICA ORGÂNICA A",
+					"horas": "75h",
+					"creditos": "(3.1.0)",
+					"preRequisito": ["DCT0289"
+					]},
+					{
+					"codigo": "DCB0060",
+					"nome": "BIOFÍSICA BÁSICA",
+					"horas": "30h",
+					"creditos": "(2.0.0)",
+					"preRequisito": ["DCT0292"
+					]},
+					{
+					"codigo": "DSII0291",
+					"nome": "SISTEMA DE SAÚDE",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": [
+					]},
+					{
+					"codigo": "DCT0296",
+					"nome": "BIOESTATÍSTICA APLICADA À FARMÁCIA",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": [
+					]}
+					]},
+					{
+					"periodo": "3",
+					"materias": [
+					{
+					"codigo": "DCB0058",
+					"nome": "FISIOLOGIA HUMANA",
+					"horas": "60h",
+					"creditos": "(4.0.0)",
+					"preRequisito": ["DCB0138","DCB0139"
+					]},
+					{
+					"codigo": "DCT0299",
+					"nome": "QUÍMICA ANALÍTICA (1)",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCT0295"
+					]},
+					{
+					"codigo": "DCT0298",
+					"nome": "QUÍMICA ORGÂNICA B",
+					"horas": "75h",
+					"creditos": "(3.1.0)",
+					"preRequisito": ["DCT0294"
+					]},
+					{
+					"codigo": "DCT0300",
+					"nome": "ELEMENTOS DE FÍSICO-QUÍMICA",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCT0293","DCT0292","DCT0295"
+					]},
+					{
+					"codigo": "DSII0266",
+					"nome": "EPIDEMIOLOGIA",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DSII0291","DCT0296"
+					]},
+					{
+					"codigo": "DCB0047",
+					"nome": "MICROBIOLOGIA BÁSICA",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": [
+					]},
+					{
+					"codigo": "DCHL0299",
+					"nome": "LEITURA E PRODUÇÃO TEXTUAL",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": [
+					]}
+					]},
+					{
+					"periodo": "4",
+					"materias": [
+					{
+					"codigo": "DCB0059",
+					"nome": "IMUNOLOGIA BÁSICA",
+					"horas": "60h",
+					"creditos": "(4.0.0)",
+					"preRequisito": ["DCB0139"
+					]},
+					{
+					"codigo": "DSII0168",
+					"nome": "FARMACOLOGIA BÁSICA",
+					"horas": "45h",
+					"creditos": "(3.0.0)",
+					"preRequisito": ["DCB0058"
+					]},
+					{
+					"codigo": "DCT0307",
+					"nome": "QUÍMICA ANALÍTICA INSTRUMENTAL",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCT0299"
+					]},
+					{
+					"codigo": "DCB0046",
+					"nome": "BOTÂNICA APLICADA À FARMÁCIA",
+					"horas": "75h",
+					"creditos": "(3.1.0)",
+					"preRequisito": [
+					]},
+					{
+					"codigo": "DCT0314",
+					"nome": "BIOQUÍMICA I (2)",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCB0139","DCT0294"
+					]},
+					{
+					"codigo": "DCHL0024",
+					"nome": "PSICOLOGIA APLICADA À SAÚDE (3)",
+					"horas": "60h",
+					"creditos": "(4.0.0)",
+					"preRequisito": [
+					]},
+					{
+					"codigo": "DCT0345",
+					"nome": "LEGISLAÇÃO E DEONTOLOGIA FARMACÊUTICA",
+					"horas": "30h",
+					"creditos": "(2.0.0)",
+					"preRequisito": [
+					]},
+					{
+					"codigo": "DCT0376",
+					"nome": "ESTUDOS DE UTILIZAÇÃO DE MEDICAMENTOS",
+					"horas": "45h",
+					"creditos": "(3.0.0)",
+					"preRequisito": ["DCB0058","DSII0266"
+					]},
+					{
+					"codigo": "DCHL0172",
+					"nome": "METODOLOGIA À PESQUISA CIENTÍFICA",
+					"horas": "30h",
+					"creditos": "(2.0.0)",
+					"preRequisito": [
+					]}
+					]},
+					{
+					"periodo": "5",
+					"materias": [
+					{
+					"codigo": "DSII0264",
+					"nome": "PATOLOGIA GERAL (1)",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCB0058"
+					]},
+					{
+					"codigo": "DCT0315",
+					"nome": "FARMACODINÂMICA I",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DSII0168"
+					]},
+					{
+					"codigo": "DCB0061",
+					"nome": "PARASITOLOGIA HUMANA (1)",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCB0059"
+					]},
+					{
+					"codigo": "DCT0316",
+					"nome": "FARMACOGNOSIA I",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCT0298","DCB0046"
+					]},
+					{
+					"codigo": "DCT0317",
+					"nome": "BIOQUÍMICA II (2)",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCT0314"
+					]},
+					{
+					"codigo": "DCT0320",
+					"nome": "FARMACOTÉCNICA",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCT0299","DCT0300"
+					]},
+					{
+					"codigo": "DCT0431",
+					"nome": "QUALIDADE DE ÁGUAS",
+					"horas": "45h",
+					"creditos": "(1.1.0)",
+					"preRequisito": ["DCT0299","DCB0047"
+					]}
+					]},
+					{
+					"periodo": "6",
+					"materias": [
+					{
+					"codigo": "DCT0323",
+					"nome": "TOXICOLOGIA GERAL",
+					"horas": "45h",
+					"creditos": "(3.0.0)",
+					"preRequisito": ["DCB0058","DCT0299","DCT0298"
+					]},
+					{
+					"codigo": "DCT0324",
+					"nome": "FARMACODINÂMICA II",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCT0315"
+					]},
+					{
+					"codigo": "DCT0290",
+					"nome": "QUÍMICA FARMACÊUTICA",
+					"horas": "75h",
+					"creditos": "(3.1.0)",
+					"preRequisito": ["DCT0299","DCT0298","DCT0315"
+					]},
+					{
+					"codigo": "DCT0291",
+					"nome": "FARMACOGNOSIA II",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCT0316"
+					]},
+					{
+					"codigo": "DCT0377",
+					"nome": "CONTROLE DE QUALIDADE DE PROD. FARMACÊUTICOS, COSMÉTICOS E CORRELATOS",
+					"horas": "75h",
+					"creditos": "(1.2.0)",
+					"preRequisito": ["DCT0307"
+					]},
+					{
+					"codigo": "DCT0378",
+					"nome": "POLÍTICA DE ASSISTÊNCIA FARMACÊUTICA",
+					"horas": "75h",
+					"creditos": "(1.2.0)",
+					"preRequisito": ["DSII0266"
+					]},
+					{
+					"codigo": "DCT0379",
+					"nome": "ADMINISTRAÇÃO DE ESTABELECIMENTO FARMACÊUTICO",
+					"horas": "30h",
+					"creditos": "(2.0.0)",
+					"preRequisito": ["DSII0266","DCT0315"
+					]}
+					]},
+					{
+					"periodo": "7",
+					"materias": [
+					{
+					"codigo": "DCT0380",
+					"nome": "ATENÇÃO FARMACÊUTICA",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCT0376","DCT0324"
+					]},
+					{
+					"codigo": "DCT0381",
+					"nome": "FARMÁCIA HOSPITALAR",
+					"horas": "45h",
+					"creditos": "(1.1.0)",
+					"preRequisito": ["DCT0345","DCT0320","DCT0379"
+					]},
+					{
+					"codigo": "DSII0292",
+					"nome": "PRIMEIROS SOCORROS",
+					"horas": "45h",
+					"creditos": "(1.1.0)",
+					"preRequisito": [
+					]},
+					{
+					"codigo": "DCT0382",
+					"nome": "OPERAÇÕES UNITÁRIAS",
+					"horas": "30h",
+					"creditos": "(2.0.0)",
+					"preRequisito": [
+					]},
+					{
+					"codigo": "DCT0383",
+					"nome": "HOMEOPATIA",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCT0320","DCT0291"
+					]},
+					{
+					"codigo": "DCT0399",
+					"nome": "ANÁLISE BROMATOLÓGICA",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCT0317"
+					]},
+					{
+					"codigo": "DCT0384",
+					"nome": "TECNOLOGIA FARMACÊUTICA",
+					"horas": "75h",
+					"creditos": "(3.1.0)",
+					"preRequisito": ["DCT0320"
+					]}
+					]},
+					{
+					"periodo": "8",
+					"materias": [
+					{
+					"codigo": "DCT0326",
+					"nome": "ESTÁGIO SUPERVISIONADO EM DISPENSAÇÃO FARMACÊUTICA",
+					"horas": "270h",
+					"creditos": "(0.0.6)",
+					"preRequisito": ["DCT0379","DCT0380","DCT0381","DCT0383"
+					]},
+					{
+					"codigo": "DCT0328",
+					"nome": "BIOQUÍMICA CLÍNICA",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCT0317"
+					]},
+					{
+					"codigo": "DCT0332",
+					"nome": "HEMATOLOGIA CLÍNICA",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DSII0264"
+					]},
+					{
+					"codigo": "DCT0039",
+					"nome": "MICROBIOLOGIA DE ALIMENTOS",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCB0047"
+					]},
+					{
+					"codigo": "DCT0341",
+					"nome": "TECNOLOGIA DE ALIMENTOS",
+					"horas": "60h",
+					"creditos": "(2.1.0)",
+					"preRequisito": ["DCT0399"
+					]}
+					]}
+					]},{
 					"curso": "Fisioterapia",
 					"idCurso": 15203,
 					"tipoCurso": "Bacharelado",
@@ -2996,7 +3789,7 @@
 									"horas": "75h",
 									"creditos": "(1.2.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3005,7 +3798,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3014,7 +3807,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3023,7 +3816,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3032,7 +3825,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3041,7 +3834,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3050,7 +3843,7 @@
 									"horas": "30h",
 									"creditos": "(0.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -3090,7 +3883,7 @@
 									"horas": "75h",
 									"creditos": "(3.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3117,7 +3910,7 @@
 									"horas": "30h",
 									"creditos": "(0.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -3175,7 +3968,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3184,7 +3977,7 @@
 									"horas": "30h",
 									"creditos": "(0.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -3267,7 +4060,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3294,7 +4087,7 @@
 									"horas": "75h",
 									"creditos": "(1.2.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3303,7 +4096,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -3365,7 +4158,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -3387,7 +4180,7 @@
 									"horas": "45h",
 									"creditos": "(0.0.1)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -3411,7 +4204,7 @@
 									"horas": "45h",
 									"creditos": "(0.0.1)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -3432,7 +4225,7 @@
 									"horas": "30h",
 									"creditos": "(0.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3441,7 +4234,7 @@
 									"horas": "75h",
 									"creditos": "(1.2.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3450,7 +4243,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3459,7 +4252,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3468,7 +4261,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3477,7 +4270,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3486,7 +4279,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -3517,7 +4310,7 @@
 									"horas": "75h",
 									"creditos": "(3.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3553,7 +4346,7 @@
 									"horas": "30h",
 									"creditos": "(0.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -3566,7 +4359,7 @@
 									"horas": "30h",
 									"creditos": "(0.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3620,7 +4413,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -3712,7 +4505,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3730,7 +4523,7 @@
 									"horas": "75h",
 									"creditos": "(1.2.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3739,7 +4532,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -3801,7 +4594,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -3837,7 +4630,7 @@
 									"horas": "45h",
 									"creditos": "(0.0.1)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3846,7 +4639,7 @@
 									"horas": "45h",
 									"creditos": "(0.0.1)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -3867,7 +4660,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3876,7 +4669,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3885,7 +4678,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3894,7 +4687,7 @@
 									"horas": "75h",
 									"creditos": "(3.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3903,7 +4696,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3912,7 +4705,7 @@
 									"horas": "75h",
 									"creditos": "(3.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -3925,7 +4718,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3943,7 +4736,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3952,7 +4745,7 @@
 									"horas": "90h",
 									"creditos": "(4.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -3961,7 +4754,7 @@
 									"horas": "75h",
 									"creditos": "(3.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4011,7 +4804,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4029,7 +4822,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -4042,7 +4835,7 @@
 									"horas": "75h",
 									"creditos": "(3.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4069,7 +4862,7 @@
 									"horas": "75h",
 									"creditos": "(3.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4078,7 +4871,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4119,7 +4912,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4128,7 +4921,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4146,7 +4939,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -4186,7 +4979,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4195,7 +4988,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4204,7 +4997,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -4227,7 +5020,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4236,7 +5029,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4245,7 +5038,7 @@
 									"horas": "150h",
 									"creditos": "(1.0.3)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4267,7 +5060,7 @@
 									"horas": "45h",
 									"creditos": "(3.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4285,7 +5078,7 @@
 									"horas": "45h",
 									"creditos": "(3.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4294,7 +5087,7 @@
 									"horas": "150h",
 									"creditos": "(1.0.3)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4303,7 +5096,7 @@
 									"horas": "45h",
 									"creditos": "(3.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -4324,7 +5117,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4333,7 +5126,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4342,7 +5135,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4351,7 +5144,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4360,7 +5153,7 @@
 									"horas": "75h",
 									"creditos": "(1.2.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4369,7 +5162,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4378,7 +5171,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -4391,7 +5184,7 @@
 									"horas": "90h",
 									"creditos": "(2.2.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4400,7 +5193,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4409,7 +5202,7 @@
 									"horas": "75h",
 									"creditos": "(1.2.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4418,7 +5211,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4427,7 +5220,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4436,7 +5229,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4445,7 +5238,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -4458,7 +5251,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4467,7 +5260,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4476,7 +5269,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4485,7 +5278,7 @@
 									"horas": "105h",
 									"creditos": "(1.3.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4494,7 +5287,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4503,7 +5296,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4512,7 +5305,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -4525,7 +5318,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4534,7 +5327,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4543,7 +5336,7 @@
 									"horas": "105h",
 									"creditos": "(1.3.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4552,7 +5345,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4561,7 +5354,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4570,7 +5363,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4579,7 +5372,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -4592,7 +5385,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4601,7 +5394,7 @@
 									"horas": "105h",
 									"creditos": "(1.3.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4610,7 +5403,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4619,7 +5412,7 @@
 									"horas": "135h",
 									"creditos": "(1.1.2)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4628,7 +5421,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4637,7 +5430,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4646,7 +5439,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -4659,7 +5452,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4668,7 +5461,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4677,7 +5470,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4686,7 +5479,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4695,7 +5488,7 @@
 									"horas": "105h",
 									"creditos": "(1.3.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4704,7 +5497,7 @@
 									"horas": "135h",
 									"creditos": "(1.1.2)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4713,7 +5506,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -4726,7 +5519,7 @@
 									"horas": "90h",
 									"creditos": "(1.1.1)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4735,7 +5528,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4744,7 +5537,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4753,7 +5546,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4762,7 +5555,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4771,7 +5564,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -4784,7 +5577,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4793,7 +5586,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4802,7 +5595,7 @@
 									"horas": "90h",
 									"creditos": "(1.1.1)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4811,7 +5604,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4820,7 +5613,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4829,7 +5622,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -4850,7 +5643,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4859,7 +5652,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4868,7 +5661,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4877,7 +5670,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4886,7 +5679,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4895,7 +5688,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4904,7 +5697,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -4926,7 +5719,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4935,7 +5728,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4944,7 +5737,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4984,7 +5777,7 @@
 									"horas": "60h",
 									"creditos": "(1.0.1)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -4993,7 +5786,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5011,7 +5804,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5020,7 +5813,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5029,7 +5822,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5038,7 +5831,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5056,7 +5849,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -5069,7 +5862,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5078,7 +5871,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5096,7 +5889,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5105,7 +5898,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5114,7 +5907,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5132,7 +5925,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -5172,7 +5965,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5181,7 +5974,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5190,7 +5983,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5199,7 +5992,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5208,7 +6001,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -5230,7 +6023,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5239,7 +6032,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5248,7 +6041,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5257,7 +6050,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5266,7 +6059,7 @@
 									"horas": "135h",
 									"creditos": "(0.0.3)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -5279,7 +6072,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5297,7 +6090,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5306,7 +6099,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5315,7 +6108,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5324,7 +6117,7 @@
 									"horas": "135h",
 									"creditos": "(0.0.3)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -5337,7 +6130,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5346,7 +6139,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5365,7 +6158,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5374,7 +6167,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5383,7 +6176,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -5404,7 +6197,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5413,7 +6206,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5422,7 +6215,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5431,7 +6224,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5440,7 +6233,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5449,7 +6242,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5458,7 +6251,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -5507,7 +6300,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5516,7 +6309,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5525,7 +6318,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -5538,7 +6331,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5556,7 +6349,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5565,7 +6358,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5574,7 +6367,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5583,7 +6376,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5601,7 +6394,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5610,7 +6403,7 @@
 									"horas": "60h",
 									"creditos": "(1.0.1)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -5623,7 +6416,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5632,7 +6425,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5650,7 +6443,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5659,7 +6452,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5677,7 +6470,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5686,7 +6479,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -5726,7 +6519,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5735,7 +6528,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5744,7 +6537,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5753,7 +6546,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5762,7 +6555,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -5784,7 +6577,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5793,7 +6586,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5802,7 +6595,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5811,7 +6604,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5820,7 +6613,7 @@
 									"horas": "135h",
 									"creditos": "(0.0.3)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -5833,7 +6626,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5851,7 +6644,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5860,7 +6653,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5869,7 +6662,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5878,7 +6671,7 @@
 									"horas": "135h",
 									"creditos": "(0.0.3)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -5891,7 +6684,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5900,7 +6693,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5919,7 +6712,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5928,7 +6721,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5937,7 +6730,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -5958,7 +6751,7 @@
 									"horas": "75h",
 									"creditos": "(3.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5967,7 +6760,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5976,7 +6769,7 @@
 									"horas": "75h",
 									"creditos": "(3.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5985,7 +6778,7 @@
 									"horas": "30h",
 									"creditos": "(0.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -5994,7 +6787,7 @@
 									"horas": "60h",
 									"creditos": "(4.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -6003,7 +6796,7 @@
 									"horas": "60h",
 									"creditos": "(0.2.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -6062,7 +6855,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -6111,7 +6904,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -6120,7 +6913,7 @@
 									"horas": "75h",
 									"creditos": "(1.2.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -6211,7 +7004,7 @@
 									"horas": "45h",
 									"creditos": "(3.0.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -6220,7 +7013,7 @@
 									"horas": "45h",
 									"creditos": "(1.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -6238,7 +7031,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -6270,7 +7063,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								},
 								{
@@ -6339,7 +7132,7 @@
 									"horas": "60h",
 									"creditos": "(2.1.0)",
 									"preRequisito": [
-										"-"
+										
 									]
 								}
 							]
@@ -20196,10 +20989,10 @@
 								},
 								{
 									"codigo": "DFCH0974",
-									"nome": "240h",
-									"horas": "(0.2.4)",
-									"creditos": "-",
-									"preRequisito": [">>>>>>>>>>>"]
+									"nome": "Estágio (2)",
+									"horas": "240h",
+									"creditos": "(0.2.4)",
+									"preRequisito": []
 								}
 							]
 						}
