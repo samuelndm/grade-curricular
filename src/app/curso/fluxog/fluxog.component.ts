@@ -78,7 +78,7 @@ export class FluxogComponent implements OnInit {
           else if (wordLowerCase == materiaNomeSplited[0].toLowerCase()) 
               materiaNomeCapitalized += " " + word.toUpperCase();
             
-          else if (wordLowerCase[0] == "i" || wordLowerCase[0] == "V") 
+          else if (wordLowerCase[0] == "i" || wordLowerCase[0] == "v") 
           materiaNomeCapitalized += " " + word.toUpperCase();
           else {
             materiaNomeCapitalized += " " + word.toLowerCase();
