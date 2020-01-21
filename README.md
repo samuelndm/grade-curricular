@@ -6,3 +6,5 @@ O mesmo contém todos os cursos dessas faculdades, com possibilidade de adiciona
 
 Podem fazer sugestões e alertar sobre qualquer bug ou algo do tipo.
 
+http://grade-curricular.herokuapp.com/
+
