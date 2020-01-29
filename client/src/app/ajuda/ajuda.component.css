@@ -1,0 +1,7 @@
+.ajudaContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 86vh;
+    background-color: #E4E4E4;
+}

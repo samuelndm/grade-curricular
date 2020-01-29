@@ -1,0 +1,38 @@
+<app-nav-cursos></app-nav-cursos>
+<div class="cursoPesquisadoContainer">
+
+  <h1 class="tituloCurso">{{nomeCurso}}</h1>
+  <div class="searchCursos">
+    <div class="input-group-prepend">
+      <input class="form-control my-0 py-1" type="text" placeholder=" Pesquisar faculdade" [(ngModel)]="searchFaculdade">
+    </div>
+    <div class="input-group-prepend">
+      <input class="form-control my-0 py-1" type="text" placeholder=" Pesquisar campus" [(ngModel)]="searchCampus">
+    </div>
+    <div class="input-group-prepend">
+      <input class="form-control my-0 py-1" type="text" placeholder=" Pesquisar turno" [(ngModel)]="searchTurno">
+    </div>
+  </div>
+
+
+  <div class="cursosContainer">
+    <div *ngFor="let curso of filteredCursos" class="cursoContainer">
+      <div (click)="onSelectFaculdade(getIdFaculdade(curso._id))" class="logoFaculdadeContainer">
+        <img id="logoFaculdade" src="../../assets/img/{{getLogoIdFaculdade(curso._id)}}.webp">
+      </div>
+      <a (click)="onSelectCurso(curso._id)" class="infoCursoContainer">
+        <div class="infoCursoDetailsContainer">
+          <p id="nomeCurso">{{curso.nome}} <br>({{curso.tipo}})</p>
+          <p id="nomeFaculdade">{{getNomeFaculdade(curso._id)}}</p>
+          <p id="campusFaculdade">{{getCampusFaculdade(curso._id)}}</p>
+        </div>
+        <div class="turnoCursoContainer">
+          <p id="turnoCurso">{{curso.turno}}</p>
+        </div>
+      </a>
+    </div>
+
+
+  </div>
+
+</div>

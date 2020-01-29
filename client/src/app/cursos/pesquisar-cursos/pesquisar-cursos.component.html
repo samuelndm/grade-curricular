@@ -1,0 +1,24 @@
+
+
+<h1 class="tituloCursos">
+    Cursos
+</h1>
+<div>
+    <div class="input-group-prepend">
+        <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar Cursos" [(ngModel)]="searchTerm">
+    </div>
+</div>
+
+
+<div class="cursosContainer">
+
+    <div *ngFor="let curso of filteredNomeCursos">
+        <a class="infoCurso" (click)="onSelect(curso)" >
+            <div class="nomeCurso">
+                <p id="nomeCurso">{{curso}}</p>
+            </div>
+        </a>
+        
+    </div>
+
+</div>

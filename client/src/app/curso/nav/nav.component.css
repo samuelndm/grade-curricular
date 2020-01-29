@@ -1,0 +1,135 @@
+.navContainer {
+    display: flex;
+    background-color: rgb(158, 158, 158, 0.8);
+    height: 10vh;
+    width: 100vw;
+}
+
+.navBarContainer {
+    width: 55%;
+}
+
+.navMenuContainer {
+    display: flex;
+    height: 43%;
+    border-right: 2px solid white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.navMenuLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(52, 58, 64);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.navMenuLink:hover {
+    background-color: rgb(52, 58, 64, 0.7);
+}
+
+.lastNavMenuLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(52, 58, 64);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.lastNavMenuLink:hover {
+    background-color: rgb(52, 58, 64, 0.7);
+}
+
+.textMenuContainer {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 100%;
+    color: white;
+    text-shadow: 0.6px 0.6px 0.6px black;
+}
+
+.nomeCursoContainer {
+    padding: 10px;
+}
+
+.nomeCurso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 57%;
+    font-weight: bold;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 120%;
+    color: white;
+    text-shadow: 0.6px 0.6px 0.6px black;
+}
+
+.nomeCurso:hover {
+    text-decoration: none;
+}
+
+.navFaculdadeInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.logoFaculdade-nav {
+    width: 7%;
+    height: auto;
+    margin: 2%;
+}
+
+.faculdade-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nomeFaculdade-nav {
+    font-weight: bold;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-shadow: 0.6px 0.6px black;
+    text-align: center;
+}
+
+.campusFaculdade-nav {
+    font-weight: bold;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-shadow: 0.6px 0.6px black;
+    text-align: center;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
