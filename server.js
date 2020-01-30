@@ -25,9 +25,9 @@ app.use(express.static(path.join(__dirname, clientPath)))
 app.use(cors())
 
 
-const instituicaoRouter = require('./routes/instituicao')
-const cursoRouter = require('./routes/curso')
-const materiaRouter = require('./routes/materia')
+const instituicaoRouter = require('./server/routes/instituicao')
+const cursoRouter = require('./server/routes/curso')
+const materiaRouter = require('./server/routes/materia')
 
 app.use('/instituicao', instituicaoRouter)
 app.use('/curso', cursoRouter)
