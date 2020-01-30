@@ -1,3 +1,4 @@
+* http://grade-curricular.herokuapp.com/ *
 Desenvolvi esse site para ajudar os alunos da UESB e do IFBA, ou até mesmo quem pretende ingressar.
 O mesmo contém todos os cursos dessas faculdades, com possibilidade de adicionar cursos de outras instituições futuramente.
 
@@ -6,5 +7,8 @@ O mesmo contém todos os cursos dessas faculdades, com possibilidade de adiciona
 
 Podem fazer sugestões e alertar sobre qualquer bug ou algo do tipo.
 
-http://grade-curricular.herokuapp.com/
-
+Tecnologias:
+- Angular 8
+- Nodejs
+-Express
+-MongoDB
