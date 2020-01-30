@@ -29,9 +29,9 @@ const instituicaoRouter = require('./routes/instituicao')
 const cursoRouter = require('./routes/curso')
 const materiaRouter = require('./routes/materia')
 
-app.use('/instituicao', instituicaoRouter)
-app.use('/curso', cursoRouter)
-app.use('/materia', materiaRouter)
+app.use('/api/instituicao', instituicaoRouter)
+app.use('/api/curso', cursoRouter)
+app.use('/api/materia', materiaRouter)
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, clientPath, '/index.html'))

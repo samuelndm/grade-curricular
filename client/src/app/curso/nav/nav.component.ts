@@ -57,14 +57,16 @@ export class NavComponent implements OnInit {
     this.idCurso = this._activatedRoute.snapshot.paramMap.get('id');
     this._dataService.getInstituicaoByCursoId(this.idCurso).subscribe(faculdade => {
       this.faculdade = faculdade;
-      this.setCursoById(this.idCurso);
-      this.nomeCurso = this.curso.nome;
-      this.tipoCurso = this.curso.tipo;
-      this.turnoCurso = this.curso.turno;
       this.nomeFaculdade = this.faculdade.nome;
       this.campusFaculdade = this.faculdade.campus;
       this.idLogoFaculdade = this.faculdade.idLogo;
       this.idFaculdade = this.faculdade._id;
+      
+      this.setCursoById(this.idCurso);
+      this.nomeCurso = this.curso.nome;
+      this.tipoCurso = this.curso.tipo;
+      this.turnoCurso = this.curso.turno;
+      
     })
   }
 }

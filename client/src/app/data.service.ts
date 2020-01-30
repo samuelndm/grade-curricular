@@ -6,9 +6,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class DataService {
   constructor(private http: HttpClient) { }
-
-  data: any;
-  apiUrl = ''
+  
+  apiUrl = 'api/'
   // localUrl = 'assets/data/faculdades.json'
   
   getInstituicoes() {
