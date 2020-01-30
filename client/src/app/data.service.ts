@@ -8,30 +8,30 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   data: any;
-  apiUrl = 'http://localhost:8080/'
+  apiUrl = ''
   // localUrl = 'assets/data/faculdades.json'
   
   getInstituicoes() {
-    return this.http.get(this.apiUrl + 'instituicao');
+    return this.http.get('instituicao');
   }
 
   getInstituicaoById(id) {
-    return this.http.get(this.apiUrl + 'instituicao/' + id)
+    return this.http.get('instituicao/' + id)
   }
 
   getInstituicaoByCursoId(id) {
-    return this.http.get(this.apiUrl + 'instituicao/cursoId/' + id)
+    return this.http.get('instituicao/cursoId/' + id)
   }
 
   getCursos() {
-    return this.http.get(this.apiUrl + 'curso')
+    return this.http.get('curso')
   }
 
   getCursoById(id) {
-    return this.http.get(this.apiUrl + 'curso/' + id)
+    return this.http.get('curso/' + id)
   }
 
   getCursosByNome(nome) {
-    return this.http.get(this.apiUrl + 'curso/nome/' + nome)
+    return this.http.get('curso/nome/' + nome)
   }
 }
