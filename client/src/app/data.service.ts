@@ -7,8 +7,8 @@ import { HttpClient } from '@angular/common/http';
 export class DataService {
   constructor(private http: HttpClient) { }
   
-  // apiUrl = 'api/'
-  apiUrl = 'http://localhost:8080/api/'
+  apiUrl = 'api/'
+  // apiUrl = 'http://localhost:8080/api/'
   
   getInstituicoes() {
     return this.http.get(this.apiUrl + 'instituicao');
