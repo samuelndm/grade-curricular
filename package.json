@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "description": "http://grade-curricular.herokuapp.com/",
   "scripts": {
-    "start": "npm run install-all & npm run start-client & npm run start-server &",
-    "start-dev": "npm run install-all & npm run start-client-dev & npm run start-server-dev &",
-    "install-all": "npm run install-server & npm run install-client &",
+    "install": "npm run install-server & npm run install-client &",
+    "start": "npm run start-server",
+    "heroku-postbuild": "npm run start-client &",
     "install-server": "cd ./server && npm install",
     "install-client": "cd ./client && npm install",
     "start-server": "cd ./server && node server.js",
-    "start-client": "cd ./client && ng build",
-    "start-server-dev": "cd ./server && nodemon server.js",
-    "start-client-dev": "cd ./client && ng build --watch"
+    "start-client": "cd ./client && ng build --prod"
   },
   "dependencies": {
     "standard": "^14.3.1"
