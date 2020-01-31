@@ -11,6 +11,7 @@ export class FaculdadePesquisadaComponent implements OnInit {
 
   constructor(private _dataService: DataService, private _router: Router, private _activatedRoute: ActivatedRoute) { }
 
+  isLoading: boolean = true;
   faculdade: any;
   idFaculdade: string;
   cursos: any;
@@ -78,7 +79,7 @@ export class FaculdadePesquisadaComponent implements OnInit {
       this.cursos = this.faculdade.cursos;
       this.sortCursos();
       this.filteredCursos = this.cursos;
-
+      this.isLoading = false;
     })
   }
 

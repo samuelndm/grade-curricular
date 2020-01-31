@@ -10,7 +10,7 @@ import { DataService } from '../../data.service';
 })
 export class CursoPesquisadoComponent implements OnInit {
 
-  data: any;
+  isLoading: boolean = true;
   faculdades: any;
   cursos: any[] = [];
   filteredCursos: any[];
@@ -140,6 +140,7 @@ export class CursoPesquisadoComponent implements OnInit {
       this.faculdades = faculdades;
       this.setCursos();
       this.filteredCursos = this.cursos;
+      this.isLoading = false;
     })
 
   }

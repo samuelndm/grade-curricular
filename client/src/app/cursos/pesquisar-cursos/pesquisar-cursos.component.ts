@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { DataService } from '../../data.service';
 
@@ -13,6 +12,7 @@ export class PesquisarCursosComponent implements OnInit {
 
   constructor(private _dataService: DataService, private _router: Router) { }
 
+  isLoading: boolean = true;
   cursos: any;
   nomeCursos: string[] = [];
   filteredNomeCursos: string[];
@@ -68,6 +68,7 @@ export class PesquisarCursosComponent implements OnInit {
       this.setCursos();
       this.sortCursos();
       this.filteredNomeCursos = this.nomeCursos;
+      this.isLoading = false;
     })
   }
 

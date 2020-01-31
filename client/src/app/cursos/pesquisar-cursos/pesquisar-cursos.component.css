@@ -14,6 +14,12 @@
     width: 100%;
 }
 
+.spinnerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cursosContainer {
     display: flex;
     flex-direction: column;
@@ -24,7 +30,7 @@
     border-top-left-radius: 1%;
     border-top-right-radius: 1%;
     max-height: 65vh;
-    border-bottom: 1px solid rgb(128, 128, 128);
+    /* border-bottom: 1px solid rgb(128, 128, 128); */
     overflow-x: auto;
     overflow-y: auto;
 }
@@ -35,6 +41,7 @@
     justify-content: center;
     background-color: rgb(127, 127, 127, 0.2);
     border: 0.1px solid rgb(158, 158, 158);
+    border-bottom: 1px solid rgb(128, 128, 128);
 }
 
 .infoCurso:hover {

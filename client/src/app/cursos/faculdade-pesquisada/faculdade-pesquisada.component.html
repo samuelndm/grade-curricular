@@ -1,8 +1,8 @@
 <div class="faculdadePesquisadaContainer">
 
-  <div class="tituloFaculdadeContainer">
+  <div class="tituloFaculdadeContainer" >
     <img id="logoFaculdadeTitulo" src="../../assets/img/{{faculdade.idLogo}}.webp">
-    <div class="nomeFaculdadeContainer">
+    <div class="nomeFaculdadeContainer" *ngIf="faculdade">
       <h1 class="tituloFaculdade">{{faculdade.nome}}</h1>
       <h4 class="tituloFaculdade">Campus - {{faculdade.campus}}</h4>
     </div>
@@ -17,7 +17,12 @@
     </div>
   </div>
 
-  <div *ngIf="cursos.length >= 1" class="cursosContainer">
+  <div class="spinnerContainer">
+    <mat-spinner *ngIf="isLoading"></mat-spinner>
+  </div>
+
+
+  <div class="cursosContainer">
     <div *ngFor="let curso of filteredCursos" class="infoCursoContainer">
       <div class="logoFaculdadeContainer">
         <img id="logoFaculdade" src="../../assets/img/{{faculdade.idLogo}}.webp">

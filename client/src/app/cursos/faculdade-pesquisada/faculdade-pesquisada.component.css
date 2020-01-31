@@ -62,6 +62,12 @@
 }
 
 
+.spinnerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cursosContainer {
     display: flex;
     flex-direction: column;

@@ -12,6 +12,12 @@
     width: 50vw;
 }
 
+.spinnerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .faculdadesContainer {
     display: flex;
     flex-direction: column;
@@ -21,7 +27,7 @@
     border-top: none;
     border-top-left-radius: 1%;
     border-top-right-radius: 1%;
-    border-bottom: 1px solid rgb(128, 128, 128);
+    /* border-bottom: 1px solid rgb(128, 128, 128); */
     max-height: 65vh;
     width: 50vw;
     overflow-x: auto;
@@ -33,6 +39,7 @@
     justify-content: center;
     background-color: rgb(127, 127, 127, 0.2);
     border: 0.1px solid rgb(158, 158, 158);
+    border-bottom: 0.5px solid rgb(128, 128, 128);
     cursor: pointer;
 
 }

@@ -13,7 +13,7 @@ export class PesquisarFaculdadesComponent implements OnInit {
 
   constructor(private _dataService: DataService, private _router: Router) { }
 
-  data: any;
+  isLoading: boolean = true;
   faculdades: any;
   filteredFaculdades: any[];
   private _searchTerm: string;
@@ -54,6 +54,7 @@ export class PesquisarFaculdadesComponent implements OnInit {
 
   ngOnInit() {
     this._dataService.getInstituicoes().subscribe(data => {
+      this.isLoading = false;
       this.faculdades = data;
       this.sortFaculdades();
       this.filteredFaculdades = this.faculdades;

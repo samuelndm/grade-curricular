@@ -1,22 +1,24 @@
 <h1 class="tituloFaculdades">
-    Faculdades
+    Instituições
 </h1>
 <div class="input-group-prepend">
-    <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar Faculdades"
-    [(ngModel)]="searchTerm">
+    <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar Faculdades" [(ngModel)]="searchTerm">
 </div>
 
-<div class="faculdadesContainer" >
-<div *ngFor="let faculdade of filteredFaculdades">
-    <a (click)="onSelect(faculdade._id)" class="infoFaculdade">
-        <img class="logoFaculdade" src="../assets/img/{{faculdade.idLogo}}.webp">
-        <div class="nomeCampusFaculdade">
-            <p id="nomeFaculdade">{{faculdade.nome}}</p>
-            <p id="campusFaculdade">Campus - {{faculdade.campus}}</p>
-        </div>
-    </a>
-</div>
-        
-        
+<div class="spinnerContainer">
+    <mat-spinner *ngIf="isLoading"></mat-spinner>
 </div>
 
+<div class="faculdadesContainer">
+    <div *ngFor="let faculdade of filteredFaculdades">
+        <a (click)="onSelect(faculdade._id)" class="infoFaculdade">
+            <img class="logoFaculdade" src="../assets/img/{{faculdade.idLogo}}.webp">
+            <div class="nomeCampusFaculdade">
+                <p id="nomeFaculdade">{{faculdade.nome}}</p>
+                <p id="campusFaculdade">Campus - {{faculdade.campus}}</p>
+            </div>
+        </a>
+    </div>
+
+
+</div>

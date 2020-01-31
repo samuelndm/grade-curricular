@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule }   from '@angular/forms'
+import { FormsModule } from '@angular/forms'
+import { MatProgressSpinnerModule } from '@angular/material';
 
 import { CursosRoutingModule } from './cursos-routing.module';
 import { CursosComponent } from './cursos.component';
@@ -23,7 +24,8 @@ import { NavCursosComponent } from './nav-cursos/nav-cursos.component';
   imports: [
     CommonModule,
     CursosRoutingModule,
-    FormsModule
+    FormsModule,
+    MatProgressSpinnerModule
   ]
 })
 export class CursosModule { }
