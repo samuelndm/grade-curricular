@@ -924,7 +924,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function setCursoById(id) {
           var _this11 = this;
 
-          console.log(this.faculdade);
           this.faculdade.cursos.forEach(function (curso) {
             if (curso._id == id) {
               _this11.curso = curso;

@@ -26,7 +26,6 @@ export class NavComponent implements OnInit {
   idFaculdade: number;
 
   setCursoById(id) {
-    console.log(this.faculdade)
     this.faculdade.cursos.forEach(curso => {
       if (curso._id == id) {
         this.curso = curso;

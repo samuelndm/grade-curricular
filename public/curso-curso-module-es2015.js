@@ -600,7 +600,6 @@ let NavComponent = class NavComponent {
         this._location = _location;
     }
     setCursoById(id) {
-        console.log(this.faculdade);
         this.faculdade.cursos.forEach(curso => {
             if (curso._id == id) {
                 this.curso = curso;

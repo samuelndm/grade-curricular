@@ -51,38 +51,38 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         this.http = http;
         this.apiUrl = 'api/';
-      } // localUrl = 'assets/data/faculdades.json'
-
+        this.apiUrlLocal = 'http://localhost:8080/api/';
+      }
 
       _createClass(DataService, [{
         key: "getInstituicoes",
         value: function getInstituicoes() {
-          return this.http.get('instituicao');
+          return this.http.get(this.apiUrl + 'instituicao');
         }
       }, {
         key: "getInstituicaoById",
         value: function getInstituicaoById(id) {
-          return this.http.get('instituicao/' + id);
+          return this.http.get(this.apiUrl + 'instituicao/' + id);
         }
       }, {
         key: "getInstituicaoByCursoId",
         value: function getInstituicaoByCursoId(id) {
-          return this.http.get('instituicao/cursoId/' + id);
+          return this.http.get(this.apiUrl + 'instituicao/cursoId/' + id);
         }
       }, {
         key: "getCursos",
         value: function getCursos() {
-          return this.http.get('curso');
+          return this.http.get(this.apiUrl + 'curso');
         }
       }, {
         key: "getCursoById",
         value: function getCursoById(id) {
-          return this.http.get('curso/' + id);
+          return this.http.get(this.apiUrl + 'curso/' + id);
         }
       }, {
         key: "getCursosByNome",
         value: function getCursosByNome(nome) {
-          return this.http.get('curso/nome/' + nome);
+          return this.http.get(this.apiUrl + 'curso/nome/' + nome);
         }
       }]);
 

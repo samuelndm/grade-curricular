@@ -20,25 +20,25 @@ let DataService = class DataService {
     constructor(http) {
         this.http = http;
         this.apiUrl = 'api/';
+        this.apiUrlLocal = 'http://localhost:8080/api/';
     }
-    // localUrl = 'assets/data/faculdades.json'
     getInstituicoes() {
-        return this.http.get('instituicao');
+        return this.http.get(this.apiUrl + 'instituicao');
     }
     getInstituicaoById(id) {
-        return this.http.get('instituicao/' + id);
+        return this.http.get(this.apiUrl + 'instituicao/' + id);
     }
     getInstituicaoByCursoId(id) {
-        return this.http.get('instituicao/cursoId/' + id);
+        return this.http.get(this.apiUrl + 'instituicao/cursoId/' + id);
     }
     getCursos() {
-        return this.http.get('curso');
+        return this.http.get(this.apiUrl + 'curso');
     }
     getCursoById(id) {
-        return this.http.get('curso/' + id);
+        return this.http.get(this.apiUrl + 'curso/' + id);
     }
     getCursosByNome(nome) {
-        return this.http.get('curso/nome/' + nome);
+        return this.http.get(this.apiUrl + 'curso/nome/' + nome);
     }
 };
 DataService.ctorParameters = () => [
