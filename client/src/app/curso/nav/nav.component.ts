@@ -61,12 +61,12 @@ export class NavComponent implements OnInit {
       this.campusFaculdade = this.faculdade.campus;
       this.idLogoFaculdade = this.faculdade.idLogo;
       this.idFaculdade = this.faculdade._id;
-      
+
       this.setCursoById(this.idCurso);
       this.nomeCurso = this.curso.nome;
-      this.tipoCurso = this.curso.tipo;
+      this.tipoCurso = this.curso.tipo
       this.turnoCurso = this.curso.turno;
-      
+
     })
   }
 }

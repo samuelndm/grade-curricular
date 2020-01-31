@@ -1,0 +1,29 @@
+{
+  "name": "grade-curricular",
+  "version": "1.0.0",
+  "description": "http://grade-curricular.herokuapp.com/",
+  "main": "index.js",
+  "dependencies": {
+    "standard": "^14.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "install": "npm run install-server & npm run install-client &",
+    "install-server": "cd ./server && npm install",
+    "install-client": "cd ./client && npm install",
+    "start": "npm run start-client & npm run start-server &",
+    "start-server": "cd ./server && node server.js",
+    "start-client": "cd ./client && ng build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelndm/grade-curricular.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelndm/grade-curricular/issues"
+  },
+  "homepage": "http://grade-curricular.herokuapp.com/"
+}
