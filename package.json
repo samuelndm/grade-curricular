@@ -7,11 +7,10 @@
     "start": "npm run start-server",
     "start-server": "npm install --prefix ./server && cd ./server && node server.js",
     "heroku-prebuild": "npm install --prefix ./client",
-    "heroku-postbuild": "cd ./client && ng build --prod"
+    "heroku-postbuild": "cd ./client && npm start"
     
   },
   "dependencies": {
-    "@angular/cli": "~8.3.23"
   },
   "devDependencies": {
     "standard": "^14.3.1"
