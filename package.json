@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "http://grade-curricular.herokuapp.com/",
   "scripts": {
-    "install": "npm run install-server & npm run install-client &",
+    "install": "npm run install-server & npm run install-client",
     "start": "npm run start-server",
     "heroku-postbuild": "npm run start-client &",
     "install-server": "cd ./server && npm install",
