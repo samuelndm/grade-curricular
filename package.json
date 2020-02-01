@@ -14,7 +14,6 @@
     "@angular/cli": "~8.3.23"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.803.24",
     "standard": "^14.3.1"
   },
   "repository": {
