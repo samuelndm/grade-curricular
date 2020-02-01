@@ -10,7 +10,7 @@
     "install-server": "cd ./server && npm install -g",
     "install-client": "cd ./client && npm install -g",
     "start-server": "cd ./server && node server.js",
-    "start-client": "cd ./client && ng build --prod"
+    "start-client": "ng build --prod"
   },
   "dependencies": {
   },
