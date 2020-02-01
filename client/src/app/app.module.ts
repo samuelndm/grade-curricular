@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { FooterComponent } from './footer/footer.component';
     HttpClientModule,
     RouterModule,
     FormsModule,
+    BrowserAnimationsModule,
     
 
   ],
