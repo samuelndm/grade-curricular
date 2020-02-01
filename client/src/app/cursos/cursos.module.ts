@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms'
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatProgressSpinnerModule } from '@angular/material';
 
 import { CursosRoutingModule } from './cursos-routing.module';
@@ -26,7 +25,6 @@ import { NavCursosComponent } from './nav-cursos/nav-cursos.component';
     CommonModule,
     CursosRoutingModule,
     FormsModule,
-    BrowserAnimationsModule,
     MatProgressSpinnerModule
   ]
 })
