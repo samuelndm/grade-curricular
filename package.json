@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "http://grade-curricular.herokuapp.com/",
   "scripts": {
-    "ng": "ng",
-    "start": "npm run start-server",
-    "start-server": "npm install --prefix ./server && cd ./server && node server.js",
+    "start": "npm run server",
+    "server": "npm install --prefix ./server && cd ./server && node server.js",
     "heroku-prebuild": "npm install --prefix ./client",
     "heroku-postbuild": "cd ./client && npm start"
     
