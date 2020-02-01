@@ -5,8 +5,8 @@
   "scripts": {
     "ng": "ng",
     "start": "npm run start-server",
-    "start-server": "cd ./server && npm install && node server.js",
-    "heroku-prebuild": "cd ./client && npm install",
+    "start-server": "npm install --prefix ./server && cd ./server && node server.js",
+    "heroku-prebuild": "npm install --prefix ./client",
     "heroku-postbuild": "cd ./client && ng build --prod"
     
   },
