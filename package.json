@@ -4,7 +4,7 @@
   "description": "http://grade-curricular.herokuapp.com/",
   "scripts": {
     "ng": "ng",
-    "install": "npm run install-server & npm run install-client",
+    "install": "npm run install-client &",
     "start": "npm run start-server",
     "heroku-postbuild": "npm run start-client &",
     "install-server": "cd ./server && npm install -g",
