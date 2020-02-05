@@ -14,4 +14,4 @@ Tecnologias:
 - Express
 - MongoDB
 
-![alt text](https://i.ibb.co/fr0d4Z6/EOn-Oz-Rz-W4-AAWjn0.jpg)
+![alt text](https://i.ibb.co/RQHTztr/EOn-Oz-Rz-W4-AAWjn0.jpg)
