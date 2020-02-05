@@ -14,4 +14,4 @@ Tecnologias:
 - Express
 - MongoDB
 
-![alt text](https://i.ibb.co/RQHTztr/EOn-Oz-Rz-W4-AAWjn0.jpg)
+<a href="https://ibb.co/RQHTztr"><img src="https://i.ibb.co/RQHTztr/EOn-Oz-Rz-W4-AAWjn0.jpg" alt="EOn-Oz-Rz-W4-AAWjn0" border="0" /></a>
