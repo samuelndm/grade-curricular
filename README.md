@@ -1,6 +1,6 @@
 http://grade-curricular.herokuapp.com/
 
-Desenvolvi esse site para ajudar os alunos da UESB e do IFBA,ou até mesmo quem pretende ingressar. 
+Desenvolvi esse site para ajudar os alunos da UESB e do IFBA, ou até mesmo quem pretende ingressar. 
 O mesmo contém o fluxograma de todos os cursos dessas faculdades, de forma organizada e interativa, com possibilidade de adicionar cursos de outras instituições.
 
 - No "Fluxograma", o(a) aluno(a) pode ver os pré-requisitos e as disciplinas que são liberadas da matéria em questão.
