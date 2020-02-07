@@ -9,7 +9,7 @@ O mesmo contém o fluxograma de todos os cursos dessas faculdades, de forma orga
 Podem fazer sugestões e alertar sobre qualquer bug ou algo do tipo.
 
 Tecnologias:
-- Angular 8
+- Angular 9
 - Nodejs
 - Express
 - MongoDB
