@@ -56,6 +56,18 @@ router.patch('/:id', async (req, res) => {
   }
 })
 
+router.delete('/:id', async (req, res) => {
+  const id = req.params.id
+  try {
+    const curso = await Curso.findById(id)
+    const cursoRemovido = await curso.remove()
+    res.json(cursoRemovido)
+  } catch (err) {
+    res.json({ message: err.message })
+  }
+})
+
+
 router.patch('/:id/post-materia', async (req, res) => {
   const id = parseInt(req.params.id)
 
