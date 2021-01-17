@@ -1,16 +1,15 @@
 http://grade-curricular.herokuapp.com/
 
-Desenvolvi esse site para ajudar os alunos da UESB e do IFBA, ou até mesmo quem pretende ingressar. 
-O mesmo contém o fluxograma de todos os cursos dessas faculdades, de forma organizada e interativa, com possibilidade de adicionar cursos de outras instituições.
+I developed this website to help the students from the State University of Bahia and the Federal Institute of Bahia. It contains the curriculum of every major in these universities in an organized and interactive way. It also has the possibility of adding more majors from other institutions.
 
-- No "Fluxograma", o(a) aluno(a) pode ver os pré-requisitos e as disciplinas que são liberadas da matéria em questão.
-- No "Minha Grade", o(a) aluno(a) pode ver as disciplina que já começam bloqueadas e liberadas, podendo montar sua grade curricular de acordo com seu histórico ou que pretende cursar no semestre.
+- In the "Flowchart", the student can see the prerequisites and subjects that are released from the selected subject.
+- In "Minha Grade", the student can see the subjects that have already started blocked and released, being able to set up their curriculum according to their history or that they intend to attend in the semester.
 
-Podem fazer sugestões e alertar sobre qualquer bug ou algo do tipo.
+You can make suggestions and warn about any bug.
 
-Tecnologias:
+Technologies:
 - Angular 2+
-- Nodejs
+- Node.js
 - Express
 - MongoDB
 
