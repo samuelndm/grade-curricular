@@ -1,5 +1,8 @@
+
+### `Website`
 http://grade-curricular.herokuapp.com/
 
+### `Details`
 I developed this website to help the students from the State University of Bahia and the Federal Institute of Bahia. It contains the curriculum of every major in these universities in an organized and interactive way. It also has the possibility of adding more majors from other institutions.
 
 - In the "Flowchart", the student can see the prerequisites and subjects that are released from the selected subject.
