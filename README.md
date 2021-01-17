@@ -7,7 +7,7 @@ I developed this website to help the students from the State University of Bahia
 
 You can make suggestions and warn about any bug.
 
-Technologies:
+### `Technologies`
 - Angular 2+
 - Node.js
 - Express
